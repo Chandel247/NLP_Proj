@@ -1,0 +1,14 @@
+24,929 distinct images; 12,855 present; 12,074 to fetch on 16 workers
+  2,000/12,074  2 img/s  eta 96 min  fails 4
+  4,000/12,074  2 img/s  eta 61 min  fails 6
+  6,000/12,074  2 img/s  eta 46 min  fails 6
+  8,000/12,074  2 img/s  eta 29 min  fails 11
+  10,000/12,074  2 img/s  eta 15 min  fails 23
+  12,000/12,074  2 img/s  eta 0 min  fails 27
+
+done: 12,047 fetched, 27 failed in 80.4 min (3 img/s)
+  TimeoutError: 19
+  HTTPError: 3
+  URLError: 3
+  IncompleteRead: 2
+  wrote data2024/image_failures.txt

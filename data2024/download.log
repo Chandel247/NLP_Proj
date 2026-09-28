@@ -1,0 +1,35 @@
+24,929 distinct images; 593 present; 24,336 to fetch on 16 workers
+  2,000/24,336  4 img/s  eta 86 min  fails 0
+  4,000/24,336  7 img/s  eta 49 min  fails 0
+  6,000/24,336  9 img/s  eta 35 min  fails 1
+  8,000/24,336  9 img/s  eta 31 min  fails 1
+  10,000/24,336  7 img/s  eta 33 min  fails 1
+  12,000/24,336  6 img/s  eta 37 min  fails 2
+Traceback (most recent call last):
+  File "/Users/shivpratapsinghchandel/NLP/project_v2/src/download_images.py", line 92, in <module>
+    main()
+  File "/Users/shivpratapsinghchandel/NLP/project_v2/src/download_images.py", line 69, in main
+    for filename, err in pool.map(fetch, todo):
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15_3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15_3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15_3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15_3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15_3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shivpratapsinghchandel/NLP/project_v2/src/download_images.py", line 31, in fetch
+    data = r.read()
+           ^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15_3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 494, in read
+    s = self._safe_read(self.length)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15_3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 648, in _safe_read
+    raise IncompleteRead(data, amt - len(data))
+http.client.IncompleteRead: IncompleteRead(93530 bytes read, 295978 more expected)

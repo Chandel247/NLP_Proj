@@ -1,0 +1,42 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Environments ---
+.venv/
+venv/
+.env
+
+# --- OS / editor ---
+.DS_Store
+.idea/
+.vscode/
+
+# --- Datasets and images (tens of GB; rebuilt by src/build_workingset.py + src/download_images.py) ---
+data
+data2024/images/
+*.jpg
+*.jpeg
+*.png
+*.webp
+!report/**/*.png
+!report/**/*.jpg
+
+# --- Caches (OCR cache is regenerable via src/ocr_pass.py, but Apple Vision is macOS-only) ---
+cache/
+
+# --- Kaggle packages and downloaded outputs ---
+kaggle/*.tar.gz
+kaggle/**/*.tar.gz
+kaggle/**/*.zip
+
+# --- Model weights and checkpoints ---
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+checkpoints/

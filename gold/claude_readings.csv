@@ -1,0 +1,5 @@
+row_uid,attribute,scraped_value,claude_reading,claude_confidence,verdict,note
+43690,maximum_weight_recommendation,52.0 ton,not present,high,label_wrong,"Acrylic cupcake stand. Image reads 'HOLD UP TO 52 CUPCAKES' and 'x 52 pieces'. The 52 is a count of cupcakes; 'ton' is fabricated. No weight limit stated anywhere."
+12435,wattage,1080.0 horsepower,not present,high,label_wrong,"HDMI adapter cable. Image reads 'Support up to FULL HD 1080P video resolution'. 1080 is a video resolution; 'horsepower' is fabricated. No wattage stated."
+3234,item_volume,200.0 millilitre,not present,high,attribute_not_applicable,"Rotating storage turntable (lazy susan) with steel balls and anti-slip mats. No volume printed and no meaningful volume for the product."
+3923,maximum_weight_recommendation,90 kilogram,not present,high,attribute_not_applicable,"Submersible utility water pump. Image states 115V/60HZ, 3.0 AMPS, 3/4in GHT, IPX8. A water pump has no maximum weight recommendation."

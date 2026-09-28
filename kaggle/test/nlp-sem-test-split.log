@@ -1,0 +1,63 @@
+[{"stream_name":"stderr","time":6.551280531,"data":"/usr/local/lib/python3.12/dist-packages/nbformat/__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":6.551352439,"data":"  validate(nb)\n"}
+,{"stream_name":"stderr","time":7.457834564,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.457871724,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.457877008,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.457880871,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.091485574,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.09151794,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.091523437,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.091527361,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":11.441751751,"data":"data   : /kaggle/input/datasets/naomirory2/dim-test-split/vlm_test | 1253 images\n"}
+,{"stream_name":"stdout","time":11.441802723,"data":"adapter: /kaggle/input/notebooks/naomirory2/nlp-sem-ft/qwen2vl-dim-lora ['README.md', 'adapter_config.json', 'adapter_model.safetensors']\n"}
+,{"stream_name":"stdout","time":15.791525018,"data":"cuda True | Tesla T4\n"}
+,{"stream_name":"stdout","time":15.992622959,"data":"before:  transformers 5.0.0 | torchao 0.10.0 | peft 0.19.1\n"}
+,{"stream_name":"stdout","time":17.86916476,"data":"after:   transformers 5.0.0 | torchao None | peft 0.19.1\n"}
+,{"stream_name":"stdout","time":41.967340996,"data":"imports OK\n"}
+,{"stream_name":"stdout","time":42.031970242,"data":"test rows 1,256 | by candidates: {0: 286, 1: 159, 2: 811} (2 = 2+)\n"}
+,{"stream_name":"stderr","time":42.413472388,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":42.413503533,"data":"\n"}
+,{"stream_name":"stderr","time":42.413510455,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":43.143635091,"data":"The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. \n"}
+,{"stream_name":"stderr","time":43.143685997,"data":"\n"}
+,{"stream_name":"stderr","time":43.143693752,"data":"The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. \n"}
+,{"stream_name":"stdout","time":74.297534137,"data":"LoRA parameters loaded: 18,464,768  (training reported 18,464,768)\n"}
+,{"stream_name":"stderr","time":77.735830232,"data":"The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.\n"}
+,{"stream_name":"stderr","time":77.735871473,"data":"\n"}
+,{"stream_name":"stderr","time":77.735881733,"data":"The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.\n"}
+,{"stream_name":"stdout","time":193.36515275,"data":"  100/1256  dim 48.0%  2.0 min  eta 22.9 min\n"}
+,{"stream_name":"stdout","time":323.906511083,"data":"  200/1256  dim 49.5%  4.2 min  eta 22.0 min\n"}
+,{"stream_name":"stdout","time":443.450893555,"data":"  300/1256  dim 53.7%  6.2 min  eta 19.6 min\n"}
+,{"stream_name":"stdout","time":546.660530488,"data":"  400/1256  dim 54.5%  7.9 min  eta 16.8 min\n"}
+,{"stream_name":"stdout","time":669.245394256,"data":"  500/1256  dim 54.0%  9.9 min  eta 15.0 min\n"}
+,{"stream_name":"stdout","time":783.737589938,"data":"  600/1256  dim 54.0%  11.8 min  eta 12.9 min\n"}
+,{"stream_name":"stdout","time":908.949885075,"data":"  700/1256  dim 54.4%  13.9 min  eta 11.0 min\n"}
+,{"stream_name":"stdout","time":1023.532484572,"data":"  800/1256  dim 54.4%  15.8 min  eta 9.0 min\n"}
+,{"stream_name":"stdout","time":1145.451594763,"data":"  900/1256  dim 55.9%  17.9 min  eta 7.1 min\n"}
+,{"stream_name":"stdout","time":1261.083403907,"data":"  1000/1256  dim 56.2%  19.8 min  eta 5.1 min\n"}
+,{"stream_name":"stdout","time":1372.999070393,"data":"  1100/1256  dim 56.1%  21.6 min  eta 3.1 min\n"}
+,{"stream_name":"stdout","time":1505.329735804,"data":"  1200/1256  dim 56.2%  23.9 min  eta 1.1 min\n"}
+,{"stream_name":"stdout","time":1569.888643117,"data":"done in 24.9 min - saved vlm_test_results.json\n"}
+,{"stream_name":"stdout","time":1569.910959824,"data":"TEST SPLIT - fine-tuned selector (VLM alone; routing is scored locally)\n"}
+,{"stream_name":"stdout","time":1569.910993999,"data":"all rows                            703/1256   56.0%  [53.2, 58.7]\n"}
+,{"stream_name":"stdout","time":1569.911000424,"data":"  depth                             189/358    52.8%  [47.6, 57.9]\n"}
+,{"stream_name":"stdout","time":1569.911005547,"data":"  width                             219/431    50.8%  [46.1, 55.5]\n"}
+,{"stream_name":"stdout","time":1569.911010204,"data":"  height                            295/467    63.2%  [58.7, 67.4]\n"}
+,{"stream_name":"stdout","time":1569.911014789,"data":"2+ candidates                       567/811    69.9%  [66.7, 73.0]\n"}
+,{"stream_name":"stdout","time":1569.911019825,"data":"2+ candidates, gold present         567/753    75.3%  [72.1, 78.2]\n"}
+,{"stream_name":"stdout","time":1569.911025403,"data":"gold among candidates (ceiling): 70.8%\n"}
+,{"stream_name":"stdout","time":1569.911030071,"data":"validation for comparison: 51.5% all | 70.8% 2+ gold-present\n"}
+,{"stream_name":"stdout","time":1569.911034628,"data":"\n"}
+,{"stream_name":"stdout","time":1569.911039306,"data":"letter mass on valid options: median 0.999\n"}
+,{"stream_name":"stdout","time":1569.911044276,"data":"argmax of saved probs matches greedy answer: 811/811\n"}
+,{"stream_name":"stdout","time":1569.911049104,"data":"\n"}
+,{"stream_name":"stdout","time":1569.911054392,"data":"Download vlm_test_results.json from Output.\n"}
+,{"stream_name":"stderr","time":1575.687720319,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1575.687756451,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1575.860251794,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1575.860302825,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1576.528229385,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":1576.894485881,"data":"[NbConvertApp] Writing 158669 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":1579.46249947,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1580.411400341,"data":"[NbConvertApp] Writing 447752 bytes to __results__.html\n"}
+]

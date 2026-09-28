@@ -1,0 +1,1187 @@
+<title>Which Number Is Width</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+
+<style>
+:root {
+  --ground:       #F4F5F8;
+  --surface:      #FFFFFF;
+  --surface-sunk: #EAECF2;
+  --ink:          #14181F;
+  --ink-2:        #39414F;
+  --muted:        #5C6575;
+  --rule:         #DDE1E9;
+  --rule-strong:  #C3C9D6;
+  --accent:       #2F4B9B;
+  --accent-quiet: #E8EDFA;
+  --signal:       #B3541E;
+  --signal-quiet: #FAEADF;
+  --inert:        #DDE1E9;
+
+  --shadow: 0 1px 2px rgba(20,24,31,.05), 0 8px 24px -12px rgba(20,24,31,.16);
+  --measure: 67ch;
+  --wide: 62rem;
+
+  --step--1: .8125rem;
+  --step-0:  1rem;
+  --step-1:  1.1875rem;
+  --step-2:  1.5rem;
+  --step-3:  2rem;
+  --step-4:  2.7rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ground:       #0E141B;
+    --surface:      #162029;
+    --surface-sunk: #111A22;
+    --ink:          #E8ECF3;
+    --ink-2:        #B4BECD;
+    --muted:        #8F9AAB;
+    --rule:         #253040;
+    --rule-strong:  #3A4557;
+    --accent:       #7D9BEF;
+    --accent-quiet: #1A2544;
+    --signal:       #F0913F;
+    --signal-quiet: #33220F;
+    --inert:        #2A303C;
+    --shadow: 0 1px 2px rgba(0,0,0,.45), 0 8px 24px -12px rgba(0,0,0,.65);
+  }
+}
+
+:root[data-theme="dark"] {
+  --ground:       #0E141B;
+  --surface:      #162029;
+  --surface-sunk: #111A22;
+  --ink:          #E8ECF3;
+  --ink-2:        #B4BECD;
+  --muted:        #8F9AAB;
+  --rule:         #253040;
+  --rule-strong:  #3A4557;
+  --accent:       #7D9BEF;
+  --accent-quiet: #1A2544;
+  --signal:       #F0913F;
+  --signal-quiet: #33220F;
+  --inert:        #2A303C;
+  --shadow: 0 1px 2px rgba(0,0,0,.45), 0 8px 24px -12px rgba(0,0,0,.65);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  background: var(--ground);
+  color: var(--ink);
+  font-family: "IBM Plex Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  font-size: var(--step-0);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.page {
+  max-width: var(--wide);
+  margin: 0 auto;
+  padding: clamp(2rem, 5vw, 4.5rem) clamp(1.1rem, 4vw, 2.5rem) 6rem;
+  display: flex; flex-direction: column;
+  gap: clamp(2.75rem, 5vw, 4rem);
+}
+.col { max-width: var(--measure); }
+
+h1, h2, h3 {
+  font-family: Newsreader, ui-serif, Georgia, serif;
+  font-weight: 500; text-wrap: balance; line-height: 1.15;
+  margin: 0; letter-spacing: -.012em;
+}
+h1 { font-size: var(--step-4); letter-spacing: -.024em; }
+h2 { font-size: var(--step-2); }
+h3 { font-size: var(--step-1); font-weight: 600; }
+p { margin: 0; }
+
+a { color: var(--accent); text-underline-offset: 2px; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+
+code, .mono { font-family: "IBM Plex Mono", ui-monospace, Menlo, monospace; font-variant-numeric: tabular-nums; }
+code {
+  font-size: .875em; background: var(--surface-sunk);
+  border: 1px solid var(--rule); border-radius: 3px; padding: .08em .34em;
+}
+
+.eyebrow {
+  font-family: "IBM Plex Mono", monospace; font-size: var(--step--1);
+  letter-spacing: .13em; text-transform: uppercase;
+  color: var(--muted); font-weight: 500;
+}
+
+/* masthead */
+.masthead { display: flex; flex-direction: column; gap: 1.15rem; }
+.masthead .lede {
+  font-family: Newsreader, ui-serif, Georgia, serif;
+  font-size: var(--step-1); line-height: 1.5;
+  color: var(--ink-2); max-width: 56ch;
+}
+.masthead .lede em { color: var(--ink); font-style: italic; }
+.facts {
+  display: flex; flex-wrap: wrap; gap: .45rem 1.5rem;
+  padding-top: 1.15rem; border-top: 1px solid var(--rule);
+  font-size: var(--step--1); color: var(--muted);
+}
+.facts span { white-space: nowrap; }
+.facts b { color: var(--ink-2); font-weight: 500; font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums; }
+
+section { display: flex; flex-direction: column; gap: 1.4rem; }
+section > .col > * + * { margin-top: .9rem; }
+.section-head { display: flex; flex-direction: column; gap: .5rem; }
+
+.callout {
+  background: var(--surface); border: 1px solid var(--rule);
+  border-left: 3px solid var(--accent); border-radius: 3px;
+  padding: clamp(1.25rem, 3vw, 1.7rem);
+  display: flex; flex-direction: column; gap: .8rem;
+  box-shadow: var(--shadow);
+}
+.callout.warn { border-left-color: var(--signal); }
+.callout .task {
+  font-family: Newsreader, ui-serif, Georgia, serif;
+  font-size: var(--step-1); line-height: 1.45; color: var(--ink);
+}
+
+/* bullet chart: achieved / reachable-but-missed / not in the text */
+figure { margin: 0; display: flex; flex-direction: column; gap: 1.1rem; }
+.figcap { font-size: var(--step--1); color: var(--muted); max-width: 64ch; }
+
+.bullets { display: flex; flex-direction: column; gap: 1.3rem; }
+.bullet-row { display: flex; flex-direction: column; gap: .45rem; }
+.bullet-head {
+  display: flex; justify-content: space-between; align-items: baseline;
+  gap: 1rem; font-size: var(--step--1);
+}
+.bullet-head .name { font-weight: 600; color: var(--ink); }
+.bullet-head .share { color: var(--muted); font-family: "IBM Plex Mono", monospace; }
+.track {
+  display: flex; width: 100%; height: 2.5rem; gap: 2px;
+  border-radius: 4px; background: var(--rule);
+}
+.track > span {
+  display: flex; align-items: center; justify-content: center;
+  min-width: 0; font-family: "IBM Plex Mono", monospace;
+  font-variant-numeric: tabular-nums; font-size: var(--step--1); font-weight: 600;
+  white-space: nowrap; cursor: default;
+}
+.track > span:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+/* Inline labels cannot fit a 90px segment at phone width; the values table
+   below carries every number, so drop them rather than crop them. */
+@media (max-width: 34rem) { .track > span { font-size: 0; } }
+
+#tip {
+  position: fixed; z-index: 9; pointer-events: none;
+  background: var(--ink); color: var(--ground);
+  font-family: "IBM Plex Sans", sans-serif; font-size: .75rem; line-height: 1.4;
+  padding: .4rem .6rem; border-radius: 3px; max-width: 17rem;
+  box-shadow: 0 4px 16px -4px rgba(0,0,0,.4);
+}
+#tip[hidden] { display: none !important; }
+.seg-got  { background: var(--accent); color: #FFFFFF; }
+.seg-miss { background: var(--signal); color: #FFFFFF; }
+/* 1.28:1 against the surface, so this region is delimited by a border rather
+   than by colour - it marks what is unavailable, not a data series. */
+.seg-none { background: var(--inert); color: var(--muted); box-shadow: inset 0 0 0 1px var(--rule-strong); }
+:root[data-theme="dark"] .seg-got  { color: #0B1226; }
+:root[data-theme="dark"] .seg-miss { color: #2A1607; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .seg-got  { color: #0B1226; }
+  :root:not([data-theme="light"]) .seg-miss { color: #2A1607; }
+}
+.track > span:first-child { border-radius: 4px 0 0 4px; }
+.track > span:last-child  { border-radius: 0 4px 4px 0; }
+
+.legend {
+  display: flex; flex-wrap: wrap; gap: .5rem 1.4rem;
+  font-size: var(--step--1); color: var(--muted);
+}
+.legend span { display: inline-flex; align-items: center; gap: .45rem; }
+.key { width: .7rem; height: .7rem; border-radius: 2px; flex: none; }
+
+/* tables */
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: var(--step--1); }
+caption { text-align: left; font-size: var(--step--1); color: var(--muted); padding-bottom: .6rem; }
+th, td { padding: .55rem .7rem; text-align: right; white-space: nowrap; }
+th:first-child, td:first-child { text-align: left; white-space: normal; }
+thead th {
+  font-weight: 500; color: var(--muted); font-size: .75rem;
+  letter-spacing: .07em; text-transform: uppercase;
+  border-bottom: 1px solid var(--rule-strong);
+}
+tbody td { border-bottom: 1px solid var(--rule); font-variant-numeric: tabular-nums; font-family: "IBM Plex Mono", monospace; }
+tbody td:first-child { font-family: "IBM Plex Sans", sans-serif; }
+tbody tr:last-child td { border-bottom: none; }
+tbody tr.is-length td { background: var(--signal-quiet); }
+tbody tr.is-total td { border-top: 1px solid var(--rule-strong); font-weight: 600; }
+tbody tr.is-win td { background: var(--accent-quiet); color: var(--ink); font-weight: 600; }
+td .ci { color: var(--muted); font-weight: 400; margin-left: .5rem; }
+
+/* one comparison, stated as a sentence with its figures set in mono */
+.verdict {
+  display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  border-top: 1px solid var(--rule-strong); border-bottom: 1px solid var(--rule-strong);
+  padding-block: 1.1rem;
+}
+.verdict div { display: flex; flex-direction: column; gap: .3rem; }
+.verdict .v {
+  font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums;
+  font-size: var(--step-2); font-weight: 500; line-height: 1.1; letter-spacing: -.02em; color: var(--ink);
+}
+.verdict .v.up { color: var(--accent); }
+.verdict .l { font-size: var(--step--1); color: var(--muted); }
+
+.checks { display: flex; flex-direction: column; }
+.check {
+  display: grid; grid-template-columns: 7.5rem 1fr; gap: .3rem 1.1rem;
+  padding: .85rem 0; border-top: 1px solid var(--rule); font-size: var(--step--1);
+}
+.check:last-child { border-bottom: 1px solid var(--rule); }
+.check .q { font-family: "IBM Plex Mono", monospace; font-size: .72rem; letter-spacing: .06em;
+  text-transform: uppercase; color: var(--muted); padding-top: .15rem; }
+.check .a { color: var(--ink-2); }
+.check .a b { color: var(--ink); font-weight: 600; }
+.check.open .q { color: var(--signal); font-weight: 600; }
+@media (max-width: 34rem) { .check { grid-template-columns: 1fr; } }
+.check.closed .q { color: var(--accent); font-weight: 600; }
+
+/* control chart: one measure, three conditions, two reference lines on the same 0-100 scale */
+.cond { display: flex; flex-direction: column; gap: .75rem; }
+.cond-row { display: grid; grid-template-columns: 13rem 1fr 3.6rem; gap: .35rem 1rem; align-items: center; }
+.cond-row .val { font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums;
+  font-size: var(--step--1); font-weight: 600; color: var(--ink-2); text-align: right; }
+.cond-row .val.real { color: var(--accent); }
+.cond-row .lab { font-size: var(--step--1); color: var(--ink-2); line-height: 1.35; }
+.cond-row .lab b { color: var(--ink); font-weight: 600; display: block; }
+.cond-bar { position: relative; height: 2rem; background: var(--surface-sunk); border-radius: 4px; }
+.cond-bar .fill {
+  position: absolute; top: 0; bottom: 0; left: 0; border-radius: 4px;
+  display: flex; align-items: center; justify-content: flex-end; padding-right: .55rem;
+  font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums;
+  font-size: var(--step--1); font-weight: 600; cursor: default;
+  background: var(--inert); color: var(--ink-2); box-shadow: inset 0 0 0 1px var(--rule-strong);
+}
+.cond-bar .fill.real { background: var(--accent); color: #FFFFFF; box-shadow: none; }
+:root[data-theme="dark"] .cond-bar .fill.real { color: #0B1226; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .cond-bar .fill.real { color: #0B1226; } }
+.cond-bar .fill:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+.ref { position: absolute; top: -.3rem; bottom: -.3rem; width: 0; pointer-events: none; }
+.ref.rule { border-left: 2px dashed var(--signal); }
+.ref.rand { border-left: 2px dotted var(--muted); }
+.cond-axis { display: grid; grid-template-columns: 13rem 1fr 3.6rem; gap: 0 1rem; }
+.cond-axis .ticks { position: relative; height: 1rem; }
+.cond-axis .ticks span {
+  position: absolute; transform: translateX(-50%); font-family: "IBM Plex Mono", monospace;
+  font-size: .7rem; color: var(--muted);
+}
+.cond-axis .ticks span:first-child { transform: none; }
+.cond-axis .ticks span:last-child { transform: translateX(-100%); }
+.key-line { width: 1.2rem; height: 0; flex: none; }
+@media (max-width: 34rem) {
+  .cond-row, .cond-axis { grid-template-columns: 1fr 3.2rem; }
+  .cond-row .lab { grid-column: 1 / -1; }
+  .cond-axis > span:first-child { display: none; }
+}
+
+pre {
+  margin: 0; overflow-x: auto; background: var(--surface-sunk);
+  border: 1px solid var(--rule); border-radius: 3px;
+  padding: 1rem 1.1rem; font-family: "IBM Plex Mono", monospace;
+  font-size: .78rem; line-height: 1.65; color: var(--ink-2);
+}
+pre b { color: var(--ink); font-weight: 600; }
+pre .hi { color: var(--signal); font-weight: 600; }
+
+.stats { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); }
+.stat {
+  background: var(--surface); border: 1px solid var(--rule);
+  border-radius: 3px; padding: 1.1rem 1.2rem;
+  display: flex; flex-direction: column; gap: .4rem;
+}
+.stat .n {
+  font-family: "IBM Plex Mono", monospace; font-variant-numeric: tabular-nums;
+  font-size: var(--step-3); font-weight: 500; line-height: 1;
+  letter-spacing: -.03em; color: var(--accent);
+}
+.stat.warn .n { color: var(--signal); }
+.stat .k { font-size: var(--step--1); color: var(--muted); }
+
+/* reversals */
+.reversals { display: flex; flex-direction: column; }
+.rev {
+  display: grid; grid-template-columns: 2.2rem 1fr; gap: .9rem;
+  padding: 1rem 0; border-top: 1px solid var(--rule);
+}
+.rev:last-child { border-bottom: 1px solid var(--rule); }
+.rev .i {
+  font-family: "IBM Plex Mono", monospace; font-size: var(--step--1);
+  color: var(--signal); font-weight: 600;
+}
+.rev .body { display: flex; flex-direction: column; gap: .35rem; font-size: var(--step--1); }
+.rev .claim { color: var(--muted); font-style: italic; }
+.rev .truth { color: var(--ink-2); }
+.rev .truth b { color: var(--ink); font-weight: 600; }
+
+.steps { display: flex; flex-direction: column; }
+.step {
+  display: grid; grid-template-columns: 2.4rem 1fr auto; gap: .5rem 1rem;
+  align-items: baseline; padding: .85rem 0; border-top: 1px solid var(--rule);
+}
+.step:last-child { border-bottom: 1px solid var(--rule); }
+.step .id { font-family: "IBM Plex Mono", monospace; font-weight: 600; color: var(--accent); font-size: var(--step--1); }
+.step .what { display: flex; flex-direction: column; gap: .2rem; }
+.step .what span { font-size: var(--step--1); color: var(--muted); }
+.chip {
+  font-family: "IBM Plex Mono", monospace; font-size: .7rem;
+  letter-spacing: .06em; text-transform: uppercase;
+  padding: .22rem .5rem; border-radius: 2px; white-space: nowrap;
+  border: 1px solid var(--rule-strong); color: var(--muted);
+}
+.chip.done { background: var(--accent-quiet); border-color: transparent; color: var(--accent); font-weight: 600; }
+.chip.next { background: var(--signal-quiet); border-color: transparent; color: var(--signal); font-weight: 600; }
+
+footer {
+  border-top: 1px solid var(--rule); padding-top: 1.25rem;
+  font-size: var(--step--1); color: var(--muted);
+  display: flex; flex-wrap: wrap; gap: .4rem 1.25rem;
+}
+
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+</style>
+
+<div class="page">
+
+  <header class="masthead">
+    <p class="eyebrow">NLP semester project &middot; Amazon ML Challenge 2024</p>
+    <h1>Which Number Is Width</h1>
+    <p class="lede">
+      Read a product attribute &mdash; weight, volume, voltage, wattage, or one of
+      three dimensions &mdash; off the product photograph alone. Half the corpus turns
+      out to be solvable and half turns out to be
+      <em>under-determined by the text entirely</em>: the number is legible, but
+      nothing written on the image says which dimension it is. A 2B vision-language
+      model, fine-tuned to point at the right number, lifts that half from
+      <em>38.8% to 56.0%</em> on a test split nothing was tuned on, and to
+      <em>58.8%</em> with the text system as a fallback, taking the whole task from
+      <em>52.1% to 63.2%</em> &mdash; and when its
+      photograph is replaced with a blank, most of that gain disappears.
+    </p>
+    <div class="facts">
+      <span><b>395,046</b> labelled rows available</span>
+      <span><b>8</b> attributes</span>
+      <span><b>25,000</b> row working set</span>
+      <span><b>24,926</b> images OCR'd</span>
+      <span><b>image only</b> &mdash; no catalogue text</span>
+      <span><b>Qwen2-VL-2B</b> + LoRA, one Kaggle T4</span>
+    </div>
+  </header>
+
+  <!-- ============ THE TASK ============ -->
+  <section>
+    <div class="col section-head">
+      <p class="eyebrow">01 &middot; The task</p>
+      <h2>Conditional extraction from a photograph</h2>
+    </div>
+    <div class="col callout">
+      <p class="eyebrow">Given</p>
+      <p class="task">
+        a product image and the name of a wanted attribute, return its value and unit
+        &mdash; or decline, rather than guess.
+      </p>
+    </div>
+    <div class="col">
+      <p>
+        The 2024 schema is <code>image_link, group_id, entity_name, entity_value</code>.
+        There is no title, no bullet points, no description. OCR is the only evidence,
+        which makes the quality of the reader the whole ballgame &mdash; and makes the
+        attribute name part of the <em>input</em>, not a fixed target.
+      </p>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <caption>The eight attributes, at their natural corpus frequency.</caption>
+        <thead><tr><th scope="col">Attribute</th><th scope="col">Share of corpus</th><th scope="col">Dimensional family</th></tr></thead>
+        <tbody>
+          <tr><td>item_weight</td><td>38.95%</td><td>mass</td></tr>
+          <tr class="is-length"><td>depth</td><td>17.10%</td><td>length</td></tr>
+          <tr class="is-length"><td>width</td><td>16.74%</td><td>length</td></tr>
+          <tr class="is-length"><td>height</td><td>16.52%</td><td>length</td></tr>
+          <tr><td>voltage</td><td>3.59%</td><td>voltage</td></tr>
+          <tr><td>wattage</td><td>2.94%</td><td>power</td></tr>
+          <tr><td>item_volume</td><td>2.91%</td><td>volume</td></tr>
+          <tr><td>maximum_weight_recommendation</td><td>1.24%</td><td>mass</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col">
+      <p>
+        Those three shaded rows are the story. They are <b>50.3% of the corpus</b>, they
+        share one dimensional family, and a previous five-attribute sample of this dataset
+        omitted all of them.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ THE CENTRAL RESULT ============ -->
+  <section>
+    <div class="col section-head">
+      <p class="eyebrow">02 &middot; The central result</p>
+      <h2>Two halves, one label column</h2>
+      <p style="color:var(--ink-2)">
+        For every row we can ask two separate questions: is the answer present in the OCR
+        text at all, and did the system find it? The first sets a ceiling. The gap between
+        them is what better modelling can win.
+      </p>
+    </div>
+
+    <figure>
+      <div class="bullets">
+        <div class="bullet-row">
+          <div class="bullet-head">
+            <span class="name">Weight, volume, voltage, wattage</span>
+            <span class="share">49.7% of corpus</span>
+          </div>
+          <div class="track" role="img" aria-label="Non-length attributes: 71.4% achieved, 4.2% reachable but missed, 24.4% not present in the OCR text.">
+            <span class="seg-got" style="width:71.4%" tabindex="0" data-tip="Found by the cascade: 71.4% of non-length rows answered correctly.">71.4% found</span>
+            <span class="seg-miss" style="width:4.2%" tabindex="0" data-tip="In the OCR text but not found: 4.2 points. That is all a better model could still win on this half."></span>
+            <span class="seg-none" style="width:24.4%" tabindex="0" data-tip="Not present in the OCR at all: 24.4%. No text model reaches these rows.">24.4% not in text</span>
+          </div>
+        </div>
+        <div class="bullet-row">
+          <div class="bullet-head">
+            <span class="name">Depth, width, height</span>
+            <span class="share">50.3% of corpus</span>
+          </div>
+          <div class="track" role="img" aria-label="Length attributes: 36.2% achieved, 35.5% reachable but missed, 28.3% not present in the OCR text.">
+            <span class="seg-got" style="width:36.2%" tabindex="0" data-tip="Found by the cascade: 36.2% of depth/width/height rows answered correctly.">36.2% found</span>
+            <span class="seg-miss" style="width:35.5%" tabindex="0" data-tip="In the OCR text but not found: 35.5 points. The number is legible; nothing says which dimension it is.">35.5% missed</span>
+            <span class="seg-none" style="width:28.3%" tabindex="0" data-tip="Not present in the OCR at all: 28.3%.">28.3%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="legend">
+        <span><i class="key" style="background:var(--accent)"></i>found by the system</span>
+        <span><i class="key" style="background:var(--signal)"></i>in the text, but not found</span>
+        <span><i class="key" style="background:var(--inert);border:1px solid var(--rule-strong)"></i>not present in the OCR at all</span>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <caption>The same figures as numbers, so no value is reachable only by hovering.</caption>
+          <thead><tr><th scope="col">Half of the corpus</th><th scope="col">Found</th><th scope="col">In text, missed</th><th scope="col">Not in text</th><th scope="col">Ceiling</th></tr></thead>
+          <tbody>
+            <tr><td>Weight, volume, voltage, wattage</td><td>71.4%</td><td>4.2%</td><td>24.4%</td><td>75.6%</td></tr>
+            <tr class="is-length"><td>Depth, width, height</td><td>36.2%</td><td>35.5%</td><td>28.3%</td><td>71.7%</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <figcaption class="figcap">
+        The two ceilings are almost the same &mdash; 75.6% and 71.7%. OCR reads a dimension
+        as readily as it reads a weight. Yet the orange band, the reachable-but-missed
+        portion, is <b>4.2 points on one half and 35.5 on the other</b>. Something other
+        than reading is failing.
+      </figcaption>
+    </figure>
+
+    <div class="table-wrap">
+      <table>
+        <caption>Validation split, n&nbsp;=&nbsp;2,902. Metric is <code>dim</code>: same dimensional family and same magnitude in base units.</caption>
+        <thead>
+          <tr><th scope="col">Attribute</th><th scope="col">n</th><th scope="col">Ceiling</th><th scope="col">S0 rules</th><th scope="col">Tagger</th><th scope="col">Cascade</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>item_weight</td><td>605</td><td>76.4%</td><td>57.9%</td><td>55.0%</td><td>64.5%</td></tr>
+          <tr class="is-length"><td>depth</td><td>638</td><td>71.9%</td><td>31.3%</td><td>18.5%</td><td>36.8%</td></tr>
+          <tr class="is-length"><td>height</td><td>572</td><td>72.3%</td><td>33.6%</td><td>14.7%</td><td>36.9%</td></tr>
+          <tr class="is-length"><td>width</td><td>564</td><td>71.0%</td><td>30.5%</td><td>17.6%</td><td>34.8%</td></tr>
+          <tr><td>wattage</td><td>237</td><td>75.8%</td><td>86.1%</td><td>75.5%</td><td>87.3%</td></tr>
+          <tr><td>voltage</td><td>171</td><td>80.9%</td><td>78.9%</td><td>69.6%</td><td>81.3%</td></tr>
+          <tr><td>item_volume</td><td>99</td><td>61.9%</td><td>59.6%</td><td>44.4%</td><td>56.6%</td></tr>
+          <tr><td>maximum_weight_recommendation</td><td>16</td><td>70.0%</td><td>100.0%</td><td>62.5%</td><td>81.2%</td></tr>
+          <tr class="is-total"><td>All rows</td><td>2,902</td><td>73.7%</td><td>45.8%</td><td>48.4%</td><td>49.9%</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col">
+      <p style="font-size:var(--step--1);color:var(--muted)">
+        The tagger column is pre-fix and shown for honesty; the cascade column uses the
+        repaired model. Two rows are too small to read individually:
+        <code>maximum_weight_recommendation</code> at n=16 (its 100% is 16 rows, not a
+        result) and <code>item_volume</code> at n=99.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ WHY LENGTH FAILS ============ -->
+  <section>
+    <div class="col section-head">
+      <p class="eyebrow">03 &middot; Diagnosis</p>
+      <h2>The number is there. Its name is not.</h2>
+    </div>
+    <div class="col">
+      <p>
+        A representative length row, with everything the model is given:
+      </p>
+    </div>
+    <div class="col">
+<pre>attribute:  <b>width</b>
+OCR text:   5.7cm/2.24in  <span class="hi">9.3cm/3.66in</span>  4cm/1.57in  3.5cm/1.37in  12.3cm/4.84in
+gold:       <b>9.3 centimetre</b></pre>
+    </div>
+    <div class="col">
+      <p>
+        The answer is present, which is why the ceiling is 71.7%. But the text contains a
+        bare list of measurements from a size chart. Nothing in it marks one as the width.
+        The information that would disambiguate &mdash; which arrow points along which
+        axis &mdash; exists only in the image's geometry.
+      </p>
+      <p>
+        The obvious remedy is a <code>A x B x C</code> parser that assigns by position. It
+        was measured before it was built, and it does not apply:
+      </p>
+    </div>
+    <div class="col">
+<pre>length rows: 12,574
+  <b>neither</b>                                 12,200   <b>97.0%</b>
+  has A x B x C triple                       213    1.7%
+  has an explicitly labelled dimension       163    1.3%
+
+gold matches which triple position (rows with a triple):
+  depth   pos1: 18%  pos2: 28%  pos3: 55%
+  width   pos1: 22%  pos2: 26%  pos3: 52%
+  height  pos1: 18%  pos2: 14%  pos3: 68%</pre>
+    </div>
+    <div class="col">
+      <p>
+        97% of length rows carry neither a triple nor a labelled dimension &mdash; and
+        where a triple does appear, all three attributes favour position 3, so there is no
+        ordering convention to exploit. Such a parser would reach about 0.9% of the corpus.
+      </p>
+    </div>
+    <div class="col callout warn">
+      <p class="eyebrow">The conclusion</p>
+      <p class="task">
+        For half this corpus, no text model can succeed &mdash; however good its OCR.
+        Resolving <em>depth</em> from <em>width</em> requires associating a printed number
+        with the axis it annotates, which is a spatial judgement about the image.
+      </p>
+    </div>
+    <div class="col">
+      <p>
+        This reverses an earlier decision to demote the vision-language model. That call
+        was made on a five-attribute sample where headroom above the rules was about seven
+        points. On the real task the VLM is not upside &mdash; for
+        <code>depth</code>, <code>width</code> and <code>height</code> it is the only
+        remaining lever. Section 05 pulls it.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ WHAT WAS BUILT ============ -->
+  <section>
+    <div class="col section-head">
+      <p class="eyebrow">04 &middot; The system</p>
+      <h2>What is built, and what it cost</h2>
+    </div>
+
+    <div class="stats">
+      <div class="stat">
+        <p class="n">64.0%</p>
+        <p class="k">Gold values recoverable with Apple Vision OCR, against <b>42.3%</b> for EasyOCR on the identical 175 rows. Free, no GPU, 24 img/s on six workers.</p>
+      </div>
+      <div class="stat">
+        <p class="n">71.9%</p>
+        <p class="k">Weak-supervision coverage. Programme search runs backwards from the gold value, so it labels the <em>correct</em> span even where five candidates compete.</p>
+      </div>
+      <div class="stat warn">
+        <p class="n">0.188%</p>
+        <p class="k">Provably-wrong label floor at natural frequency &mdash; six rules, each confirmed against an image. Concentrated in one attribute worth 1.24% of the data.</p>
+      </div>
+    </div>
+
+    <div class="steps">
+      <div class="step">
+        <span class="id">S0</span>
+        <span class="what"><b>Dimensional filter + rules</b><span>attribute &rarr; family; discards unit-less OCR noise for free</span></span>
+        <span class="chip done">45.8%</span>
+      </div>
+      <div class="step">
+        <span class="id">S1</span>
+        <span class="what"><b>Multi-task tagger</b><span>BIO spans + a unit head, on weak supervision</span></span>
+        <span class="chip done">48.4%</span>
+      </div>
+      <div class="step">
+        <span class="id">S2</span>
+        <span class="what"><b>Tagger &rarr; rules cascade</b><span>rules answer where the tagger declines</span></span>
+        <span class="chip done">49.9%</span>
+      </div>
+      <div class="step">
+        <span class="id">S3</span>
+        <span class="what"><b>VLM selects among OCR candidates</b><span>Qwen2-VL-2B + LoRA on depth, width, height &middot; 406 held-out rows, where the cascade scores 32.8%</span></span>
+        <span class="chip done">51.5% len</span>
+      </div>
+      <div class="step">
+        <span class="id">S4</span>
+        <span class="what"><b>Blank- and swapped-image controls</b><span>same adapter, same prompt, only the pixels change &middot; the photo is worth 22.9 points on 2+-candidate rows</span></span>
+        <span class="chip done">confirmed</span>
+      </div>
+      <div class="step">
+        <span class="id">S5</span>
+        <span class="what"><b>Route between S2 and S3</b><span>rule fixed before scoring: the VLM when it answers, the cascade when OCR gave it nothing to choose from &middot; +14 rows, none lost</span></span>
+        <span class="chip done">54.9% len</span>
+      </div>
+      <div class="step">
+        <span class="id">S6</span>
+        <span class="what"><b>One score on the untouched test split</b><span>every choice above was made looking at the 406 validation rows &middot; 1,256 test rows, scored once, no tuning &middot; section 06</span></span>
+        <span class="chip done">58.8% test</span>
+      </div>
+    </div>
+
+    <div class="col">
+      <p>
+        The tagger's first run <b>failed outright</b> &mdash; 34.0% against the rules'
+        45.8%, abstaining on 56% of rows. It had collapsed to predicting all-<code>O</code>:
+        with ~44 tokens of which two or three carry a span, <code>O</code> is 93% of targets,
+        and under genuine ambiguity the cross-entropy optimum is to predict nothing.
+        Weighting span tags 8&times; against <code>O</code>, plus a decode fallback that
+        trusts the unit head when no unit span is tagged, moved abstention from
+        <b>56.0% to 13.8%</b> and the score from 34.0% to 48.4%.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ THE IMAGE CHANNEL ============ -->
+  <section>
+    <div class="col section-head">
+      <p class="eyebrow">05 &middot; The image channel</p>
+      <h2>Teaching a small model which number is width</h2>
+      <p style="color:var(--ink-2)">
+        OCR already reads the candidates. What was missing is the choice between them, so
+        the model is not asked to read or measure &mdash; only to answer with the letter of
+        the candidate that names the wanted dimension.
+      </p>
+    </div>
+
+    <div class="verdict" role="group" aria-label="Headline comparison on the same 406 held-out rows">
+      <div><span class="v">32.8%</span><span class="l">tagger + rules cascade</span></div>
+      <div><span class="v">34.2%</span><span class="l">same VLM, zero-shot (398 rows)</span></div>
+      <div><span class="v up">51.5%</span><span class="l">same VLM after LoRA &middot; CI 46.6&ndash;56.3</span></div>
+      <div><span class="v">70.0%</span><span class="l">ceiling for a selector: correct value among OCR&rsquo;s candidates</span></div>
+    </div>
+
+    <figure>
+      <div class="bullets">
+        <div class="bullet-row">
+          <div class="bullet-head">
+            <span class="name">Cascade (text only)</span>
+            <span class="share">406 length rows</span>
+          </div>
+          <div class="track" role="img" aria-label="Cascade on the 406 evaluation rows: 32.8% found, 41.4% had a correct candidate but missed, 25.9% had no correct candidate and were not found.">
+            <span class="seg-got" style="width:32.76%" tabindex="0" data-tip="Cascade: 133 of 406 rows correct (32.8%). 17 of them fall outside the candidate list, found by its own text extraction.">32.8%</span>
+            <span class="seg-miss" style="width:41.38%" tabindex="0" data-tip="A correct candidate existed but the cascade did not return it: 168 rows, 41.4%.">41.4% missed</span>
+            <span class="seg-none" style="width:25.86%" tabindex="0" data-tip="No correct candidate and not found: 105 rows, 25.9%.">25.9%</span>
+          </div>
+        </div>
+        <div class="bullet-row">
+          <div class="bullet-head">
+            <span class="name">Qwen2-VL-2B + LoRA (image + candidates)</span>
+            <span class="share">same 406 rows</span>
+          </div>
+          <div class="track" role="img" aria-label="Fine-tuned VLM on the same rows: 51.5% found, 18.5% had a correct candidate but missed, 30.0% had no correct candidate.">
+            <span class="seg-got" style="width:51.48%" tabindex="0" data-tip="Fine-tuned VLM: 209 of 406 rows correct (51.5%), 18.7 points above the cascade on identical rows.">51.5% found</span>
+            <span class="seg-miss" style="width:18.47%" tabindex="0" data-tip="A correct candidate existed but was not chosen: 75 rows, 18.5%.">18.5%</span>
+            <span class="seg-none" style="width:30.05%" tabindex="0" data-tip="No correct candidate to choose: 122 rows, 30.0%. A selector cannot reach these.">30.0%</span>
+          </div>
+        </div>
+      </div>
+      <div class="legend">
+        <span><i class="key" style="background:var(--accent)"></i>found by the system</span>
+        <span><i class="key" style="background:var(--signal)"></i>a correct candidate existed, but was not chosen</span>
+        <span><i class="key" style="background:var(--inert);border:1px solid var(--rule-strong)"></i>no correct candidate, and not found</span>
+      </div>
+      <figcaption class="figcap">
+        Of the 41.4 points where a correct candidate sat unused, the fine-tune takes back
+        23 &mdash; on rows offering two or more candidates with one right, it chooses
+        correctly <b>70.8%</b> of the time. Its grey band is wider than the cascade&rsquo;s
+        for one reason: the cascade finds <b>17 rows</b> by its own text extraction that
+        never reach the candidate list. Fourteen of them are rows where OCR produced no
+        candidates at all, which is exactly what routing recovers below.
+      </figcaption>
+    </figure>
+
+    <div class="table-wrap">
+      <table>
+        <caption>Every row is the same 406 validation rows, scored by <code>dim</code>. None were seen in training.</caption>
+        <thead><tr><th scope="col">System</th><th scope="col">n</th><th scope="col">dim</th><th scope="col">95% CI</th></tr></thead>
+        <tbody>
+          <tr><td>S0 rules</td><td>406</td><td>29.1%</td><td>24.9&ndash;33.7</td></tr>
+          <tr><td>Tagger &rarr; rules cascade</td><td>406</td><td>32.8%</td><td>28.4&ndash;37.5</td></tr>
+          <tr><td>VLM zero-shot, may abstain</td><td>400</td><td>11.0%</td><td>8.3&ndash;14.4</td></tr>
+          <tr><td>VLM zero-shot, forced answer</td><td>398</td><td>35.4%</td><td>30.9&ndash;40.2</td></tr>
+          <tr><td>VLM zero-shot, select a letter</td><td>398</td><td>34.2%</td><td>29.7&ndash;39.0</td></tr>
+          <tr><td>VLM + LoRA, select a letter</td><td>406</td><td>51.5%</td><td>46.6&ndash;56.3</td></tr>
+          <tr class="is-win"><td>Router: VLM, else cascade</td><td>406</td><td>54.9%</td><td>50.1&ndash;59.7</td></tr>
+          <tr class="is-total"><td>Oracle: either S2 or S3 right</td><td>406</td><td>59.9%</td><td>55.0&ndash;64.5</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="col">
+      <h3>Why it worked: the failure was a habit, not a limit</h3>
+    </div>
+    <div class="col">
+      <p>
+        Zero-shot, the model barely beat chance on rows it could have answered, and its
+        letters did not follow the answers. Where the gold candidate actually sits in
+        OCR order is uneven &mdash; mostly first or second &mdash; and the untrained model
+        preferred second and third. The fine-tuned model&rsquo;s letters now track where
+        the answers are.
+      </p>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <caption>Share of answers by option letter, options in natural OCR order. Zero-shot shares are over its answered rows (398); gold and LoRA over the 257 rows with 2+ candidates and a correct one present.</caption>
+        <thead><tr><th scope="col">Option</th><th scope="col">(a)</th><th scope="col">(b)</th><th scope="col">(c)</th><th scope="col">(d)</th><th scope="col">(e)&ndash;(h)</th></tr></thead>
+        <tbody>
+          <tr><td>Where the gold answer is</td><td>36.6%</td><td>33.9%</td><td>16.0%</td><td>4.3%</td><td>9.3%</td></tr>
+          <tr><td>Zero-shot picked</td><td>11.1%</td><td>36.9%</td><td>35.4%</td><td>8.1%</td><td>8.5%</td></tr>
+          <tr class="is-win"><td>LoRA picked</td><td>37.5%</td><td>30.7%</td><td>19.5%</td><td>4.0%</td><td>8.3%</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col">
+      <p>
+        That diagnosis shaped training. Option order is <b>reshuffled on every example</b>,
+        so a positional habit earns nothing and cannot be learned; only the final letter is
+        supervised; the vision encoder stays frozen and 18.5M adapter weights (0.83% of
+        the model) are trained &mdash; one epoch over 6,036 rows at 512&times;512, 394
+        minutes on a single T4.
+      </p>
+    </div>
+
+    <div class="col">
+      <h3>What was checked before believing it</h3>
+    </div>
+    <div class="col checks">
+      <div class="check">
+        <span class="q">Rescored</span>
+        <span class="a">Every prediction re-scored independently of the notebook: <b>209 / 406</b>, zero disagreements.</span>
+      </div>
+      <div class="check">
+        <span class="q">Leakage</span>
+        <span class="a">All 406 rows come from the validation split. No shared filenames, no byte-identical images. Twenty-one perceptual-hash matches were inspected: different products with different gold values. Dropping them moves the score to <b>51.9%</b>.</span>
+      </div>
+      <div class="check">
+        <span class="q">Paired</span>
+        <span class="a">Against the cascade on identical rows: LoRA right where the cascade is wrong <b>110</b> times, the reverse <b>34</b>. Exact McNemar p&nbsp;=&nbsp;1.5&times;10<sup>&minus;10</sup>.</span>
+      </div>
+      <div class="check">
+        <span class="q">Text prior</span>
+        <span class="a">Shuffling removes position, not magnitude &mdash; &ldquo;height is usually the largest number&rdquo;. The best such rule, fitted on training rows, scores <b>46.3%</b> on the 2+-candidate rows; LoRA scores <b>70.8%</b>, and random 35.5%.</span>
+      </div>
+      <div class="check closed">
+        <span class="q">The image</span>
+        <span class="a">The one explanation left was a subtler prior in the candidate text. Replacing each photo with a blank takes accuracy from <b>70.8%</b> to <b>47.9%</b> &mdash; the level of the text-only rule. Tested below.</span>
+      </div>
+    </div>
+
+    <div class="col section-head">
+      <h3>The control: take the photograph away</h3>
+      <p style="color:var(--ink-2)">
+        The same adapter, prompt and processor answered the same 277 multi-candidate rows
+        three times, changing only the pixels. The real-photo pass reproduced the training
+        run exactly &mdash; <b>277 of 277</b> answers identical &mdash; so the other two
+        differ for no reason but the image.
+      </p>
+    </div>
+
+    <figure>
+      <div class="cond" role="img" aria-label="Accuracy on 257 rows with 2 or more candidates and a correct one present: real photo 70.8%, blank image 47.9%, another product's photo 44.0%. Best text-only rule 46.3%, random 35.5%.">
+        <div class="cond-row">
+          <span class="lab"><b>Real photograph</b>as trained</span>
+          <div class="cond-bar">
+            <span class="fill real" style="width:70.8%" tabindex="0" data-tip="Real photo: 182 of 257 correct, 70.8% (95% CI 65.0-76.0)."></span>
+            <i class="ref rule" style="left:46.3%"></i><i class="ref rand" style="left:35.5%"></i>
+          </div>
+          <span class="val real">70.8%</span>
+        </div>
+        <div class="cond-row">
+          <span class="lab"><b>Blank image</b>white, same size as the photo</span>
+          <div class="cond-bar">
+            <span class="fill" style="width:47.9%" tabindex="0" data-tip="Blank image: 123 of 257 correct, 47.9% (CI 41.8-54.0). 79 answers lost, 20 gained; McNemar p = 1.8e-9."></span>
+            <i class="ref rule" style="left:46.3%"></i><i class="ref rand" style="left:35.5%"></i>
+          </div>
+          <span class="val">47.9%</span>
+        </div>
+        <div class="cond-row">
+          <span class="lab"><b>Another product&rsquo;s photo</b>real image, wrong item</span>
+          <div class="cond-bar">
+            <span class="fill" style="width:44.0%" tabindex="0" data-tip="Swapped photo: 113 of 257 correct, 44.0% (CI 38.0-50.1). 86 answers lost, 17 gained; McNemar p = 2.8e-12."></span>
+            <i class="ref rule" style="left:46.3%"></i><i class="ref rand" style="left:35.5%"></i>
+          </div>
+          <span class="val">44.0%</span>
+        </div>
+        <div class="cond-axis" aria-hidden="true">
+          <span></span>
+          <div class="ticks"><span style="left:0">0%</span><span style="left:25%">25%</span><span style="left:50%">50%</span><span style="left:75%">75%</span><span style="left:100%">100%</span></div>
+        </div>
+      </div>
+      <div class="legend">
+        <span><i class="key-line" style="border-top:2px dashed var(--signal)"></i>best text-only rule, fitted on training rows &middot; 46.3%</span>
+        <span><i class="key-line" style="border-top:2px dotted var(--muted)"></i>uniform random &middot; 35.5%</span>
+      </div>
+      <figcaption class="figcap">
+        257 rows with two or more candidates and a correct one present. Without its
+        photograph the model falls to roughly what a &ldquo;pick the largest number&rdquo;
+        rule achieves. It did learn a text prior &mdash; worth about 47 points, no more than
+        the rule &mdash; and the photograph adds <b>22.9 points</b> on top. The wrong photo
+        scores slightly below a blank one, but that gap is not significant (p&nbsp;=&nbsp;0.34).
+      </figcaption>
+    </figure>
+
+    <div class="table-wrap">
+      <table>
+        <caption>The same control split by attribute (2+ candidates, correct one present). Width and height are where the photograph matters.</caption>
+        <thead><tr><th scope="col">Attribute</th><th scope="col">n</th><th scope="col">Real photo</th><th scope="col">Blank</th><th scope="col">Swapped</th><th scope="col">Photo is worth</th></tr></thead>
+        <tbody>
+          <tr><td>depth</td><td>87</td><td>75.9%</td><td>66.7%</td><td>55.2%</td><td>+9.2</td></tr>
+          <tr class="is-win"><td>width</td><td>84</td><td>65.5%</td><td>35.7%</td><td>35.7%</td><td>+29.8</td></tr>
+          <tr class="is-win"><td>height</td><td>86</td><td>70.9%</td><td>40.7%</td><td>40.7%</td><td>+30.2</td></tr>
+          <tr class="is-total"><td>All three</td><td>257</td><td>70.8%</td><td>47.9%</td><td>44.0%</td><td>+22.9</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col">
+      <p>
+        <b>Depth is mostly a text problem</b>: it is usually the largest number on a size
+        chart, and the blank-image model already gets two thirds of it. <b>Width and height
+        are not</b> &mdash; without the photograph the model is near chance on both, and
+        with it gains thirty points each. That is the question in this page&rsquo;s title,
+        answered by looking. &ldquo;Photo is worth&rdquo; is real minus blank; per-attribute
+        rows are 84&ndash;87 each, so read them to about &plusmn;10 points.
+      </p>
+    </div>
+
+    <div class="col">
+      <h3>Routing: taking the cascade&rsquo;s answer only where the model has none</h3>
+    </div>
+    <div class="col">
+      <p>
+        The two systems fail in different places, so the next step combines them. The rule
+        was <b>written down before it was scored</b>, because these 406 rows are the only
+        evaluation set and fitting a router to them would be tuning on the answers:
+        use the fine-tuned model whenever it answers, and fall back to the cascade when OCR
+        gave it no candidate to choose from.
+      </p>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <caption>Same 406 validation rows. McNemar is exact, paired against the VLM alone.</caption>
+        <thead><tr><th scope="col">System</th><th scope="col">dim</th><th scope="col">95% CI</th><th scope="col">vs VLM alone</th></tr></thead>
+        <tbody>
+          <tr><td>Cascade (S2)</td><td>32.8%</td><td>28.4&ndash;37.5</td><td>&mdash;</td></tr>
+          <tr><td>VLM + LoRA (S3)</td><td>51.5%</td><td>46.6&ndash;56.3</td><td>&mdash;</td></tr>
+          <tr class="is-win"><td>Router (S5)</td><td>54.9%</td><td>50.1&ndash;59.7</td><td>+14 / &minus;0 &middot; p = 1.2&times;10<sup>&minus;4</sup></td></tr>
+          <tr class="is-total"><td>Oracle: best of both, per row</td><td>59.9%</td><td>55.0&ndash;64.5</td><td>+34 / &minus;0</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col">
+      <p>
+        The gain is mechanical. The model is silent on the <b>94 rows</b> with no length
+        candidate, and the cascade&rsquo;s own text extraction is right on 14 of them. Nothing
+        is lost, because the router never overrides an answer the model gave.
+      </p>
+      <p>
+        <b>A smarter router is not worth building.</b> The 20 rows between the router and
+        the oracle are all rows where both systems answered and disagreed &mdash; and on those
+        179 disagreements the model is right 110 times, the cascade 20. In 17 of the 20 the
+        cascade&rsquo;s answer was already on the model&rsquo;s list, so &ldquo;the cascade saw
+        something the model couldn&rsquo;t&rdquo; does not separate them. Picking out 20 rows
+        without giving back any of the 110 would need the model&rsquo;s confidence, and the
+        best case is 4.9 points. The test run saves that confidence for every row, so the
+        question can be revisited without another GPU run.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ THE TEST SPLIT ============ -->
+  <section>
+    <div class="col section-head">
+      <p class="eyebrow">06 &middot; The test split</p>
+      <h2>One number nothing was tuned on</h2>
+      <p style="color:var(--ink-2)">
+        Resolution, epoch count, the routing rule and the controls were all decided while
+        looking at the 406 validation rows. So the finished system was run once, unchanged,
+        on every depth, width and height row of the test split &mdash; 1,256 rows, three
+        times the validation set.
+      </p>
+    </div>
+
+    <div class="verdict" role="group" aria-label="Test split results on 1,256 rows">
+      <div><span class="v">38.8%</span><span class="l">tagger + rules cascade</span></div>
+      <div><span class="v">56.0%</span><span class="l">fine-tuned VLM &middot; CI 53.2&ndash;58.7</span></div>
+      <div><span class="v up">58.8%</span><span class="l">VLM, cascade as fallback &middot; CI 56.1&ndash;61.5</span></div>
+      <div><span class="v">62.5%</span><span class="l">oracle: best of both on every row</span></div>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <caption>Test split, n&nbsp;=&nbsp;1,256, scored by <code>dim</code>. Validation figures (n&nbsp;=&nbsp;406) alongside. McNemar tests are exact and paired.</caption>
+        <thead><tr><th scope="col">System</th><th scope="col">Test</th><th scope="col">95% CI</th><th scope="col">Validation</th><th scope="col">Paired on test</th></tr></thead>
+        <tbody>
+          <tr><td>Tagger &rarr; rules cascade (S2)</td><td>38.8%</td><td>36.1&ndash;41.5</td><td>32.8%</td><td>&mdash;</td></tr>
+          <tr><td>VLM + LoRA (S3)</td><td>56.0%</td><td>53.2&ndash;58.7</td><td>51.5%</td><td>+298 / &minus;82 vs S2 &middot; p = 6.5&times;10<sup>&minus;30</sup></td></tr>
+          <tr class="is-win"><td>Router: VLM, else cascade (S5)</td><td>58.8%</td><td>56.1&ndash;61.5</td><td>54.9%</td><td>+36 / &minus;0 vs S3 &middot; p = 2.9&times;10<sup>&minus;11</sup></td></tr>
+          <tr class="is-total"><td>Oracle: either right</td><td>62.5%</td><td>59.8&ndash;65.1</td><td>59.9%</td><td>&mdash;</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="col">
+      <p>
+        <b>Every system scores higher on test, the text cascade included</b> &mdash; by six
+        points, without the model involved at all. The test rows are simply somewhat easier,
+        so the absolute numbers flatter and the comparison that carries over is the gaps.
+        Those held: the fine-tune leads the cascade by <b>17.2 points</b> (18.7 on validation),
+        and the fixed router adds <b>2.8</b> without losing a row (3.4 on validation). A rule
+        written down before scoring, confirmed on three times the data, was not an artefact
+        of the rows it was chosen on.
+      </p>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <caption>Test split by attribute. Each attribute has 358&ndash;467 rows, so read these to about &plusmn;5 points.</caption>
+        <thead><tr><th scope="col">Attribute</th><th scope="col">n</th><th scope="col">Cascade</th><th scope="col">VLM</th><th scope="col">Router</th><th scope="col">Router vs cascade</th></tr></thead>
+        <tbody>
+          <tr><td>depth</td><td>358</td><td>35.5%</td><td>52.8%</td><td>56.7%</td><td>+21.2</td></tr>
+          <tr><td>width</td><td>431</td><td>31.8%</td><td>50.8%</td><td>53.6%</td><td>+21.8</td></tr>
+          <tr><td>height</td><td>467</td><td>47.8%</td><td>63.2%</td><td>65.3%</td><td>+17.5</td></tr>
+          <tr class="is-total"><td>All three</td><td>1,256</td><td>38.8%</td><td>56.0%</td><td>58.8%</td><td>+20.0</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="col">
+      <h3>The whole task</h3>
+      <p>
+        The five other attributes are answered by the cascade alone, so adding them gives
+        the system&rsquo;s score across all eight on the same test split.
+      </p>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <caption>All 2,269 test rows. The four small attributes have 22&ndash;50 rows each; read them to &plusmn;15 points or worse.</caption>
+        <thead><tr><th scope="col">Rows</th><th scope="col">n</th><th scope="col">Cascade only</th><th scope="col">Full system</th><th scope="col">95% CI</th></tr></thead>
+        <tbody>
+          <tr class="is-length"><td>depth, width, height</td><td>1,256</td><td>38.8%</td><td>58.8%</td><td>56.1&ndash;61.5</td></tr>
+          <tr><td>item_weight</td><td>873</td><td>69.3%</td><td>69.3%</td><td>66.2&ndash;72.3</td></tr>
+          <tr><td>maximum_weight_recommendation</td><td>50</td><td>64.0%</td><td>64.0%</td><td>50.1&ndash;75.9</td></tr>
+          <tr><td>wattage</td><td>38</td><td>52.6%</td><td>52.6%</td><td>37.3&ndash;67.5</td></tr>
+          <tr><td>voltage</td><td>30</td><td>66.7%</td><td>66.7%</td><td>48.8&ndash;80.8</td></tr>
+          <tr><td>item_volume</td><td>22</td><td>81.8%</td><td>81.8%</td><td>61.5&ndash;92.7</td></tr>
+          <tr class="is-win"><td>All eight attributes</td><td>2,269</td><td>52.1%</td><td>63.2%</td><td>61.2&ndash;65.2</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="col">
+      <h3>What was checked on this run</h3>
+    </div>
+    <div class="col checks">
+      <div class="check">
+        <span class="q">Leakage</span>
+        <span class="a">Splits are by <code>group_id</code>, but one photo is listed under two groups &mdash; train for depth, test for height. The model had trained on that exact image, so the row was removed before the run: <b>1,257 &rarr; 1,256</b>. No other test image appears in the training package.</span>
+      </div>
+      <div class="check">
+        <span class="q">Same model</span>
+        <span class="a">The adapter loaded with <b>18,464,768</b> LoRA parameters, as trained. The prompt was compared against the training notebook&rsquo;s and matches character for character.</span>
+      </div>
+      <div class="check">
+        <span class="q">Selection</span>
+        <span class="a">On rows offering two or more candidates with a correct one, the model chooses right <b>75.3%</b> of the time (753 rows; 70.8% on validation). The share of rows where OCR offers the answer at all is 70.8%, against 70.0%.</span>
+      </div>
+      <div class="check closed">
+        <span class="q">Confidence</span>
+        <span class="a">The model&rsquo;s probability over the option letters was saved for all 811 rows it answered. Its top choice matches the greedy answer on <b>811 of 811</b>, and a median 99.9% of the probability sits on valid letters &mdash; enough to fit a confidence router on validation later without another GPU run.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ REVERSALS ============ -->
+  <section>
+    <div class="col section-head">
+      <p class="eyebrow">07 &middot; Corrections</p>
+      <h2>Seven claims this project had to withdraw</h2>
+      <p style="color:var(--ink-2)">
+        Each was stated with confidence, then measured. The measurements are cheap; the
+        confident guesses were not.
+      </p>
+    </div>
+    <div class="col reversals">
+      <div class="rev">
+        <span class="i">01</span>
+        <span class="body">
+          <span class="claim">&ldquo;The multimodal arm is worth about ten points.&rdquo;</span>
+          <span class="truth">Measured on the earlier corpus: <b>4.5</b>. A 450-image probe
+          costing one minute predicted a 38-minute full pass to within 1.6 points.</span>
+        </span>
+      </div>
+      <div class="rev">
+        <span class="i">02</span>
+        <span class="body">
+          <span class="claim">&ldquo;Label noise is 1.93% of the corpus.&rdquo;</span>
+          <span class="truth">That was measured on a sample stratified equally across five
+          attributes, which over-weighted the one broken attribute tenfold. At natural
+          frequency: <b>0.188%</b>.</span>
+        </span>
+      </div>
+      <div class="rev">
+        <span class="i">03</span>
+        <span class="body">
+          <span class="claim">&ldquo;The rules already capture 90% of the ceiling, so the
+          lever is the image channel, not the selection model.&rdquo;</span>
+          <span class="truth">True of five attributes; they were half the corpus. On the
+          full task the rules capture <b>46%</b> of the length ceiling, and the selection
+          problem is the dominant one.</span>
+        </span>
+      </div>
+      <div class="rev">
+        <span class="i">04</span>
+        <span class="body">
+          <span class="claim">&ldquo;A dimension-triple parser will close the length gap.&rdquo;</span>
+          <span class="truth">97% of length rows have no triple, and where one exists there
+          is no positional convention. It would reach <b>0.9%</b> of the corpus. Measured
+          before it was built.</span>
+        </span>
+      </div>
+      <div class="rev">
+        <span class="i">05</span>
+        <span class="body">
+          <span class="claim">&ldquo;The bar for the VLM is the cascade&rsquo;s 36.2%.&rdquo;</span>
+          <span class="truth">36.2% was measured across the whole validation split, not on
+          the VLM&rsquo;s evaluation rows. Re-run on those exact 406 rows the cascade scores
+          <b>32.8%</b>, so the true margin is 18.7 points, not 15.3.</span>
+        </span>
+      </div>
+      <div class="rev">
+        <span class="i">06</span>
+        <span class="body">
+          <span class="claim">&ldquo;If fine-tuning works, the model&rsquo;s letters will even
+          out toward a quarter each.&rdquo;</span>
+          <span class="truth">Evaluation keeps options in OCR order, where the gold answer
+          is itself uneven &mdash; (a) 36.6%, (c) 16.0%. A correct model <b>matches that
+          skew</b>; it does not flatten it. Using the wrong test would have read success as
+          a warning sign.</span>
+        </span>
+      </div>
+      <div class="rev">
+        <span class="i">07</span>
+        <span class="body">
+          <span class="claim">&ldquo;The 17 rows the cascade finds outside the candidate list are
+          most of the oracle&rsquo;s headroom.&rdquo;</span>
+          <span class="truth">The oracle adds 34 rows to the fine-tuned model, so 17 is half.
+          Fourteen sit where OCR produced no candidates, and a fixed router recovers them;
+          of the <b>20 rows</b> still missing, 17 were on the model&rsquo;s list all along.</span>
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ METHOD ============ -->
+  <section>
+    <div class="col section-head">
+      <p class="eyebrow">08 &middot; Method</p>
+      <h2>What keeps the numbers honest</h2>
+    </div>
+    <div class="col">
+      <p>
+        <b>The working set was rebuilt.</b> A previously used sample of this dataset held
+        3,808 rows stratified across five attributes. Rebuilt by simple random sample from
+        all 263,859 rows: <b>25,000 rows, eight attributes, 712 group ids</b> against 166,
+        with natural proportions matching the source within 0.2 points. The rebuild is what
+        exposed the length problem; on the old sample it was invisible.
+      </p>
+      <p>
+        <b>Splits are grouped, not random.</b> Assigned by <code>group_id</code> and stored
+        in the working-set file, so they cannot drift between training and evaluation.
+        <code>group_id</code> is category-level rather than product-level, so this is a
+        partial leakage guard, not a complete one.
+      </p>
+      <p>
+        <b>Three metrics, because &ldquo;correct&rdquo; is ambiguous.</b> <code>value</code>
+        is magnitude within 1% ignoring units; <code>dim</code> requires the same
+        dimensional family and magnitude in base units; <code>strict</code> demands the
+        identical canonical unit. <code>dim</code> is primary here: gold units are
+        normalised by the challenge to grams and centimetres while packaging prints
+        <code>12 OZ</code>, so a right answer in another unit is a success that
+        <code>value</code> would score as failure.
+      </p>
+      <p>
+        <b>Gold is an interval.</b> 4.7% of 2024 labels are genuine ranges
+        (<code>[110.0, 130.0] volt</code> on a universal power supply), so gold is
+        <code>(low, high, unit)</code> throughout, with scalars as the degenerate case.
+      </p>
+      <p>
+        <b>Models are local and open.</b> No hosted model API appears anywhere in the
+        pipeline. Apple Vision OCR and the tagger run on an M2 Pro; the VLM is
+        fine-tuned on Kaggle&rsquo;s free T4, where one session is capped at 12 hours
+        &mdash; which is why the run is a single epoch at 512&times;512 rather than two at
+        768&times;768, a 25-hour job that could not have finished.
+      </p>
+      <p>
+        <b>Every figure here is provisional in one respect:</b> the labels are the
+        challenge's own scraped values, and only 13 of the 175 held-out rows have been
+        proved wrong automatically. Hand-verification remains the one step that cannot be
+        automated, and the review sheet is triaged so that the 65 decision-relevant rows
+        come first.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <span>Amazon ML Challenge 2024 &middot; image-only attribute extraction</span>
+    <span>All figures measured on held-out data</span>
+    <span class="mono">python src/train_2024.py --eval-only</span>
+    <span class="mono">kaggle/vlm_lora_kaggle.ipynb</span>
+    <span class="mono">kaggle/control/vlm_control_kaggle.ipynb</span>
+    <span class="mono">python src/route_2024.py</span>
+    <span class="mono">python src/score_test_2024.py</span>
+  </footer>
+
+</div>
+
+<div id="tip" hidden></div>
+<script>
+(function () {
+  var tip = document.getElementById("tip");
+  function show(el) {
+    var t = el.getAttribute("data-tip");
+    if (!t) return;
+    tip.textContent = t;
+    tip.hidden = false;
+    var r = el.getBoundingClientRect();
+    var w = tip.offsetWidth, h = tip.offsetHeight;
+    var x = Math.min(Math.max(8, r.left + r.width / 2 - w / 2), innerWidth - w - 8);
+    var y = r.top - h - 8;
+    if (y < 8) y = r.bottom + 8;
+    tip.style.left = x + "px";
+    tip.style.top = y + "px";
+  }
+  function hide() { tip.hidden = true; }
+  document.querySelectorAll(".track > span[data-tip], .cond-bar .fill[data-tip]").forEach(function (el) {
+    el.addEventListener("mouseenter", function () { show(el); });
+    el.addEventListener("mouseleave", hide);
+    el.addEventListener("focus", function () { show(el); });
+    el.addEventListener("blur", hide);
+  });
+  addEventListener("scroll", hide, { passive: true });
+})();
+</script>
+

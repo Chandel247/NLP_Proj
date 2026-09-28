@@ -1,0 +1,3656 @@
+{
+ "51mlo9-uJiL.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51bWdi2mRCL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61+SRsJvr-L.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51p3RYO2ZaL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "41ia0XewqhL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "512db902fCL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51PaPNBQRBL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61F8tpLIOZL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "514v2boamaL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": false,
+  "vlm_answered": true
+ },
+ "511PN1aN7iL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "513G+0MuSXL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51G8qdW-FhL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51USu-4cWZL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 8,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51oLV7kKScL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51pTPbA8q5L.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51r144+Z6AL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 6,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": false,
+  "vlm_answered": true
+ },
+ "51GDhisAfiS.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51D3ftwqCiL.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61BRJ9kaLtL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 5,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51Hq0WyTl8L.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "610BToRDrGL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51B08Tmuz7L.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51XOAW6O+RL.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51OrH8Cx9IL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "6145XN5I4PL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61-+agfQTFL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51u6UbYjrzL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "6183e-etFXL.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51I3nHJWWsL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51M1Nfu8ynL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "617JH8SGjTL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51yMjMJiNZL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "41B24KHo6KL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "6166eL71hWL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": true,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "61-DAEntr3L.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51dj+C2L6nL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 7,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": false,
+  "vlm_answered": true
+ },
+ "611Gt+VyUzL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51TeeqoldwL.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61Bb2gt+9BL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51d-K+I2urL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "611prfno2BL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": false,
+  "vlm_answered": true
+ },
+ "51-65Xe3smL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51GsU-aN-9L.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51nILfrLrJL.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": true,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "613-IFsjFLL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51mE6vminAL.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 5,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51UTCX-7FxL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "618qyWbZQhL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61FPifD929L.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": true,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51Vru7B7X7L.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "515VxIv+GmL.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "6192WYe0dPL.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "41MRyj8fh+L.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "612J1e0ht8L.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51eZgndHwJL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 5,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51jam8K1V4L.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61E5xQKX9aL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "513tdmpZ1YL.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51YecqNyKZL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51ajr0AzjQS.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61-HyPJHvkL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "615ymVWUPbL.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": false,
+  "vlm_answered": true
+ },
+ "51qov53vRcL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51IE6GT7giL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": true
+ },
+ "51KtHACz77L.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51oydA0q9QL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "31qIZz+BTfL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "6193x14Ex7L.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61FwUgDRoAL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51A2EGH820L.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 5,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "518bqU9qcZL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 6,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51XKLXvS5lL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51y10l072XL.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "41-sjy+wlOL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "612qpdCIEmL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 6,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51sj4yRLaML.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51WRzkt1VFL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51KFdywpjnL.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61+U6CJ1b+L.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "519Bwks5--L.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51ry-ctssSL.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 5,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51NkmfR3B-L.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61EEOkZtIiL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "5118frbbQXS.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61B3sDVtRFL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61C2tntUzAL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51wCQBmOOmL.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "617zUufeqsL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 8,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51uG2ZWtXkL.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "5119fI2JgsL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51PCYHpA7qL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61+7Fw5hbCL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 5,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61F-BpneMJL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 5,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "6193x14Ex7L.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "415AKH67jiL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51FT153QZoL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 7,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "515MEV1uJ5L.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "617tb8iaJPL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51n7Tl0u3vL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51kAaUzEZPL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 5,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "41QI1EixvOL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51nSpbi-YuL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51MdvN+LPTL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61D+RCH9dLL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "61-IijRzjaL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51BdKAF1c9L.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51ZrSJu0QSL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51THsREtgaL.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": true,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51PbSzivp8L.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51HNrHuhtjL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "519OpCJQAML.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "41RsDs+ZaJL.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51KXPa16YsL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 8,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51pVEG4jzTL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51IKtchEWNL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "517QOVZ7zSL.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61CXomNVYxS.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61CFJhc-C3L.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": false,
+  "vlm_answered": true
+ },
+ "61B2Xb70GUL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51IJpfs2a8L.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 8,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51upmm1C3PL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51yrlW2OgGL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61AgzVXJvrL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51D5kxj5hKS.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "614E7BAHzwL.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "512KEHKlRZL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51qIXpB5SnL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 6,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51M1JAz8e2L.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "rules:s0_2024_cued",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "611QS4LO9FL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 6,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": false,
+  "vlm_answered": true
+ },
+ "51q+L62n11L.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "41iL9YV5YLS.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51NU+3mz0ML.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51WLpDDGiqL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51XZ486zFAL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "517OAl1aOgL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51ZpyLlcAiL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51FtWbTaf1S.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61BE9nPKo7L.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 7,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "517whGbahsL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51BOZpU8hBL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "611a4njL7-L.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "rules:s0_2024_cued",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "6162-84strL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 6,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61FVNTHQRpL.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "617nYnTqceL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61Db5qEps3L.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51UlBvqrj4L.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51vhszGx1vL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "41etWytX59L.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51p0+hpToML.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "616mfp9E1ZL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 5,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "614o7TEmLLL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51EUSUOqZ9L.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51R8e+wcdnL.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "rules:s0_2024_cued",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51YH6qFRoiS.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": true,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "614Co8vafVL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51rGakY9pwL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51vAuTeIP1L.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": false,
+  "vlm_answered": true
+ },
+ "51cjnuAjqnL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51y10l072XL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61Ccd92dfyL.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 5,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "41Wds-g7S9L.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61+JEhQI33L.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "61BEkZqnADL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 7,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51kTFP46RWL.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "511GlW29gDL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "512TvWbegWL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "61GAc71cVAL.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": true,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51pTPbA8q5L.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51KSz27wcEL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "614WURsrliL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51ls5rWQaiL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 5,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "41xIwEjey1L.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "611gu6iEFuL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51iNd-aKftL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 5,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "616gPGhl5zL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "516LcOFY86L.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "615Z67z6FqL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "511OC2YvIpL.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "5172SI4OsNL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51bGMuzciIL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "416BJKVoR4L.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51PBJ+FWEoL.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": true,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "519Ny2UmxCL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 6,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "614v+LEeLnL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51EnsYmjXpL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51hyJbmiD4L.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "41LMElFuiFL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 6,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51dUkzURWxL.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "614kSTGO7bL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51IKtchEWNL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "612e72bSUdL.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "615i4yMPLbL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61456KscH5L.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 6,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51JDYJ90vDL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 7,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61CjJVvMAlL.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "41JzlscfgrS.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "610BRCy01mL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "619QVd8maaL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "41-D43Y38JL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "510ZPPE+7LS.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51epxivvJkL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51MWMaNk-4L.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "619WIGuI1TL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 7,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51FYKzmyKlL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51eFqqhieVL.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "618edaBoEyL.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": true,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51sGrO2dajL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "416+34BGHeL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51wSUHFidYL.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "41V4uAZZSDL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51WtBRHhxhL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61-AcECdhFL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 2,
+  "cascade_source": "rules:s0_2024_cued",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "515V-t3h0QL.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "618+vnAoaoL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 7,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51bJd+SeOCL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51PCsyJPstL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51PBJ+FWEoL.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": true,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "61DgJVtJnML.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "614gLt2w71L.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "510k3RzE0OL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "515T5Wf1JUL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51cS+C4p4RL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "612WsN1OsIL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 8,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51UnrnbMtcL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "612r0dm8ujL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "615Pgc9JItL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51v51NmQxCS.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "5144oWcDkeL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "619P412HiEL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 6,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61G+irAkjML.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": false,
+  "vlm_answered": true
+ },
+ "51hQJjez8XL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61Dhaw1TPhL.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "610SVeZzHrL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51UG1nrveWL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51QkErAurfL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51if631TRcL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51w4PI6A1dL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "6143TddT1bL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "616xiIn0ZDL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51RMNDot-qL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "41jWfOTG94L.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "413hRHI+kfL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 5,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51URFoZPcHL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51WTnail1JL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51Dg4rUBLML.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51Z2YMlmitL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "41A+zUqEC-L.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61AO8aKk8hL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "618o0FSP7TS.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "610b9r1FThL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": true,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51D-felHlyL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "41WbnvdcZFL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51dhRtbzvEL.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51SNiqIJTmL.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51Bo4OnjT+L.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "611wJwqceAL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "616W6mKK7uL.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "615E5r5tWWL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51RsZRvOhrL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "612bFRJY-FL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51KtHACz77L.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "617Mgi74lBL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": true,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51aHA8V7RLL.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "617vv8nzo3L.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61DZfnSBWQL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51NlwiCBRxL.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "618vodcdwSL.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51hrQhAXlvL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51ZT5P-Ch8L.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "6196AZqzZZL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51sJjVVEE8L.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51sbS7agLqL.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "619R1AjqfES.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "61D3Y+P-GJL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51K7-FklOnL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "614QWCg7f1L.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 8,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61FzKrxxOeL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "415F3qSlNqL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51hHyJCmxkL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61EsH6aJI5L.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51pXjy-6TuL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 6,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61DnQphX7AL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61FLYvO2g1L.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "511Jn1-JM3L.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "618JQIKvomL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61C0hvgudDL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 5,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51c4uX1jueL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51GgJjA0ZuL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "617Fr2s+l6L.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "610DN2C2H6L.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51OiuaJ0sRL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 6,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61F+yU+I6SL.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 6,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51lL-2XddOL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 5,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61EdD-Q3q2S.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "41VnEeqwBNL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "41Xckw5kWWL.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61C0hvgudDL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 5,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51tyk9L7BIL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51e0QBxq3XL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "611U40EQg8L.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "413wnhPK9tL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51NLJMmyNZL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51yqyalSXOS.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": true,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51QVaJ01SBL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61F0snsPnIL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "41T3utcB3FS.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51kzsLboUJL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "619Lnd0sK0L.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 6,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61DtRhA+4iL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51ZTpN059QL.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61Cr7auVvNL.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "510+fOgk8kL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51nEYwIA5zL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 8,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51HlrV2BEBL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "516XMIowgML.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51adVjw3yTL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 2,
+  "cascade_source": "rules:s0_2024_cued",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51-S+zvJ9NL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": false,
+  "vlm_answered": true
+ },
+ "51D6Z5dCh5L.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51LJfv3I5-L.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51yEKCK67QL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51kT0zoTi8L.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "519gmtmu8dL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "6148zbunGiL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61D9shU8zSL.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": false,
+  "vlm_answered": true
+ },
+ "51AqNTxaj1L.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 5,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51D3ai7ZvtL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51SpRsWNPqL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "rules:s0_2024_cued",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "514NWDVnW6L.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51ZjkcN8RZL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "6185WLsu8TL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51ez-isRtHL.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 6,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "517a-X0nkHS.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "615UdGRVdnS.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": true,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51OCfEiEAZL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 7,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "41AX05UVziL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51AAprpZBYL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 7,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51PvxZP-IoL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "61-OeY08hkL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "511lcJK+EHL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51olg5nmCsL.jpg|width": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 6,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51PlrMQEnWL.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "418P8GZ1FoL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51GJkrpiUwL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51WPMDi6ovL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "618iemdNs8L.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 6,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "510WGgm-nrL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61FU47yNDrL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "41BiainxeFL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61FSx1LEaFL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61FUuie57cL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "517mmbCyTaL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51V67pG-IhL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 8,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51JNSYgfczL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51PnS5CEFBS.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": false,
+  "vlm_answered": true
+ },
+ "51QkdrvyhyL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51l2tUcaFHL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 6,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51mivFlya2L.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61EwzF15dCL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "61E3ntx24lL.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51vashTLb7L.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51C+cXZSQJL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51eyNIhe6oL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "617c0Pa5hGL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 7,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51qov53vRcL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61FdE2S6qRL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 6,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "518VbdLpL7L.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "6169ipKtJ2S.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 5,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "41mEPY5eQ4L.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "412CV02qf4L.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "610lkLXIgjL.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "617rs7SwpvL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 5,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": false,
+  "vlm_answered": true
+ },
+ "51Hnr1CRUlL.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51H9aPegekL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": true,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51cvqoKkFZL.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "41R1ciILFEL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "619WjHqt5VL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61CYzsMJWyL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 6,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "611YFxTswUL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 6,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "514OuYaLxbL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 6,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51bo+nMPZ6L.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "6165s0mIFmL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "6153lgsnkQL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 1,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": false,
+  "vlm_answered": true
+ },
+ "41sovNXziXL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51mVL6O9-uL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51EB5xzUA3L.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "611uUY9wZ6L.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 8,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "41lGjqOKYqL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51Lnz8cxs-L.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51kVs0jBF+L.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51--2Jgxq0L.jpg|height": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "611LPoUsZBL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "41EAbAz311L.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "51CHcRbp9iL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "611MikygpOL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "61-GghxJIHL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 5,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "6134XT0RmdL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "rules:abstain",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "61AclFg1jBL.jpg|depth": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 0,
+  "cascade_source": "tagger:s1_headunit",
+  "cascade_in_cands": false,
+  "vlm_answered": false
+ },
+ "61+gNAKe-GL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51u6Pml-dkL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51mkNjsyGwL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51M3-7P7YiL.jpg|depth": {
+  "cascade_ok": true,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 2,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51xN6WTuaLL.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "514IkOJ1v8L.jpg|width": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 3,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "518I9MhCChL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 4,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "51tMcy-n7OL.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": false,
+  "r1_ok": false,
+  "n_cands": 8,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ },
+ "61DC7KYz20L.jpg|height": {
+  "cascade_ok": false,
+  "vlm_ok": true,
+  "r1_ok": true,
+  "n_cands": 5,
+  "cascade_source": "tagger:s1",
+  "cascade_in_cands": true,
+  "vlm_answered": true
+ }
+}

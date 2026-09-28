@@ -1,0 +1,2693 @@
+[
+ {
+  "id": "width-51hyecMtD0L",
+  "image_file": "51hyecMtD0L.jpg",
+  "attribute": "width",
+  "gold": [
+   23.0,
+   23.0,
+   "centimeter"
+  ],
+  "title": "width: the photo decides",
+  "note": "OCR reads several lengths and nothing in the text says which is the width. The cascade guesses wrong; the fine-tuned VLM picks right - and loses it when the photo is replaced by a blank page.",
+  "events": {
+   "real": [
+    {
+     "stage": "ocr",
+     "ms": 116,
+     "source": "Apple Vision",
+     "lines": [
+      {
+       "text": "32 cm",
+       "box": [
+        0.0642,
+        0.3779,
+        0.0416,
+        0.1196
+       ]
+      },
+      {
+       "text": "X",
+       "box": [
+        0.2375,
+        0.81,
+        0.0359,
+        0.032
+       ]
+      },
+      {
+       "text": "14 cm",
+       "box": [
+        0.4451,
+        0.218,
+        0.1218,
+        0.034
+       ]
+      },
+      {
+       "text": "HXG",
+       "box": [
+        0.4391,
+        0.548,
+        0.1238,
+        0.056
+       ]
+      },
+      {
+       "text": "16 kg",
+       "box": [
+        0.4382,
+        0.6089,
+        0.1283,
+        0.0594
+       ]
+      },
+      {
+       "text": "23 cm",
+       "box": [
+        0.4425,
+        0.8421,
+        0.1271,
+        0.0355
+       ]
+      },
+      {
+       "text": "23 cm",
+       "box": [
+        0.8353,
+        0.7544,
+        0.1099,
+        0.0396
+       ]
+      },
+      {
+       "text": "H",
+       "box": [
+        0.8483,
+        0.902,
+        0.0519,
+        0.038
+       ]
+      },
+      {
+       "text": "XG",
+       "box": [
+        0.8982,
+        0.902,
+        0.0699,
+        0.038
+       ]
+      },
+      {
+       "text": "HOME",
+       "box": [
+        0.8503,
+        0.958,
+        0.0419,
+        0.01
+       ]
+      },
+      {
+       "text": "SWEET GYM",
+       "box": [
+        0.8902,
+        0.956,
+        0.0778,
+        0.012
+       ]
+      }
+     ]
+    },
+    {
+     "stage": "candidates",
+     "ms": 0,
+     "family": "length",
+     "cleaned": "32 cm\nX\n14 cm\nHXG\n16 kg\n23 cm\n23 cm\nH\nXG\nHOME\nSWEET GYM",
+     "items": [
+      {
+       "value": 32.0,
+       "unit": "centimeter",
+       "pos": 0
+      },
+      {
+       "value": 14.0,
+       "unit": "centimeter",
+       "pos": 8
+      },
+      {
+       "value": 23.0,
+       "unit": "centimeter",
+       "pos": 24
+      },
+      {
+       "value": 23.0,
+       "unit": "centimeter",
+       "pos": 30
+      }
+     ]
+    },
+    {
+     "stage": "cascade",
+     "ms": 21,
+     "input": "width\nPKG 32 cm\n14 cm\n16 kg\n23 cm\n23 cm",
+     "spans": [
+      {
+       "kind": "SIZE",
+       "start": 10,
+       "end": 12
+      },
+      {
+       "kind": "UNIT",
+       "start": 13,
+       "end": 15
+      },
+      {
+       "kind": "SIZE",
+       "start": 16,
+       "end": 18
+      },
+      {
+       "kind": "UNIT",
+       "start": 19,
+       "end": 21
+      },
+      {
+       "kind": "SIZE",
+       "start": 28,
+       "end": 30
+      },
+      {
+       "kind": "UNIT",
+       "start": 31,
+       "end": 33
+      },
+      {
+       "kind": "SIZE",
+       "start": 34,
+       "end": 36
+      },
+      {
+       "kind": "UNIT",
+       "start": 37,
+       "end": 39
+      }
+     ],
+     "unit_head": "centimeter",
+     "tagger": {
+      "value": 32.0,
+      "unit": "centimeter",
+      "rule": "s1"
+     },
+     "rules": {
+      "value": 32.0,
+      "unit": "centimeter",
+      "rule": "s0_2024_cued"
+     },
+     "cascade": {
+      "value": 32.0,
+      "unit": "centimeter",
+      "rule": "s1"
+     },
+     "source": "tagger"
+    },
+    {
+     "stage": "vlm",
+     "ms": 903,
+     "control": "real",
+     "options": [
+      [
+       32.0,
+       "centimeter"
+      ],
+      [
+       14.0,
+       "centimeter"
+      ],
+      [
+       23.0,
+       "centimeter"
+      ]
+     ],
+     "prompt": "This product photograph shows measurements. Text recognition read these values from the image:\n  (a) 32 centimeter\n  (b) 14 centimeter\n  (c) 23 centimeter\nWhich one is the product's width (left to right)?\nAnswer with only the letter.",
+     "letters": [
+      "a",
+      "b",
+      "c"
+     ],
+     "probs": [
+      0.06216,
+      0.20383,
+      0.73401
+     ],
+     "letter_mass": 0.99755,
+     "raw": "c",
+     "pick": "c",
+     "pred": [
+      23.0,
+      "centimeter"
+     ],
+     "visual_tokens": 324
+    },
+    {
+     "stage": "final",
+     "ms": 0,
+     "source": "vlm",
+     "reason": "VLM chose (c) among 3 candidates",
+     "answer": {
+      "value": 23.0,
+      "unit": "centimeter"
+     },
+     "gold": {
+      "low": 23.0,
+      "high": 23.0,
+      "unit": "centimeter"
+     },
+     "correct": true
+    }
+   ],
+   "blank": [
+    {
+     "stage": "ocr",
+     "ms": 94,
+     "source": "Apple Vision",
+     "lines": [
+      {
+       "text": "32 cm",
+       "box": [
+        0.0642,
+        0.3779,
+        0.0416,
+        0.1196
+       ]
+      },
+      {
+       "text": "X",
+       "box": [
+        0.2375,
+        0.81,
+        0.0359,
+        0.032
+       ]
+      },
+      {
+       "text": "14 cm",
+       "box": [
+        0.4451,
+        0.218,
+        0.1218,
+        0.034
+       ]
+      },
+      {
+       "text": "HXG",
+       "box": [
+        0.4391,
+        0.548,
+        0.1238,
+        0.056
+       ]
+      },
+      {
+       "text": "16 kg",
+       "box": [
+        0.4382,
+        0.6089,
+        0.1283,
+        0.0594
+       ]
+      },
+      {
+       "text": "23 cm",
+       "box": [
+        0.4425,
+        0.8421,
+        0.1271,
+        0.0355
+       ]
+      },
+      {
+       "text": "23 cm",
+       "box": [
+        0.8353,
+        0.7544,
+        0.1099,
+        0.0396
+       ]
+      },
+      {
+       "text": "H",
+       "box": [
+        0.8483,
+        0.902,
+        0.0519,
+        0.038
+       ]
+      },
+      {
+       "text": "XG",
+       "box": [
+        0.8982,
+        0.902,
+        0.0699,
+        0.038
+       ]
+      },
+      {
+       "text": "HOME",
+       "box": [
+        0.8503,
+        0.958,
+        0.0419,
+        0.01
+       ]
+      },
+      {
+       "text": "SWEET GYM",
+       "box": [
+        0.8902,
+        0.956,
+        0.0778,
+        0.012
+       ]
+      }
+     ]
+    },
+    {
+     "stage": "candidates",
+     "ms": 0,
+     "family": "length",
+     "cleaned": "32 cm\nX\n14 cm\nHXG\n16 kg\n23 cm\n23 cm\nH\nXG\nHOME\nSWEET GYM",
+     "items": [
+      {
+       "value": 32.0,
+       "unit": "centimeter",
+       "pos": 0
+      },
+      {
+       "value": 14.0,
+       "unit": "centimeter",
+       "pos": 8
+      },
+      {
+       "value": 23.0,
+       "unit": "centimeter",
+       "pos": 24
+      },
+      {
+       "value": 23.0,
+       "unit": "centimeter",
+       "pos": 30
+      }
+     ]
+    },
+    {
+     "stage": "cascade",
+     "ms": 12,
+     "input": "width\nPKG 32 cm\n14 cm\n16 kg\n23 cm\n23 cm",
+     "spans": [
+      {
+       "kind": "SIZE",
+       "start": 10,
+       "end": 12
+      },
+      {
+       "kind": "UNIT",
+       "start": 13,
+       "end": 15
+      },
+      {
+       "kind": "SIZE",
+       "start": 16,
+       "end": 18
+      },
+      {
+       "kind": "UNIT",
+       "start": 19,
+       "end": 21
+      },
+      {
+       "kind": "SIZE",
+       "start": 28,
+       "end": 30
+      },
+      {
+       "kind": "UNIT",
+       "start": 31,
+       "end": 33
+      },
+      {
+       "kind": "SIZE",
+       "start": 34,
+       "end": 36
+      },
+      {
+       "kind": "UNIT",
+       "start": 37,
+       "end": 39
+      }
+     ],
+     "unit_head": "centimeter",
+     "tagger": {
+      "value": 32.0,
+      "unit": "centimeter",
+      "rule": "s1"
+     },
+     "rules": {
+      "value": 32.0,
+      "unit": "centimeter",
+      "rule": "s0_2024_cued"
+     },
+     "cascade": {
+      "value": 32.0,
+      "unit": "centimeter",
+      "rule": "s1"
+     },
+     "source": "tagger"
+    },
+    {
+     "stage": "vlm",
+     "ms": 900,
+     "control": "blank",
+     "options": [
+      [
+       32.0,
+       "centimeter"
+      ],
+      [
+       14.0,
+       "centimeter"
+      ],
+      [
+       23.0,
+       "centimeter"
+      ]
+     ],
+     "prompt": "This product photograph shows measurements. Text recognition read these values from the image:\n  (a) 32 centimeter\n  (b) 14 centimeter\n  (c) 23 centimeter\nWhich one is the product's width (left to right)?\nAnswer with only the letter.",
+     "letters": [
+      "a",
+      "b",
+      "c"
+     ],
+     "probs": [
+      0.2335,
+      0.45717,
+      0.30933
+     ],
+     "letter_mass": 0.99765,
+     "raw": "b",
+     "pick": "b",
+     "pred": [
+      14.0,
+      "centimeter"
+     ],
+     "visual_tokens": 324
+    },
+    {
+     "stage": "final",
+     "ms": 0,
+     "source": "vlm",
+     "reason": "VLM chose (b) among 3 candidates",
+     "answer": {
+      "value": 14.0,
+      "unit": "centimeter"
+     },
+     "gold": {
+      "low": 23.0,
+      "high": 23.0,
+      "unit": "centimeter"
+     },
+     "correct": false
+    }
+   ]
+  }
+ },
+ {
+  "id": "height-51dXf5a2qoL",
+  "image_file": "51dXf5a2qoL.jpg",
+  "attribute": "height",
+  "gold": [
+   2.0,
+   2.0,
+   "centimeter"
+  ],
+  "title": "height: the photo decides",
+  "note": "OCR reads several lengths and nothing in the text says which is the height. The cascade guesses wrong; the fine-tuned VLM picks right - and loses it when the photo is replaced by a blank page.",
+  "events": {
+   "real": [
+    {
+     "stage": "ocr",
+     "ms": 77,
+     "source": "Apple Vision",
+     "lines": [
+      {
+       "text": "21.5cm/8.5in",
+       "box": [
+        0.2393,
+        0.2942,
+        0.1561,
+        0.0303
+       ]
+      },
+      {
+       "text": "8cm/3.1in",
+       "box": [
+        0.8641,
+        0.2446,
+        0.1201,
+        0.0277
+       ]
+      },
+      {
+       "text": "2cm/0.8in",
+       "box": [
+        0.8663,
+        0.509,
+        0.1218,
+        0.0299
+       ]
+      }
+     ]
+    },
+    {
+     "stage": "candidates",
+     "ms": 0,
+     "family": "length",
+     "cleaned": "21.5cm/8.5in\n8cm/3.1in\n2cm/0.8in",
+     "items": [
+      {
+       "value": 21.5,
+       "unit": "centimeter",
+       "pos": 0
+      },
+      {
+       "value": 8.0,
+       "unit": "centimeter",
+       "pos": 13
+      },
+      {
+       "value": 2.0,
+       "unit": "centimeter",
+       "pos": 23
+      }
+     ]
+    },
+    {
+     "stage": "cascade",
+     "ms": 19,
+     "input": "height\nPKG 21.5cm/8.5in\n8cm/3.1in\n2cm/0.8in",
+     "spans": [
+      {
+       "kind": "SIZE",
+       "start": 11,
+       "end": 15
+      },
+      {
+       "kind": "UNIT",
+       "start": 15,
+       "end": 17
+      },
+      {
+       "kind": "SIZE",
+       "start": 24,
+       "end": 25
+      },
+      {
+       "kind": "UNIT",
+       "start": 25,
+       "end": 27
+      },
+      {
+       "kind": "SIZE",
+       "start": 34,
+       "end": 35
+      },
+      {
+       "kind": "UNIT",
+       "start": 35,
+       "end": 37
+      }
+     ],
+     "unit_head": "centimeter",
+     "tagger": {
+      "value": 21.5,
+      "unit": "centimeter",
+      "rule": "s1"
+     },
+     "rules": {
+      "value": 21.5,
+      "unit": "centimeter",
+      "rule": "s0_2024_cued"
+     },
+     "cascade": {
+      "value": 21.5,
+      "unit": "centimeter",
+      "rule": "s1"
+     },
+     "source": "tagger"
+    },
+    {
+     "stage": "vlm",
+     "ms": 897,
+     "control": "real",
+     "options": [
+      [
+       21.5,
+       "centimeter"
+      ],
+      [
+       8.0,
+       "centimeter"
+      ],
+      [
+       2.0,
+       "centimeter"
+      ]
+     ],
+     "prompt": "This product photograph shows measurements. Text recognition read these values from the image:\n  (a) 21.5 centimeter\n  (b) 8 centimeter\n  (c) 2 centimeter\nWhich one is the product's height (top to bottom)?\nAnswer with only the letter.",
+     "letters": [
+      "a",
+      "b",
+      "c"
+     ],
+     "probs": [
+      0.04208,
+      0.09938,
+      0.85854
+     ],
+     "letter_mass": 0.99881,
+     "raw": "c",
+     "pick": "c",
+     "pred": [
+      2.0,
+      "centimeter"
+     ],
+     "visual_tokens": 324
+    },
+    {
+     "stage": "final",
+     "ms": 0,
+     "source": "vlm",
+     "reason": "VLM chose (c) among 3 candidates",
+     "answer": {
+      "value": 2.0,
+      "unit": "centimeter"
+     },
+     "gold": {
+      "low": 2.0,
+      "high": 2.0,
+      "unit": "centimeter"
+     },
+     "correct": true
+    }
+   ],
+   "blank": [
+    {
+     "stage": "ocr",
+     "ms": 78,
+     "source": "Apple Vision",
+     "lines": [
+      {
+       "text": "21.5cm/8.5in",
+       "box": [
+        0.2393,
+        0.2942,
+        0.1561,
+        0.0303
+       ]
+      },
+      {
+       "text": "8cm/3.1in",
+       "box": [
+        0.8641,
+        0.2446,
+        0.1201,
+        0.0277
+       ]
+      },
+      {
+       "text": "2cm/0.8in",
+       "box": [
+        0.8663,
+        0.509,
+        0.1218,
+        0.0299
+       ]
+      }
+     ]
+    },
+    {
+     "stage": "candidates",
+     "ms": 0,
+     "family": "length",
+     "cleaned": "21.5cm/8.5in\n8cm/3.1in\n2cm/0.8in",
+     "items": [
+      {
+       "value": 21.5,
+       "unit": "centimeter",
+       "pos": 0
+      },
+      {
+       "value": 8.0,
+       "unit": "centimeter",
+       "pos": 13
+      },
+      {
+       "value": 2.0,
+       "unit": "centimeter",
+       "pos": 23
+      }
+     ]
+    },
+    {
+     "stage": "cascade",
+     "ms": 12,
+     "input": "height\nPKG 21.5cm/8.5in\n8cm/3.1in\n2cm/0.8in",
+     "spans": [
+      {
+       "kind": "SIZE",
+       "start": 11,
+       "end": 15
+      },
+      {
+       "kind": "UNIT",
+       "start": 15,
+       "end": 17
+      },
+      {
+       "kind": "SIZE",
+       "start": 24,
+       "end": 25
+      },
+      {
+       "kind": "UNIT",
+       "start": 25,
+       "end": 27
+      },
+      {
+       "kind": "SIZE",
+       "start": 34,
+       "end": 35
+      },
+      {
+       "kind": "UNIT",
+       "start": 35,
+       "end": 37
+      }
+     ],
+     "unit_head": "centimeter",
+     "tagger": {
+      "value": 21.5,
+      "unit": "centimeter",
+      "rule": "s1"
+     },
+     "rules": {
+      "value": 21.5,
+      "unit": "centimeter",
+      "rule": "s0_2024_cued"
+     },
+     "cascade": {
+      "value": 21.5,
+      "unit": "centimeter",
+      "rule": "s1"
+     },
+     "source": "tagger"
+    },
+    {
+     "stage": "vlm",
+     "ms": 902,
+     "control": "blank",
+     "options": [
+      [
+       21.5,
+       "centimeter"
+      ],
+      [
+       8.0,
+       "centimeter"
+      ],
+      [
+       2.0,
+       "centimeter"
+      ]
+     ],
+     "prompt": "This product photograph shows measurements. Text recognition read these values from the image:\n  (a) 21.5 centimeter\n  (b) 8 centimeter\n  (c) 2 centimeter\nWhich one is the product's height (top to bottom)?\nAnswer with only the letter.",
+     "letters": [
+      "a",
+      "b",
+      "c"
+     ],
+     "probs": [
+      0.42234,
+      0.45666,
+      0.121
+     ],
+     "letter_mass": 0.99817,
+     "raw": "b",
+     "pick": "b",
+     "pred": [
+      8.0,
+      "centimeter"
+     ],
+     "visual_tokens": 324
+    },
+    {
+     "stage": "final",
+     "ms": 0,
+     "source": "vlm",
+     "reason": "VLM chose (b) among 3 candidates",
+     "answer": {
+      "value": 8.0,
+      "unit": "centimeter"
+     },
+     "gold": {
+      "low": 2.0,
+      "high": 2.0,
+      "unit": "centimeter"
+     },
+     "correct": false
+    }
+   ]
+  }
+ },
+ {
+  "id": "depth-61AfuEXB5JL",
+  "image_file": "61AfuEXB5JL.jpg",
+  "attribute": "depth",
+  "gold": [
+   16.0,
+   16.0,
+   "centimeter"
+  ],
+  "title": "depth: a size chart",
+  "note": "Depth is often the largest number on a size chart, so text carries more of it.",
+  "events": {
+   "real": [
+    {
+     "stage": "ocr",
+     "ms": 94,
+     "source": "Apple Vision",
+     "lines": [
+      {
+       "text": "25CM/9.84IN",
+       "box": [
+        0.1405,
+        0.3209,
+        0.0522,
+        0.278
+       ]
+      },
+      {
+       "text": "07\u00b0",
+       "box": [
+        0.6333,
+        0.7967,
+        0.065,
+        0.0333
+       ]
+      },
+      {
+       "text": "16CM/6.31IN",
+       "box": [
+        0.4667,
+        0.9533,
+        0.2767,
+        0.045
+       ]
+      }
+     ]
+    },
+    {
+     "stage": "candidates",
+     "ms": 0,
+     "family": "length",
+     "cleaned": "25CM/9.84IN\n07\u00b0\n16CM/6.31IN",
+     "items": [
+      {
+       "value": 25.0,
+       "unit": "centimeter",
+       "pos": 0
+      },
+      {
+       "value": 16.0,
+       "unit": "centimeter",
+       "pos": 16
+      }
+     ]
+    },
+    {
+     "stage": "cascade",
+     "ms": 18,
+     "input": "depth\nPKG 25CM/9.84IN\n07\u00b0\n16CM/6.31IN",
+     "spans": [
+      {
+       "kind": "SIZE",
+       "start": 10,
+       "end": 12
+      },
+      {
+       "kind": "UNIT",
+       "start": 12,
+       "end": 14
+      },
+      {
+       "kind": "SIZE",
+       "start": 26,
+       "end": 28
+      },
+      {
+       "kind": "UNIT",
+       "start": 28,
+       "end": 30
+      }
+     ],
+     "unit_head": "centimeter",
+     "tagger": {
+      "value": 25.0,
+      "unit": "centimeter",
+      "rule": "s1"
+     },
+     "rules": {
+      "value": 25.0,
+      "unit": "centimeter",
+      "rule": "s0_2024_cued"
+     },
+     "cascade": {
+      "value": 25.0,
+      "unit": "centimeter",
+      "rule": "s1"
+     },
+     "source": "tagger"
+    },
+    {
+     "stage": "vlm",
+     "ms": 901,
+     "control": "real",
+     "options": [
+      [
+       25.0,
+       "centimeter"
+      ],
+      [
+       16.0,
+       "centimeter"
+      ]
+     ],
+     "prompt": "This product photograph shows measurements. Text recognition read these values from the image:\n  (a) 25 centimeter\n  (b) 16 centimeter\nWhich one is the product's depth (front to back)?\nAnswer with only the letter.",
+     "letters": [
+      "a",
+      "b"
+     ],
+     "probs": [
+      0.16452,
+      0.83548
+     ],
+     "letter_mass": 0.99863,
+     "raw": "b",
+     "pick": "b",
+     "pred": [
+      16.0,
+      "centimeter"
+     ],
+     "visual_tokens": 324
+    },
+    {
+     "stage": "final",
+     "ms": 0,
+     "source": "vlm",
+     "reason": "VLM chose (b) among 2 candidates",
+     "answer": {
+      "value": 16.0,
+      "unit": "centimeter"
+     },
+     "gold": {
+      "low": 16.0,
+      "high": 16.0,
+      "unit": "centimeter"
+     },
+     "correct": true
+    }
+   ],
+   "blank": [
+    {
+     "stage": "ocr",
+     "ms": 90,
+     "source": "Apple Vision",
+     "lines": [
+      {
+       "text": "25CM/9.84IN",
+       "box": [
+        0.1405,
+        0.3209,
+        0.0522,
+        0.278
+       ]
+      },
+      {
+       "text": "07\u00b0",
+       "box": [
+        0.6333,
+        0.7967,
+        0.065,
+        0.0333
+       ]
+      },
+      {
+       "text": "16CM/6.31IN",
+       "box": [
+        0.4667,
+        0.9533,
+        0.2767,
+        0.045
+       ]
+      }
+     ]
+    },
+    {
+     "stage": "candidates",
+     "ms": 0,
+     "family": "length",
+     "cleaned": "25CM/9.84IN\n07\u00b0\n16CM/6.31IN",
+     "items": [
+      {
+       "value": 25.0,
+       "unit": "centimeter",
+       "pos": 0
+      },
+      {
+       "value": 16.0,
+       "unit": "centimeter",
+       "pos": 16
+      }
+     ]
+    },
+    {
+     "stage": "cascade",
+     "ms": 12,
+     "input": "depth\nPKG 25CM/9.84IN\n07\u00b0\n16CM/6.31IN",
+     "spans": [
+      {
+       "kind": "SIZE",
+       "start": 10,
+       "end": 12
+      },
+      {
+       "kind": "UNIT",
+       "start": 12,
+       "end": 14
+      },
+      {
+       "kind": "SIZE",
+       "start": 26,
+       "end": 28
+      },
+      {
+       "kind": "UNIT",
+       "start": 28,
+       "end": 30
+      }
+     ],
+     "unit_head": "centimeter",
+     "tagger": {
+      "value": 25.0,
+      "unit": "centimeter",
+      "rule": "s1"
+     },
+     "rules": {
+      "value": 25.0,
+      "unit": "centimeter",
+      "rule": "s0_2024_cued"
+     },
+     "cascade": {
+      "value": 25.0,
+      "unit": "centimeter",
+      "rule": "s1"
+     },
+     "source": "tagger"
+    },
+    {
+     "stage": "vlm",
+     "ms": 897,
+     "control": "blank",
+     "options": [
+      [
+       25.0,
+       "centimeter"
+      ],
+      [
+       16.0,
+       "centimeter"
+      ]
+     ],
+     "prompt": "This product photograph shows measurements. Text recognition read these values from the image:\n  (a) 25 centimeter\n  (b) 16 centimeter\nWhich one is the product's depth (front to back)?\nAnswer with only the letter.",
+     "letters": [
+      "a",
+      "b"
+     ],
+     "probs": [
+      0.52342,
+      0.47658
+     ],
+     "letter_mass": 0.99799,
+     "raw": "a",
+     "pick": "a",
+     "pred": [
+      25.0,
+      "centimeter"
+     ],
+     "visual_tokens": 324
+    },
+    {
+     "stage": "final",
+     "ms": 0,
+     "source": "vlm",
+     "reason": "VLM chose (a) among 2 candidates",
+     "answer": {
+      "value": 25.0,
+      "unit": "centimeter"
+     },
+     "gold": {
+      "low": 16.0,
+      "high": 16.0,
+      "unit": "centimeter"
+     },
+     "correct": false
+    }
+   ]
+  }
+ },
+ {
+  "id": "height-61AURdU0EkL",
+  "image_file": "61AURdU0EkL.jpg",
+  "attribute": "height",
+  "gold": [
+   4.64,
+   4.64,
+   "inch"
+  ],
+  "title": "fallback: nothing for the VLM",
+  "note": "OCR produced no clean length candidate, so the VLM has nothing to choose from; the tagger's span extraction answers instead.",
+  "events": {
+   "real": [
+    {
+     "stage": "ocr",
+     "ms": 98,
+     "source": "Apple Vision",
+     "lines": [
+      {
+       "text": "4.64IN",
+       "box": [
+        0.4128,
+        0.8372,
+        0.1105,
+        0.0349
+       ]
+      },
+      {
+       "text": "4.64IN",
+       "box": [
+        0.8663,
+        0.4026,
+        0.0349,
+        0.1119
+       ]
+      }
+     ]
+    },
+    {
+     "stage": "candidates",
+     "ms": 0,
+     "family": "length",
+     "cleaned": "4.64IN\n4.64IN",
+     "items": []
+    },
+    {
+     "stage": "cascade",
+     "ms": 12,
+     "input": "height\nPKG 4.64IN\n4.64IN",
+     "spans": [
+      {
+       "kind": "SIZE",
+       "start": 11,
+       "end": 15
+      },
+      {
+       "kind": "UNIT",
+       "start": 15,
+       "end": 17
+      },
+      {
+       "kind": "SIZE",
+       "start": 18,
+       "end": 19
+      },
+      {
+       "kind": "UNIT",
+       "start": 22,
+       "end": 24
+      }
+     ],
+     "unit_head": "inch",
+     "tagger": {
+      "value": 4.64,
+      "unit": "inch",
+      "rule": "s1"
+     },
+     "rules": null,
+     "cascade": {
+      "value": 4.64,
+      "unit": "inch",
+      "rule": "s1"
+     },
+     "source": "tagger"
+    },
+    {
+     "stage": "vlm",
+     "ms": 0,
+     "skipped": "no candidates",
+     "options": []
+    },
+    {
+     "stage": "final",
+     "ms": 0,
+     "source": "cascade",
+     "reason": "OCR found no length candidate for the VLM to choose from: cascade fallback",
+     "answer": {
+      "value": 4.64,
+      "unit": "inch"
+     },
+     "gold": {
+      "low": 4.64,
+      "high": 4.64,
+      "unit": "inch"
+     },
+     "correct": true
+    }
+   ],
+   "blank": [
+    {
+     "stage": "ocr",
+     "ms": 97,
+     "source": "Apple Vision",
+     "lines": [
+      {
+       "text": "4.64IN",
+       "box": [
+        0.4128,
+        0.8372,
+        0.1105,
+        0.0349
+       ]
+      },
+      {
+       "text": "4.64IN",
+       "box": [
+        0.8663,
+        0.4026,
+        0.0349,
+        0.1119
+       ]
+      }
+     ]
+    },
+    {
+     "stage": "candidates",
+     "ms": 0,
+     "family": "length",
+     "cleaned": "4.64IN\n4.64IN",
+     "items": []
+    },
+    {
+     "stage": "cascade",
+     "ms": 12,
+     "input": "height\nPKG 4.64IN\n4.64IN",
+     "spans": [
+      {
+       "kind": "SIZE",
+       "start": 11,
+       "end": 15
+      },
+      {
+       "kind": "UNIT",
+       "start": 15,
+       "end": 17
+      },
+      {
+       "kind": "SIZE",
+       "start": 18,
+       "end": 19
+      },
+      {
+       "kind": "UNIT",
+       "start": 22,
+       "end": 24
+      }
+     ],
+     "unit_head": "inch",
+     "tagger": {
+      "value": 4.64,
+      "unit": "inch",
+      "rule": "s1"
+     },
+     "rules": null,
+     "cascade": {
+      "value": 4.64,
+      "unit": "inch",
+      "rule": "s1"
+     },
+     "source": "tagger"
+    },
+    {
+     "stage": "vlm",
+     "ms": 0,
+     "skipped": "no candidates",
+     "options": []
+    },
+    {
+     "stage": "final",
+     "ms": 0,
+     "source": "cascade",
+     "reason": "OCR found no length candidate for the VLM to choose from: cascade fallback",
+     "answer": {
+      "value": 4.64,
+      "unit": "inch"
+     },
+     "gold": {
+      "low": 4.64,
+      "high": 4.64,
+      "unit": "inch"
+     },
+     "correct": true
+    }
+   ]
+  }
+ },
+ {
+  "id": "item_weight-91tMDCqXpHL",
+  "image_file": "91tMDCqXpHL.jpg",
+  "attribute": "item_weight",
+  "gold": [
+   1.0,
+   1.0,
+   "kilogram"
+  ],
+  "title": "item weight: unit family filters the noise",
+  "note": "Only a mass quantity can answer this, which discards barcodes and batch numbers for free.",
+  "events": {
+   "real": [
+    {
+     "stage": "ocr",
+     "ms": 191,
+     "source": "Apple Vision",
+     "lines": [
+      {
+       "text": "QUALITY",
+       "box": [
+        0.3779,
+        0.2485,
+        0.0247,
+        0.0073
+       ]
+      },
+      {
+       "text": "GUARANTEED",
+       "box": [
+        0.3706,
+        0.2544,
+        0.0407,
+        0.0087
+       ]
+      },
+      {
+       "text": "ILENDEO IN THE UK",
+       "box": [
+        0.3619,
+        0.2776,
+        0.0552,
+        0.0087
+       ]
+      },
+      {
+       "text": "OLD\u00ae",
+       "box": [
+        0.4666,
+        0.1977,
+        0.0828,
+        0.0363
+       ]
+      },
+      {
+       "text": "INDIA",
+       "box": [
+        0.4501,
+        0.2321,
+        0.1041,
+        0.03
+       ]
+      },
+      {
+       "text": "SPICE MASTER'S CHOICE",
+       "box": [
+        0.4491,
+        0.2645,
+        0.1076,
+        0.0117
+       ]
+      },
+      {
+       "text": "PREMIUM QUALITY",
+       "box": [
+        0.3837,
+        0.2965,
+        0.2326,
+        0.016
+       ]
+      },
+      {
+       "text": "Raisins",
+       "box": [
+        0.4374,
+        0.3559,
+        0.1193,
+        0.0295
+       ]
+      },
+      {
+       "text": "Net Wt: 1kg e",
+       "box": [
+        0.2951,
+        0.4258,
+        0.1904,
+        0.0352
+       ]
+      },
+      {
+       "text": "Ingredients:",
+       "box": [
+        0.3415,
+        0.4706,
+        0.0931,
+        0.0181
+       ]
+      },
+      {
+       "text": "Raisins",
+       "box": [
+        0.3633,
+        0.4854,
+        0.0437,
+        0.0133
+       ]
+      },
+      {
+       "text": "Country of Origin: Chile",
+       "box": [
+        0.4956,
+        0.4113,
+        0.1904,
+        0.0189
+       ]
+      },
+      {
+       "text": "Nutritional Information per 100g",
+       "box": [
+        0.5131,
+        0.4402,
+        0.1948,
+        0.022
+       ]
+      },
+      {
+       "text": "Energy (Kj)",
+       "box": [
+        0.5145,
+        0.4678,
+        0.0626,
+        0.015
+       ]
+      },
+      {
+       "text": "1243",
+       "box": [
+        0.673,
+        0.4709,
+        0.0305,
+        0.0131
+       ]
+      },
+      {
+       "text": "Kcal",
+       "box": [
+        0.5131,
+        0.4956,
+        0.0276,
+        0.0131
+       ]
+      },
+      {
+       "text": "297",
+       "box": [
+        0.6802,
+        0.5,
+        0.0247,
+        0.0116
+       ]
+      },
+      {
+       "text": "Fat(g)",
+       "box": [
+        0.5131,
+        0.5247,
+        0.0349,
+        0.0145
+       ]
+      },
+      {
+       "text": "of which saturates(g)",
+       "box": [
+        0.5116,
+        0.5378,
+        0.1163,
+        0.0146
+       ]
+      },
+      {
+       "text": "Carbohydrate(g)",
+       "box": [
+        0.5131,
+        0.564,
+        0.0901,
+        0.0145
+       ]
+      },
+      {
+       "text": "of which sugar(g)",
+       "box": [
+        0.5116,
+        0.577,
+        0.0959,
+        0.0146
+       ]
+      },
+      {
+       "text": "Protein(g)",
+       "box": [
+        0.5116,
+        0.6047,
+        0.0567,
+        0.0145
+       ]
+      },
+      {
+       "text": "Salt(g)",
+       "box": [
+        0.5116,
+        0.6308,
+        0.0378,
+        0.0145
+       ]
+      },
+      {
+       "text": "69",
+       "box": [
+        0.6846,
+        0.5669,
+        0.016,
+        0.0116
+       ]
+      },
+      {
+       "text": "69",
+       "box": [
+        0.6846,
+        0.5799,
+        0.016,
+        0.0116
+       ]
+      },
+      {
+       "text": "2.1",
+       "box": [
+        0.6817,
+        0.6061,
+        0.0203,
+        0.0131
+       ]
+      },
+      {
+       "text": "0.15",
+       "box": [
+        0.6744,
+        0.6323,
+        0.0276,
+        0.0131
+       ]
+      },
+      {
+       "text": "Allergens:",
+       "box": [
+        0.3474,
+        0.6395,
+        0.077,
+        0.0131
+       ]
+      },
+      {
+       "text": "NONE",
+       "box": [
+        0.3648,
+        0.6541,
+        0.0363,
+        0.0116
+       ]
+      },
+      {
+       "text": "Batch No:MO12345/1234",
+       "box": [
+        0.3619,
+        0.673,
+        0.3009,
+        0.0233
+       ]
+      },
+      {
+       "text": "Best Before:",
+       "box": [
+        0.3212,
+        0.7121,
+        0.1744,
+        0.0146
+       ]
+      },
+      {
+       "text": "5",
+       "box": [
+        0.3154,
+        0.7776,
+        0.0131,
+        0.0189
+       ]
+      },
+      {
+       "text": "021858 606300",
+       "box": [
+        0.359,
+        0.7776,
+        0.2892,
+        0.0204
+       ]
+      },
+      {
+       "text": "Old India Spice Co. Ltd.,",
+       "box": [
+        0.4242,
+        0.8195,
+        0.1385,
+        0.0179
+       ]
+      },
+      {
+       "text": "Ulverscroft Road, Leicester LE4 6BY",
+       "box": [
+        0.3983,
+        0.8358,
+        0.1904,
+        0.0146
+       ]
+      },
+      {
+       "text": "Tel: 0116 262 3040 | info@oldindiaspiceco.com | www.oldindiaspiceco.com",
+       "box": [
+        0.2934,
+        0.8494,
+        0.3957,
+        0.0219
+       ]
+      }
+     ]
+    },
+    {
+     "stage": "candidates",
+     "ms": 0,
+     "family": "mass",
+     "cleaned": "QUALITY\nGUARANTEED\nILENDEO IN THE UK\nOLD\u00ae\nINDIA\nSPICE MASTER'S CHOICE\nPREMIUM QUALITY\nRaisins\nNET WT: 1kg e\nIngredients:\nRaisins\nCountry of Origin: Chile\nNutritional Information per 100g\nEnergy (Kj)\n1243\nKcal\n297\nFat(g)\nof which saturates(g)\nCarbohydrate(g)\nof which sugar(g)\nProtein(g)\nSalt(g)\n69\n69\n2.1\n0.15\nAllergens:\nNONE\nBatch No:MO12345/1234\nBest Before:\n5\n021858 606300\nOld India Spice Co. Ltd.,\nUlverscroft Road, Leicester LE4 6BY\nTel: 0116 262 3040 | info@oldindiaspiceco.com | www.oldindiaspiceco.com",
+     "items": [
+      {
+       "value": 1.0,
+       "unit": "kilogram",
+       "pos": 102
+      },
+      {
+       "value": 100.0,
+       "unit": "gram",
+       "pos": 182
+      }
+     ]
+    },
+    {
+     "stage": "cascade",
+     "ms": 20,
+     "input": "item_weight\nPKG ILENDEO IN THE UK\nNET WT: 1kg e\nNutritional Information per 100g\n1243\n297\nFat(g)\nof which saturates(g)\nCarbohydrate(g)\nof which sugar(g)\nProtein(g)\nSalt(g)\n69\n69\n2.1\n0.15\nBatch No:MO12345/1234\n5\n021858 606300\nUlverscroft Road, Leicester LE4 6BY\nTel: 0116 262 3040 | info@oldindiaspiceco.com | www.oldindiaspiceco.com",
+     "spans": [
+      {
+       "kind": "SIZE",
+       "start": 42,
+       "end": 43
+      },
+      {
+       "kind": "UNIT",
+       "start": 43,
+       "end": 45
+      },
+      {
+       "kind": "SIZE",
+       "start": 76,
+       "end": 79
+      },
+      {
+       "kind": "UNIT",
+       "start": 79,
+       "end": 80
+      }
+     ],
+     "unit_head": "kilogram",
+     "tagger": {
+      "value": 1.0,
+      "unit": "kilogram",
+      "rule": "s1"
+     },
+     "rules": {
+      "value": 1.0,
+      "unit": "kilogram",
+      "rule": "s0_2024_cued"
+     },
+     "cascade": {
+      "value": 1.0,
+      "unit": "kilogram",
+      "rule": "s1"
+     },
+     "source": "tagger"
+    },
+    {
+     "stage": "final",
+     "ms": 0,
+     "source": "cascade",
+     "reason": "not a length attribute: the cascade answers",
+     "answer": {
+      "value": 1.0,
+      "unit": "kilogram"
+     },
+     "gold": {
+      "low": 1.0,
+      "high": 1.0,
+      "unit": "kilogram"
+     },
+     "correct": true
+    }
+   ]
+  }
+ },
+ {
+  "id": "wattage-71BnFL2SGGL",
+  "image_file": "71BnFL2SGGL.jpg",
+  "attribute": "wattage",
+  "gold": [
+   100.0,
+   100.0,
+   "watt"
+  ],
+  "title": "wattage: unit family filters the noise",
+  "note": "Only a power quantity can answer this, which discards barcodes and batch numbers for free.",
+  "events": {
+   "real": [
+    {
+     "stage": "ocr",
+     "ms": 102,
+     "source": "Apple Vision",
+     "lines": [
+      {
+       "text": "100W",
+       "box": [
+        0.0422,
+        0.0625,
+        0.2791,
+        0.0814
+       ]
+      },
+      {
+       "text": "Fast Charging",
+       "box": [
+        0.049,
+        0.1632,
+        0.2449,
+        0.0442
+       ]
+      },
+      {
+       "text": "98.17%",
+       "box": [
+        0.6439,
+        0.0363,
+        0.1628,
+        0.0727
+       ]
+      },
+      {
+       "text": "100W MAX",
+       "box": [
+        0.6508,
+        0.097,
+        0.1375,
+        0.0394
+       ]
+      },
+      {
+       "text": "40",
+       "box": [
+        0.5669,
+        0.7035,
+        0.0291,
+        0.0218
+       ]
+      },
+      {
+       "text": "Gbps",
+       "box": [
+        0.5567,
+        0.7253,
+        0.0407,
+        0.0218
+       ]
+      }
+     ]
+    },
+    {
+     "stage": "candidates",
+     "ms": 0,
+     "family": "power",
+     "cleaned": "100W\nFast Charging\n98.17%\n100W MAX\n40\nGbps",
+     "items": [
+      {
+       "value": 100.0,
+       "unit": "watt",
+       "pos": 0
+      },
+      {
+       "value": 100.0,
+       "unit": "watt",
+       "pos": 26
+      }
+     ]
+    },
+    {
+     "stage": "cascade",
+     "ms": 23,
+     "input": "wattage\nPKG 100W\n98.17%\n100W MAX\n40",
+     "spans": [
+      {
+       "kind": "SIZE",
+       "start": 12,
+       "end": 15
+      },
+      {
+       "kind": "UNIT",
+       "start": 15,
+       "end": 16
+      },
+      {
+       "kind": "UNIT",
+       "start": 27,
+       "end": 28
+      }
+     ],
+     "unit_head": "watt",
+     "tagger": {
+      "value": 100.0,
+      "unit": "watt",
+      "rule": "s1"
+     },
+     "rules": {
+      "value": 100.0,
+      "unit": "watt",
+      "rule": "s0_2024_cued"
+     },
+     "cascade": {
+      "value": 100.0,
+      "unit": "watt",
+      "rule": "s1"
+     },
+     "source": "tagger"
+    },
+    {
+     "stage": "final",
+     "ms": 0,
+     "source": "cascade",
+     "reason": "not a length attribute: the cascade answers",
+     "answer": {
+      "value": 100.0,
+      "unit": "watt"
+     },
+     "gold": {
+      "low": 100.0,
+      "high": 100.0,
+      "unit": "watt"
+     },
+     "correct": true
+    }
+   ]
+  }
+ },
+ {
+  "id": "voltage-61T6-s3do7L",
+  "image_file": "61T6-s3do7L.jpg",
+  "attribute": "voltage",
+  "gold": [
+   12.0,
+   12.0,
+   "volt"
+  ],
+  "title": "voltage: unit family filters the noise",
+  "note": "Only a voltage quantity can answer this, which discards barcodes and batch numbers for free.",
+  "events": {
+   "real": [
+    {
+     "stage": "ocr",
+     "ms": 135,
+     "source": "Apple Vision",
+     "lines": [
+      {
+       "text": "16 VERSATILE OUTLETS",
+       "box": [
+        0.1379,
+        0.077,
+        0.7151,
+        0.0392
+       ]
+      },
+      {
+       "text": "1",
+       "box": [
+        0.1906,
+        0.2151,
+        0.0236,
+        0.0276
+       ]
+      },
+      {
+       "text": "12V/30ARV",
+       "box": [
+        0.1416,
+        0.2544,
+        0.1307,
+        0.0174
+       ]
+      },
+      {
+       "text": "24V/10A Car Port",
+       "box": [
+        0.3067,
+        0.2544,
+        0.1906,
+        0.0176
+       ]
+      },
+      {
+       "text": "6",
+       "box": [
+        0.5753,
+        0.2122,
+        0.0417,
+        0.0334
+       ]
+      },
+      {
+       "text": "AC Outlets",
+       "box": [
+        0.539,
+        0.2544,
+        0.1216,
+        0.0176
+       ]
+      },
+      {
+       "text": "2",
+       "box": [
+        0.7641,
+        0.2151,
+        0.0345,
+        0.0305
+       ]
+      },
+      {
+       "text": "18W USB-A",
+       "box": [
+        0.726,
+        0.2558,
+        0.1289,
+        0.0175
+       ]
+      },
+      {
+       "text": "1",
+       "box": [
+        0.1887,
+        0.314,
+        0.0254,
+        0.0291
+       ]
+      },
+      {
+       "text": "100W",
+       "box": [
+        0.1706,
+        0.3532,
+        0.0653,
+        0.0174
+       ]
+      },
+      {
+       "text": "USB-C",
+       "box": [
+        0.1669,
+        0.3792,
+        0.0746,
+        0.0179
+       ]
+      },
+      {
+       "text": "2",
+       "box": [
+        0.3757,
+        0.3125,
+        0.0309,
+        0.0305
+       ]
+      },
+      {
+       "text": "5V/3A",
+       "box": [
+        0.3611,
+        0.353,
+        0.0782,
+        0.0179
+       ]
+      },
+      {
+       "text": "USB-A",
+       "box": [
+        0.3593,
+        0.3793,
+        0.0799,
+        0.0176
+       ]
+      },
+      {
+       "text": "1",
+       "box": [
+        0.5735,
+        0.3125,
+        0.0272,
+        0.0291
+       ]
+      },
+      {
+       "text": "30A NEMA",
+       "box": [
+        0.5336,
+        0.3532,
+        0.1216,
+        0.0161
+       ]
+      },
+      {
+       "text": "TT-30",
+       "box": [
+        0.5626,
+        0.3794,
+        0.0653,
+        0.0174
+       ]
+      },
+      {
+       "text": "2",
+       "box": [
+        0.7659,
+        0.311,
+        0.0345,
+        0.0334
+       ]
+      },
+      {
+       "text": "15W Wireless",
+       "box": [
+        0.7114,
+        0.3532,
+        0.147,
+        0.0161
+       ]
+      },
+      {
+       "text": "Charging Pads",
+       "box": [
+        0.706,
+        0.3807,
+        0.1652,
+        0.0193
+       ]
+      },
+      {
+       "text": "BLUETTI",
+       "box": [
+        0.4664,
+        0.5756,
+        0.0962,
+        0.0116
+       ]
+      },
+      {
+       "text": "\u0414 \u0436\u0438\u044f\u0447\u043d\u043e",
+       "box": [
+        0.3702,
+        0.654,
+        0.0327,
+        0.0073
+       ]
+      },
+      {
+       "text": "FHGEE",
+       "box": [
+        0.3643,
+        0.712,
+        0.2514,
+        0.0498
+       ]
+      },
+      {
+       "text": "\u0430\u0430\u0430\u0430\u043e",
+       "box": [
+        0.3975,
+        0.7922,
+        0.1652,
+        0.0116
+       ]
+      },
+      {
+       "text": "AC300 3000W",
+       "box": [
+        0.412,
+        0.8052,
+        0.1652,
+        0.0189
+       ]
+      }
+     ]
+    },
+    {
+     "stage": "candidates",
+     "ms": 0,
+     "family": "voltage",
+     "cleaned": "16 VERSATILE OUTLETS\n1\n12 V / 30ARV\n24 V / 10A Car Port\n6\nAC Outlets\n2\n18W USB-A\n1\n100W\nUSB-C\n2\n5 V / 3A\nUSB-A\n1\n30A NEMA\nTT-30\n2\n15W Wireless\nCharging Pads\nBLUETTI\n\u0414 \u0436\u0438\u044f\u0447\u043d\u043e\nFHGEE\n\u0430\u0430\u0430\u0430\u043e\nAC 300 3000W",
+     "items": [
+      {
+       "value": 12.0,
+       "unit": "volt",
+       "pos": 23
+      },
+      {
+       "value": 24.0,
+       "unit": "volt",
+       "pos": 36
+      },
+      {
+       "value": 5.0,
+       "unit": "volt",
+       "pos": 96
+      }
+     ]
+    },
+    {
+     "stage": "cascade",
+     "ms": 15,
+     "input": "voltage\nPKG 16 VERSATILE OUTLETS\n1\n12 V / 30ARV\n24 V / 10A Car Port\n6\n2\n18W USB-A\n1\n100W\n2\n5 V / 3A\n1\n30A NEMA\nTT-30\n2\n15W Wireless\nAC 300 3000W",
+     "spans": [
+      {
+       "kind": "SIZE",
+       "start": 35,
+       "end": 37
+      },
+      {
+       "kind": "UNIT",
+       "start": 38,
+       "end": 39
+      },
+      {
+       "kind": "SIZE",
+       "start": 48,
+       "end": 50
+      }
+     ],
+     "unit_head": "volt",
+     "tagger": {
+      "value": 12.0,
+      "unit": "volt",
+      "rule": "s1"
+     },
+     "rules": {
+      "value": 12.0,
+      "unit": "volt",
+      "rule": "s0_2024_cued"
+     },
+     "cascade": {
+      "value": 12.0,
+      "unit": "volt",
+      "rule": "s1"
+     },
+     "source": "tagger"
+    },
+    {
+     "stage": "final",
+     "ms": 0,
+     "source": "cascade",
+     "reason": "not a length attribute: the cascade answers",
+     "answer": {
+      "value": 12.0,
+      "unit": "volt"
+     },
+     "gold": {
+      "low": 12.0,
+      "high": 12.0,
+      "unit": "volt"
+     },
+     "correct": true
+    }
+   ]
+  }
+ },
+ {
+  "id": "width-51WwMuK2QfL",
+  "image_file": "51WwMuK2QfL.jpg",
+  "attribute": "width",
+  "gold": [
+   8.0,
+   8.0,
+   "centimeter"
+  ],
+  "title": "failure: OCR missed it",
+  "note": "The correct value is not among the numbers OCR read, so a selector cannot reach it. 29% of test length rows look like this - OCR recall is the next ceiling.",
+  "events": {
+   "real": [
+    {
+     "stage": "ocr",
+     "ms": 77,
+     "source": "Apple Vision",
+     "lines": [
+      {
+       "text": "10cm",
+       "box": [
+        0.7511,
+        0.2217,
+        0.072,
+        0.0458
+       ]
+      },
+      {
+       "text": "7.5cm",
+       "box": [
+        0.31,
+        0.428,
+        0.068,
+        0.028
+       ]
+      },
+      {
+       "text": "4cm",
+       "box": [
+        0.32,
+        0.49,
+        0.05,
+        0.026
+       ]
+      },
+      {
+       "text": "2.5cm",
+       "box": [
+        0.03,
+        0.674,
+        0.07,
+        0.028
+       ]
+      }
+     ]
+    },
+    {
+     "stage": "candidates",
+     "ms": 0,
+     "family": "length",
+     "cleaned": "10cm\n7.5cm\n4cm\n2.5cm",
+     "items": [
+      {
+       "value": 10.0,
+       "unit": "centimeter",
+       "pos": 0
+      },
+      {
+       "value": 7.5,
+       "unit": "centimeter",
+       "pos": 5
+      },
+      {
+       "value": 4.0,
+       "unit": "centimeter",
+       "pos": 11
+      },
+      {
+       "value": 2.5,
+       "unit": "centimeter",
+       "pos": 15
+      }
+     ]
+    },
+    {
+     "stage": "cascade",
+     "ms": 18,
+     "input": "width\nPKG 10cm\n7.5cm\n4cm\n2.5cm",
+     "spans": [
+      {
+       "kind": "SIZE",
+       "start": 10,
+       "end": 12
+      },
+      {
+       "kind": "UNIT",
+       "start": 12,
+       "end": 14
+      },
+      {
+       "kind": "SIZE",
+       "start": 15,
+       "end": 18
+      },
+      {
+       "kind": "UNIT",
+       "start": 18,
+       "end": 20
+      },
+      {
+       "kind": "SIZE",
+       "start": 21,
+       "end": 22
+      },
+      {
+       "kind": "UNIT",
+       "start": 22,
+       "end": 24
+      },
+      {
+       "kind": "SIZE",
+       "start": 25,
+       "end": 28
+      },
+      {
+       "kind": "UNIT",
+       "start": 28,
+       "end": 30
+      }
+     ],
+     "unit_head": "centimeter",
+     "tagger": {
+      "value": 10.0,
+      "unit": "centimeter",
+      "rule": "s1"
+     },
+     "rules": {
+      "value": 10.0,
+      "unit": "centimeter",
+      "rule": "s0_2024_cued"
+     },
+     "cascade": {
+      "value": 10.0,
+      "unit": "centimeter",
+      "rule": "s1"
+     },
+     "source": "tagger"
+    },
+    {
+     "stage": "vlm",
+     "ms": 963,
+     "control": "real",
+     "options": [
+      [
+       10.0,
+       "centimeter"
+      ],
+      [
+       7.5,
+       "centimeter"
+      ],
+      [
+       4.0,
+       "centimeter"
+      ],
+      [
+       2.5,
+       "centimeter"
+      ]
+     ],
+     "prompt": "This product photograph shows measurements. Text recognition read these values from the image:\n  (a) 10 centimeter\n  (b) 7.5 centimeter\n  (c) 4 centimeter\n  (d) 2.5 centimeter\nWhich one is the product's width (left to right)?\nAnswer with only the letter.",
+     "letters": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ],
+     "probs": [
+      0.78999,
+      0.07464,
+      0.08326,
+      0.05211
+     ],
+     "letter_mass": 0.99864,
+     "raw": "a",
+     "pick": "a",
+     "pred": [
+      10.0,
+      "centimeter"
+     ],
+     "visual_tokens": 324
+    },
+    {
+     "stage": "final",
+     "ms": 0,
+     "source": "vlm",
+     "reason": "VLM chose (a) among 4 candidates",
+     "answer": {
+      "value": 10.0,
+      "unit": "centimeter"
+     },
+     "gold": {
+      "low": 8.0,
+      "high": 8.0,
+      "unit": "centimeter"
+     },
+     "correct": false
+    }
+   ],
+   "blank": [
+    {
+     "stage": "ocr",
+     "ms": 76,
+     "source": "Apple Vision",
+     "lines": [
+      {
+       "text": "10cm",
+       "box": [
+        0.7511,
+        0.2217,
+        0.072,
+        0.0458
+       ]
+      },
+      {
+       "text": "7.5cm",
+       "box": [
+        0.31,
+        0.428,
+        0.068,
+        0.028
+       ]
+      },
+      {
+       "text": "4cm",
+       "box": [
+        0.32,
+        0.49,
+        0.05,
+        0.026
+       ]
+      },
+      {
+       "text": "2.5cm",
+       "box": [
+        0.03,
+        0.674,
+        0.07,
+        0.028
+       ]
+      }
+     ]
+    },
+    {
+     "stage": "candidates",
+     "ms": 0,
+     "family": "length",
+     "cleaned": "10cm\n7.5cm\n4cm\n2.5cm",
+     "items": [
+      {
+       "value": 10.0,
+       "unit": "centimeter",
+       "pos": 0
+      },
+      {
+       "value": 7.5,
+       "unit": "centimeter",
+       "pos": 5
+      },
+      {
+       "value": 4.0,
+       "unit": "centimeter",
+       "pos": 11
+      },
+      {
+       "value": 2.5,
+       "unit": "centimeter",
+       "pos": 15
+      }
+     ]
+    },
+    {
+     "stage": "cascade",
+     "ms": 20,
+     "input": "width\nPKG 10cm\n7.5cm\n4cm\n2.5cm",
+     "spans": [
+      {
+       "kind": "SIZE",
+       "start": 10,
+       "end": 12
+      },
+      {
+       "kind": "UNIT",
+       "start": 12,
+       "end": 14
+      },
+      {
+       "kind": "SIZE",
+       "start": 15,
+       "end": 18
+      },
+      {
+       "kind": "UNIT",
+       "start": 18,
+       "end": 20
+      },
+      {
+       "kind": "SIZE",
+       "start": 21,
+       "end": 22
+      },
+      {
+       "kind": "UNIT",
+       "start": 22,
+       "end": 24
+      },
+      {
+       "kind": "SIZE",
+       "start": 25,
+       "end": 28
+      },
+      {
+       "kind": "UNIT",
+       "start": 28,
+       "end": 30
+      }
+     ],
+     "unit_head": "centimeter",
+     "tagger": {
+      "value": 10.0,
+      "unit": "centimeter",
+      "rule": "s1"
+     },
+     "rules": {
+      "value": 10.0,
+      "unit": "centimeter",
+      "rule": "s0_2024_cued"
+     },
+     "cascade": {
+      "value": 10.0,
+      "unit": "centimeter",
+      "rule": "s1"
+     },
+     "source": "tagger"
+    },
+    {
+     "stage": "vlm",
+     "ms": 919,
+     "control": "blank",
+     "options": [
+      [
+       10.0,
+       "centimeter"
+      ],
+      [
+       7.5,
+       "centimeter"
+      ],
+      [
+       4.0,
+       "centimeter"
+      ],
+      [
+       2.5,
+       "centimeter"
+      ]
+     ],
+     "prompt": "This product photograph shows measurements. Text recognition read these values from the image:\n  (a) 10 centimeter\n  (b) 7.5 centimeter\n  (c) 4 centimeter\n  (d) 2.5 centimeter\nWhich one is the product's width (left to right)?\nAnswer with only the letter.",
+     "letters": [
+      "a",
+      "b",
+      "c",
+      "d"
+     ],
+     "probs": [
+      0.20281,
+      0.28157,
+      0.31906,
+      0.19657
+     ],
+     "letter_mass": 0.99773,
+     "raw": "c",
+     "pick": "c",
+     "pred": [
+      4.0,
+      "centimeter"
+     ],
+     "visual_tokens": 324
+    },
+    {
+     "stage": "final",
+     "ms": 0,
+     "source": "vlm",
+     "reason": "VLM chose (c) among 4 candidates",
+     "answer": {
+      "value": 4.0,
+      "unit": "centimeter"
+     },
+     "gold": {
+      "low": 8.0,
+      "high": 8.0,
+      "unit": "centimeter"
+     },
+     "correct": false
+    }
+   ]
+  }
+ }
+]

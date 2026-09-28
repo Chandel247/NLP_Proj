@@ -1,0 +1,8604 @@
+[
+ {
+  "image_file": "51PbSzivp8L.jpg",
+  "attribute": "width",
+  "n_cands": 4,
+  "gold": [
+   21.0,
+   21.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "18 cm",
+  "forced_pred": [
+   18.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   21.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "61FLYvO2g1L.jpg",
+  "attribute": "depth",
+  "n_cands": 3,
+  "gold": [
+   17.0,
+   17.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "6 cm",
+  "forced_pred": [
+   6.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   6.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "611wJwqceAL.jpg",
+  "attribute": "height",
+  "n_cands": 0,
+  "gold": [
+   1.1,
+   1.1,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "19.29",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "61FwUgDRoAL.jpg",
+  "attribute": "depth",
+  "n_cands": 1,
+  "gold": [
+   14.3,
+   14.3,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "11.2",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   14.3,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "615Z67z6FqL.jpg",
+  "attribute": "width",
+  "n_cands": 2,
+  "gold": [
+   12.0,
+   12.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "10.0",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   12.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "610DN2C2H6L.jpg",
+  "attribute": "height",
+  "n_cands": 4,
+  "gold": [
+   136.0,
+   136.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "6.1in",
+  "forced_pred": [
+   6.1,
+   "inch"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   156.0,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "515T5Wf1JUL.jpg",
+  "attribute": "width",
+  "n_cands": 3,
+  "gold": [
+   15.5,
+   15.5,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "15.5cm",
+  "forced_pred": [
+   15.5,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "C",
+  "select_pred": [
+   15.5,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51NLJMmyNZL.jpg",
+  "attribute": "width",
+  "n_cands": 0,
+  "gold": [
+   13.5,
+   13.5,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "13.5\"",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "61D3Y+P-GJL.jpg",
+  "attribute": "width",
+  "n_cands": 4,
+  "gold": [
+   4.52,
+   4.52,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "0.39",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   0.39,
+   "inch"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51TeeqoldwL.jpg",
+  "attribute": "width",
+  "n_cands": 2,
+  "gold": [
+   7.08,
+   7.08,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "7.08 inch",
+  "forced_pred": [
+   7.08,
+   "inch"
+  ],
+  "forced_dim": true,
+  "select_raw": "A",
+  "select_pred": [
+   7.08,
+   "inch"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "61F+yU+I6SL.jpg",
+  "attribute": "width",
+  "n_cands": 6,
+  "gold": [
+   10.0,
+   10.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "10 cm",
+  "forced_pred": [
+   10.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "C",
+  "select_pred": [
+   14.5,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51PaPNBQRBL.jpg",
+  "attribute": "height",
+  "n_cands": 3,
+  "gold": [
+   10.0,
+   10.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "120cm",
+  "forced_pred": [
+   120.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "A",
+  "select_pred": [
+   120.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "611LPoUsZBL.jpg",
+  "attribute": "width",
+  "n_cands": 2,
+  "gold": [
+   25.4,
+   25.4,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "10in",
+  "forced_pred": [
+   10.0,
+   "inch"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   25.4,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "61DgJVtJnML.jpg",
+  "attribute": "depth",
+  "n_cands": 4,
+  "gold": [
+   4.0,
+   4.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "7.7cm",
+  "forced_pred": [
+   7.7,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   16.3,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "61CFJhc-C3L.jpg",
+  "attribute": "width",
+  "n_cands": 1,
+  "gold": [
+   31.5,
+   31.5,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "31.5",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   9.0,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51RsZRvOhrL.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   12.0,
+   12.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "9 cm",
+  "forced_pred": [
+   9.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   9.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51BdKAF1c9L.jpg",
+  "attribute": "depth",
+  "n_cands": 1,
+  "gold": [
+   32.0,
+   32.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "32 cm",
+  "forced_pred": [
+   32.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   32.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "5119fI2JgsL.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   6.0,
+   6.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "10 cm",
+  "forced_pred": [
+   10.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "418P8GZ1FoL.jpg",
+  "attribute": "width",
+  "n_cands": 3,
+  "gold": [
+   135.0,
+   135.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "95 mm",
+  "forced_pred": [
+   95.0,
+   "millimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   135.0,
+   "millimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "614gLt2w71L.jpg",
+  "attribute": "depth",
+  "n_cands": 4,
+  "gold": [
+   40.0,
+   40.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "30 cm",
+  "forced_pred": [
+   30.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   30.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51dhRtbzvEL.jpg",
+  "attribute": "width",
+  "n_cands": 2,
+  "gold": [
+   7.0,
+   7.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "7 cm",
+  "forced_pred": [
+   7.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   9.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51--2Jgxq0L.jpg",
+  "attribute": "height",
+  "n_cands": 3,
+  "gold": [
+   5.5,
+   5.5,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "5.5",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   5.5,
+   "inch"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "615E5r5tWWL.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   25.0,
+   25.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "25 cm",
+  "forced_pred": [
+   25.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   25.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51cS+C4p4RL.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   89.0,
+   89.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "52mm",
+  "forced_pred": [
+   52.0,
+   "millimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "A",
+  "select_pred": [
+   89.0,
+   "millimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51dUkzURWxL.jpg",
+  "attribute": "width",
+  "n_cands": 3,
+  "gold": [
+   28.0,
+   28.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "28 cm",
+  "forced_pred": [
+   28.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "A",
+  "select_pred": [
+   28.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51nEYwIA5zL.jpg",
+  "attribute": "depth",
+  "n_cands": 8,
+  "gold": [
+   40.0,
+   40.0,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "4.00 inch",
+  "forced_pred": [
+   4.0,
+   "inch"
+  ],
+  "forced_dim": false,
+  "select_raw": "h",
+  "select_pred": [
+   100.0,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "612qpdCIEmL.jpg",
+  "attribute": "width",
+  "n_cands": 6,
+  "gold": [
+   10.5,
+   10.5,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "14.5 cm",
+  "forced_pred": [
+   14.5,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   16.7,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "61D+RCH9dLL.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   5.5,
+   5.5,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "5.5 in",
+  "forced_pred": [
+   5.5,
+   "inch"
+  ],
+  "forced_dim": true,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "510+fOgk8kL.jpg",
+  "attribute": "width",
+  "n_cands": 0,
+  "gold": [
+   31.5,
+   31.5,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "31.5",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51sj4yRLaML.jpg",
+  "attribute": "width",
+  "n_cands": 0,
+  "gold": [
+   8.5,
+   8.5,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "8.5\"",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51Dg4rUBLML.jpg",
+  "attribute": "height",
+  "n_cands": 0,
+  "gold": [
+   6.0,
+   6.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "6\"",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51hyJbmiD4L.jpg",
+  "attribute": "width",
+  "n_cands": 0,
+  "gold": [
+   5.4,
+   5.4,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "5.4",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51JNSYgfczL.jpg",
+  "attribute": "height",
+  "n_cands": 2,
+  "gold": [
+   50.0,
+   50.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "50 cm",
+  "forced_pred": [
+   50.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   50.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "61F8tpLIOZL.jpg",
+  "attribute": "width",
+  "n_cands": 2,
+  "gold": [
+   19.0,
+   19.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "19 cm",
+  "forced_pred": [
+   19.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   19.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "6148zbunGiL.jpg",
+  "attribute": "height",
+  "n_cands": 3,
+  "gold": [
+   20.0,
+   20.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "30 cm",
+  "forced_pred": [
+   30.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "A",
+  "select_pred": [
+   30.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51eyNIhe6oL.jpg",
+  "attribute": "depth",
+  "n_cands": 3,
+  "gold": [
+   25.5,
+   25.5,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "5 cm",
+  "forced_pred": [
+   5.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   5.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "611Gt+VyUzL.jpg",
+  "attribute": "depth",
+  "n_cands": 4,
+  "gold": [
+   17.0,
+   17.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "10.5 cm",
+  "forced_pred": [
+   10.5,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   11.8,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "61+U6CJ1b+L.jpg",
+  "attribute": "width",
+  "n_cands": 0,
+  "gold": [
+   1.2,
+   1.2,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "1.2-3 in",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51l2tUcaFHL.jpg",
+  "attribute": "depth",
+  "n_cands": 6,
+  "gold": [
+   13.5,
+   13.5,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "3.5 cm",
+  "forced_pred": [
+   3.5,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   7.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "61DnQphX7AL.jpg",
+  "attribute": "depth",
+  "n_cands": 1,
+  "gold": [
+   82.0,
+   82.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "50mm",
+  "forced_pred": [
+   50.0,
+   "millimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   1050.0,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51OrH8Cx9IL.jpg",
+  "attribute": "width",
+  "n_cands": 3,
+  "gold": [
+   26.0,
+   26.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "6.86in",
+  "forced_pred": [
+   6.86,
+   "inch"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   26.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51BOZpU8hBL.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   21.0,
+   21.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "6.5 cm",
+  "forced_pred": [
+   6.5,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "61FdE2S6qRL.jpg",
+  "attribute": "height",
+  "n_cands": 6,
+  "gold": [
+   19.75,
+   19.75,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "19.75",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   19.75,
+   "inch"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51pTPbA8q5L.jpg",
+  "attribute": "width",
+  "n_cands": 2,
+  "gold": [
+   152.0,
+   152.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "152mm",
+  "forced_pred": [
+   152.0,
+   "millimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "A",
+  "select_pred": [
+   152.0,
+   "millimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "6153lgsnkQL.jpg",
+  "attribute": "width",
+  "n_cands": 1,
+  "gold": [
+   70.8,
+   70.8,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "42.5",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   70.8,
+   "inch"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51D5kxj5hKS.jpg",
+  "attribute": "width",
+  "n_cands": 2,
+  "gold": [
+   110.0,
+   110.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "110 cm",
+  "forced_pred": [
+   110.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   110.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "510k3RzE0OL.jpg",
+  "attribute": "width",
+  "n_cands": 3,
+  "gold": [
+   7.0,
+   7.0,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "7 inch",
+  "forced_pred": [
+   7.0,
+   "inch"
+  ],
+  "forced_dim": true,
+  "select_raw": "C",
+  "select_pred": [
+   8.0,
+   "inch"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "511Jn1-JM3L.jpg",
+  "attribute": "height",
+  "n_cands": 0,
+  "gold": [
+   12.0,
+   12.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "12 in",
+  "forced_pred": [
+   12.0,
+   "inch"
+  ],
+  "forced_dim": true,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51WPMDi6ovL.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   120.0,
+   120.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "11.81",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "A",
+  "select_pred": [
+   30.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "614v+LEeLnL.jpg",
+  "attribute": "height",
+  "n_cands": 0,
+  "gold": [
+   8.0,
+   8.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "8 cm",
+  "forced_pred": [
+   8.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51olg5nmCsL.jpg",
+  "attribute": "width",
+  "n_cands": 6,
+  "gold": [
+   72.0,
+   72.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "72 mm",
+  "forced_pred": [
+   72.0,
+   "millimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "f",
+  "select_pred": [
+   85.0,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "6169ipKtJ2S.jpg",
+  "attribute": "height",
+  "n_cands": 5,
+  "gold": [
+   54.0,
+   54.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "54mm",
+  "forced_pred": [
+   54.0,
+   "millimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "D",
+  "select_pred": [
+   35.0,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51MWMaNk-4L.jpg",
+  "attribute": "height",
+  "n_cands": 3,
+  "gold": [
+   9.5,
+   9.5,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "9.5 cm",
+  "forced_pred": [
+   9.5,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "C",
+  "select_pred": [
+   22.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "41LMElFuiFL.jpg",
+  "attribute": "height",
+  "n_cands": 6,
+  "gold": [
+   2.7,
+   2.7,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "3.6 inches",
+  "forced_pred": [
+   3.6,
+   "inch"
+  ],
+  "forced_dim": false,
+  "select_raw": "f",
+  "select_pred": [
+   3.1,
+   "inch"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "41BiainxeFL.jpg",
+  "attribute": "height",
+  "n_cands": 3,
+  "gold": [
+   6.0,
+   6.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "8MM",
+  "forced_pred": [
+   8.0,
+   "millimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "A",
+  "select_pred": [
+   8.0,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "41R1ciILFEL.jpg",
+  "attribute": "width",
+  "n_cands": 3,
+  "gold": [
+   3.5,
+   3.5,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "1.1cm",
+  "forced_pred": [
+   1.1,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   3.5,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51sbS7agLqL.jpg",
+  "attribute": "width",
+  "n_cands": 1,
+  "gold": [
+   600.0,
+   600.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "60 cm",
+  "forced_pred": [
+   60.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   600.0,
+   "millimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51WtBRHhxhL.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   8.0,
+   8.0,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "5.3",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   8.0,
+   "inch"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51XKLXvS5lL.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   230.0,
+   230.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "230mm",
+  "forced_pred": [
+   230.0,
+   "millimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   230.0,
+   "millimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "616gPGhl5zL.jpg",
+  "attribute": "width",
+  "n_cands": 0,
+  "gold": [
+   11.0,
+   11.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "8 1/2 in",
+  "forced_pred": [
+   2.0,
+   "inch"
+  ],
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "61FPifD929L.jpg",
+  "attribute": "width",
+  "n_cands": 0,
+  "gold": [
+   36.0,
+   36.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "24",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51B08Tmuz7L.jpg",
+  "attribute": "width",
+  "n_cands": 1,
+  "gold": [
+   21.0,
+   21.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "21 cm",
+  "forced_pred": [
+   21.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   21.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51y10l072XL.jpg",
+  "attribute": "width",
+  "n_cands": 4,
+  "gold": [
+   8.5,
+   8.5,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "21.7 cm",
+  "forced_pred": [
+   21.7,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "C",
+  "select_pred": [
+   21.7,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51hQJjez8XL.jpg",
+  "attribute": "width",
+  "n_cands": 3,
+  "gold": [
+   17.0,
+   17.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "17 cm",
+  "forced_pred": [
+   17.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "C",
+  "select_pred": [
+   17.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51FT153QZoL.jpg",
+  "attribute": "width",
+  "n_cands": 7,
+  "gold": [
+   26.0,
+   26.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "26mm",
+  "forced_pred": [
+   26.0,
+   "millimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "G",
+  "select_pred": [
+   26.0,
+   "millimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "61CXomNVYxS.jpg",
+  "attribute": "height",
+  "n_cands": 1,
+  "gold": [
+   100.0,
+   100.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "100 mm",
+  "forced_pred": [
+   100.0,
+   "millimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   100.0,
+   "millimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "61D9shU8zSL.jpg",
+  "attribute": "height",
+  "n_cands": 1,
+  "gold": [
+   4.0,
+   4.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "6 in",
+  "forced_pred": [
+   6.0,
+   "inch"
+  ],
+  "forced_dim": false,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   10.9,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "416+34BGHeL.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   18.0,
+   18.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "18 cm",
+  "forced_pred": [
+   18.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "A",
+  "select_pred": [
+   18.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51qov53vRcL.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   320.0,
+   320.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "320 mm",
+  "forced_pred": [
+   320.0,
+   "millimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   320.0,
+   "millimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51yqyalSXOS.jpg",
+  "attribute": "height",
+  "n_cands": 0,
+  "gold": [
+   7.87,
+   7.87,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "7.87\"",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "61AclFg1jBL.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   16.0,
+   16.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "11.8 cm",
+  "forced_pred": [
+   11.8,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "510ZPPE+7LS.jpg",
+  "attribute": "height",
+  "n_cands": 0,
+  "gold": [
+   2.0,
+   2.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "10 cm",
+  "forced_pred": [
+   10.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51if631TRcL.jpg",
+  "attribute": "width",
+  "n_cands": 4,
+  "gold": [
+   88.0,
+   88.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "150cm",
+  "forced_pred": [
+   150.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "D",
+  "select_pred": [
+   88.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "519Ny2UmxCL.jpg",
+  "attribute": "depth",
+  "n_cands": 6,
+  "gold": [
+   62.5,
+   62.5,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "15 cm",
+  "forced_pred": [
+   15.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "f",
+  "select_pred": [
+   9.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "6196AZqzZZL.jpg",
+  "attribute": "depth",
+  "n_cands": 3,
+  "gold": [
+   42.0,
+   42.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "18.0cm",
+  "forced_pred": [
+   18.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   5.5,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "618o0FSP7TS.jpg",
+  "attribute": "width",
+  "n_cands": 3,
+  "gold": [
+   11.5,
+   11.5,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "11.5 cm",
+  "forced_pred": [
+   11.5,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   10.5,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "614QWCg7f1L.jpg",
+  "attribute": "height",
+  "n_cands": 8,
+  "gold": [
+   0.63,
+   0.63,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "16mm",
+  "forced_pred": [
+   16.0,
+   "millimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "b",
+  "select_pred": [
+   0.63,
+   "inch"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "612e72bSUdL.jpg",
+  "attribute": "height",
+  "n_cands": 2,
+  "gold": [
+   8.0,
+   8.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "5 cm",
+  "forced_pred": [
+   5.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   5.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51K7-FklOnL.jpg",
+  "attribute": "width",
+  "n_cands": 2,
+  "gold": [
+   30.0,
+   30.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "200",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "A",
+  "select_pred": [
+   200.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "61-IijRzjaL.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   6.0,
+   6.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "18 in",
+  "forced_pred": [
+   18.0,
+   "inch"
+  ],
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51cjnuAjqnL.jpg",
+  "attribute": "width",
+  "n_cands": 0,
+  "gold": [
+   6.7,
+   6.7,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "20.87in",
+  "forced_pred": [
+   20.87,
+   "inch"
+  ],
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "6185WLsu8TL.jpg",
+  "attribute": "width",
+  "n_cands": 2,
+  "gold": [
+   3.74,
+   3.74,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "3.74",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   3.74,
+   "inch"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51oLV7kKScL.jpg",
+  "attribute": "width",
+  "n_cands": 2,
+  "gold": [
+   137.0,
+   137.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "274",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "A",
+  "select_pred": [
+   274.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51q+L62n11L.jpg",
+  "attribute": "height",
+  "n_cands": 2,
+  "gold": [
+   4.8,
+   4.8,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "4.8",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   4.0,
+   "inch"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51tMcy-n7OL.jpg",
+  "attribute": "height",
+  "n_cands": 8,
+  "gold": [
+   15.0,
+   15.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "150 cm",
+  "forced_pred": [
+   150.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   150.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "519gmtmu8dL.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   26.0,
+   26.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "10.25",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   26.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "41AX05UVziL.jpg",
+  "attribute": "height",
+  "n_cands": 3,
+  "gold": [
+   60.0,
+   60.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "175mm",
+  "forced_pred": [
+   175.0,
+   "millimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "A",
+  "select_pred": [
+   175.0,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "519Bwks5--L.jpg",
+  "attribute": "depth",
+  "n_cands": 4,
+  "gold": [
+   70.0,
+   70.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "6.5cm",
+  "forced_pred": [
+   6.5,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   2.6,
+   "inch"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51PvxZP-IoL.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   7.5,
+   7.5,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "3 in",
+  "forced_pred": [
+   3.0,
+   "inch"
+  ],
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51EUSUOqZ9L.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   75.0,
+   75.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "39 cm",
+  "forced_pred": [
+   39.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51SNiqIJTmL.jpg",
+  "attribute": "width",
+  "n_cands": 2,
+  "gold": [
+   60.0,
+   60.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "60 cm",
+  "forced_pred": [
+   60.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "A",
+  "select_pred": [
+   60.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51hrQhAXlvL.jpg",
+  "attribute": "depth",
+  "n_cands": 3,
+  "gold": [
+   48.0,
+   48.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "26cm",
+  "forced_pred": [
+   26.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   26.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51NlwiCBRxL.jpg",
+  "attribute": "height",
+  "n_cands": 3,
+  "gold": [
+   107.0,
+   107.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "107mm",
+  "forced_pred": [
+   107.0,
+   "millimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "C",
+  "select_pred": [
+   150.0,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "6192WYe0dPL.jpg",
+  "attribute": "width",
+  "n_cands": 1,
+  "gold": [
+   6.35,
+   6.35,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "6.35mm",
+  "forced_pred": [
+   6.35,
+   "millimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   6.35,
+   "millimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "511lcJK+EHL.jpg",
+  "attribute": "width",
+  "n_cands": 2,
+  "gold": [
+   8.2,
+   8.2,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "8.2 cm",
+  "forced_pred": [
+   8.2,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   8.2,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51yEKCK67QL.jpg",
+  "attribute": "width",
+  "n_cands": 0,
+  "gold": [
+   31.4,
+   31.4,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "31.4",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "415AKH67jiL.jpg",
+  "attribute": "height",
+  "n_cands": 0,
+  "gold": [
+   2.0,
+   2.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "2 inches",
+  "forced_pred": [
+   2.0,
+   "inch"
+  ],
+  "forced_dim": true,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "619Lnd0sK0L.jpg",
+  "attribute": "depth",
+  "n_cands": 6,
+  "gold": [
+   90.5,
+   90.5,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "1.37in",
+  "forced_pred": [
+   1.37,
+   "inch"
+  ],
+  "forced_dim": false,
+  "select_raw": "e",
+  "select_pred": [
+   3.5,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51ZT5P-Ch8L.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   55.0,
+   55.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "55 cm",
+  "forced_pred": [
+   55.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "b",
+  "select_pred": [
+   55.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51yrlW2OgGL.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   10.5,
+   10.5,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "0.8 inch",
+  "forced_pred": [
+   0.8,
+   "inch"
+  ],
+  "forced_dim": false,
+  "select_raw": "b",
+  "select_pred": [
+   0.8,
+   "inch"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "41iL9YV5YLS.jpg",
+  "attribute": "width",
+  "n_cands": 1,
+  "gold": [
+   25.0,
+   25.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "25cm",
+  "forced_pred": [
+   25.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   25.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "615ymVWUPbL.jpg",
+  "attribute": "width",
+  "n_cands": 1,
+  "gold": [
+   385.0,
+   385.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "385 mm",
+  "forced_pred": [
+   385.0,
+   "millimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   70.0,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51dj+C2L6nL.jpg",
+  "attribute": "height",
+  "n_cands": 7,
+  "gold": [
+   27.0,
+   27.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "155 cm",
+  "forced_pred": [
+   155.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "D",
+  "select_pred": [
+   27.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "612r0dm8ujL.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   30.0,
+   30.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "20 cm",
+  "forced_pred": [
+   20.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   20.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51mkNjsyGwL.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   23.0,
+   23.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "24 cm",
+  "forced_pred": [
+   24.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   24.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51v51NmQxCS.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   19.0,
+   19.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "19 cm",
+  "forced_pred": [
+   19.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   19.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51UTCX-7FxL.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   349.0,
+   349.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "349 mm",
+  "forced_pred": [
+   349.0,
+   "millimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "A",
+  "select_pred": [
+   349.0,
+   "millimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "511GlW29gDL.jpg",
+  "attribute": "depth",
+  "n_cands": 1,
+  "gold": [
+   5.3,
+   5.3,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "5.3",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   8.0,
+   "inch"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51cvqoKkFZL.jpg",
+  "attribute": "height",
+  "n_cands": 1,
+  "gold": [
+   578.0,
+   578.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "578 mm",
+  "forced_pred": [
+   578.0,
+   "millimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   578.0,
+   "millimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "61Bb2gt+9BL.jpg",
+  "attribute": "height",
+  "n_cands": 3,
+  "gold": [
+   4.0,
+   4.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "4.5 cm",
+  "forced_pred": [
+   4.5,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   7.5,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51JDYJ90vDL.jpg",
+  "attribute": "width",
+  "n_cands": 7,
+  "gold": [
+   14.0,
+   14.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "20.6 cm",
+  "forced_pred": [
+   20.6,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "g",
+  "select_pred": [
+   20.6,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51u6Pml-dkL.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   6.5,
+   6.5,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "5.90\"",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   15.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "511PN1aN7iL.jpg",
+  "attribute": "width",
+  "n_cands": 2,
+  "gold": [
+   2.2,
+   2.2,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "2.2-3.18cm",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   2.2,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51ZpyLlcAiL.jpg",
+  "attribute": "height",
+  "n_cands": 0,
+  "gold": [
+   1.2,
+   1.2,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "1.8\"",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "611MikygpOL.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   8.0,
+   8.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "8",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51vashTLb7L.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   37.0,
+   37.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "30 cm",
+  "forced_pred": [
+   30.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "610BRCy01mL.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   4.0,
+   4.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "2.5 in",
+  "forced_pred": [
+   2.5,
+   "inch"
+  ],
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51jam8K1V4L.jpg",
+  "attribute": "width",
+  "n_cands": 1,
+  "gold": [
+   80.0,
+   80.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "50mm",
+  "forced_pred": [
+   50.0,
+   "millimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   80.0,
+   "millimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "6145XN5I4PL.jpg",
+  "attribute": "width",
+  "n_cands": 2,
+  "gold": [
+   4.33,
+   4.33,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "2.95",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   4.33,
+   "inch"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51OiuaJ0sRL.jpg",
+  "attribute": "depth",
+  "n_cands": 6,
+  "gold": [
+   210.0,
+   210.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "210 cm",
+  "forced_pred": [
+   210.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "f",
+  "select_pred": [
+   210.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "41Xckw5kWWL.jpg",
+  "attribute": "height",
+  "n_cands": 2,
+  "gold": [
+   33.0,
+   33.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "33 cm",
+  "forced_pred": [
+   33.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "A",
+  "select_pred": [
+   33.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51mivFlya2L.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   58.0,
+   58.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "58 cm",
+  "forced_pred": [
+   58.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   8.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "61-+agfQTFL.jpg",
+  "attribute": "height",
+  "n_cands": 4,
+  "gold": [
+   15.8,
+   15.8,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "15.8 cm",
+  "forced_pred": [
+   15.8,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "D",
+  "select_pred": [
+   28.5,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51bGMuzciIL.jpg",
+  "attribute": "width",
+  "n_cands": 0,
+  "gold": [
+   5.1,
+   5.1,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "5.1",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51GJkrpiUwL.jpg",
+  "attribute": "height",
+  "n_cands": 3,
+  "gold": [
+   85.0,
+   85.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "85mm",
+  "forced_pred": [
+   85.0,
+   "millimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "C",
+  "select_pred": [
+   150.0,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "61FzKrxxOeL.jpg",
+  "attribute": "height",
+  "n_cands": 4,
+  "gold": [
+   298.0,
+   298.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "420mm",
+  "forced_pred": [
+   420.0,
+   "millimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "D",
+  "select_pred": [
+   298.0,
+   "millimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "614Co8vafVL.jpg",
+  "attribute": "height",
+  "n_cands": 0,
+  "gold": [
+   2.0,
+   2.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "10 cm",
+  "forced_pred": [
+   10.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "514IkOJ1v8L.jpg",
+  "attribute": "width",
+  "n_cands": 3,
+  "gold": [
+   13.0,
+   13.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "5 cm",
+  "forced_pred": [
+   5.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   13.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "611QS4LO9FL.jpg",
+  "attribute": "width",
+  "n_cands": 6,
+  "gold": [
+   54.0,
+   54.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "86mm",
+  "forced_pred": [
+   86.0,
+   "millimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   86.0,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51QkErAurfL.jpg",
+  "attribute": "height",
+  "n_cands": 2,
+  "gold": [
+   9.14,
+   9.14,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "9.14 cm",
+  "forced_pred": [
+   9.14,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "A",
+  "select_pred": [
+   15.24,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51ZrSJu0QSL.jpg",
+  "attribute": "height",
+  "n_cands": 3,
+  "gold": [
+   30.0,
+   30.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "45 cm",
+  "forced_pred": [
+   45.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   45.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51kVs0jBF+L.jpg",
+  "attribute": "height",
+  "n_cands": 4,
+  "gold": [
+   8.0,
+   8.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "15 mm",
+  "forced_pred": [
+   15.0,
+   "millimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   8.0,
+   "millimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "61FVNTHQRpL.jpg",
+  "attribute": "height",
+  "n_cands": 4,
+  "gold": [
+   1.18,
+   1.18,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "5.24 inches",
+  "forced_pred": [
+   5.24,
+   "inch"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   5.24,
+   "inch"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51p3RYO2ZaL.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   7.88,
+   7.88,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "2.5 in",
+  "forced_pred": [
+   2.5,
+   "inch"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   6.5,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51GsU-aN-9L.jpg",
+  "attribute": "height",
+  "n_cands": 0,
+  "gold": [
+   23.65,
+   23.65,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "47.25",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "612J1e0ht8L.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   5.3,
+   5.3,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "5.3",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51c4uX1jueL.jpg",
+  "attribute": "depth",
+  "n_cands": 3,
+  "gold": [
+   6.0,
+   6.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "6 cm",
+  "forced_pred": [
+   6.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "C",
+  "select_pred": [
+   10.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51D-felHlyL.jpg",
+  "attribute": "height",
+  "n_cands": 2,
+  "gold": [
+   19.0,
+   19.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "19 cm",
+  "forced_pred": [
+   19.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   19.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51r144+Z6AL.jpg",
+  "attribute": "height",
+  "n_cands": 6,
+  "gold": [
+   5.5,
+   5.5,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "59in",
+  "forced_pred": [
+   59.0,
+   "inch"
+  ],
+  "forced_dim": false,
+  "select_raw": "E",
+  "select_pred": [
+   175.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51PCYHpA7qL.jpg",
+  "attribute": "width",
+  "n_cands": 3,
+  "gold": [
+   6.88,
+   6.88,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "6.88 in",
+  "forced_pred": [
+   6.88,
+   "inch"
+  ],
+  "forced_dim": true,
+  "select_raw": "C",
+  "select_pred": [
+   17.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "615i4yMPLbL.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   4.01,
+   4.01,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "4.01",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   4.01,
+   "inch"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "517OAl1aOgL.jpg",
+  "attribute": "depth",
+  "n_cands": 4,
+  "gold": [
+   27.0,
+   27.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "4 cm",
+  "forced_pred": [
+   4.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "D",
+  "select_pred": [
+   4.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "61EdD-Q3q2S.jpg",
+  "attribute": "height",
+  "n_cands": 1,
+  "gold": [
+   2.0,
+   2.0,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "2 inches",
+  "forced_pred": [
+   2.0,
+   "inch"
+  ],
+  "forced_dim": true,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   2.0,
+   "inch"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "61B2Xb70GUL.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   7.0,
+   7.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "2.8 in",
+  "forced_pred": [
+   2.8,
+   "inch"
+  ],
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51WRzkt1VFL.jpg",
+  "attribute": "depth",
+  "n_cands": 3,
+  "gold": [
+   4.0,
+   4.0,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "2",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   3.7,
+   "inch"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "517a-X0nkHS.jpg",
+  "attribute": "height",
+  "n_cands": 2,
+  "gold": [
+   54.0,
+   54.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "54 cm",
+  "forced_pred": [
+   54.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   54.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51XOAW6O+RL.jpg",
+  "attribute": "width",
+  "n_cands": 2,
+  "gold": [
+   10.5,
+   10.5,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "10.5 cm",
+  "forced_pred": [
+   10.5,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "A",
+  "select_pred": [
+   10.5,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "41Wds-g7S9L.jpg",
+  "attribute": "height",
+  "n_cands": 2,
+  "gold": [
+   25.0,
+   25.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "25 cm",
+  "forced_pred": [
+   25.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   8.5,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "61Db5qEps3L.jpg",
+  "attribute": "height",
+  "n_cands": 2,
+  "gold": [
+   4.8,
+   4.8,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "4.8 cm",
+  "forced_pred": [
+   4.8,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   4.5,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "41xIwEjey1L.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   22.0,
+   22.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "4.5 cm",
+  "forced_pred": [
+   4.5,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   4.5,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "41-sjy+wlOL.jpg",
+  "attribute": "height",
+  "n_cands": 4,
+  "gold": [
+   90.5,
+   90.5,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "90.5 cm",
+  "forced_pred": [
+   90.5,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   90.5,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "61CYzsMJWyL.jpg",
+  "attribute": "depth",
+  "n_cands": 6,
+  "gold": [
+   75.0,
+   75.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "40cm",
+  "forced_pred": [
+   40.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   75.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "511OC2YvIpL.jpg",
+  "attribute": "height",
+  "n_cands": 2,
+  "gold": [
+   3.9,
+   3.9,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "3.9 in",
+  "forced_pred": [
+   3.9,
+   "inch"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   11.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51bJd+SeOCL.jpg",
+  "attribute": "width",
+  "n_cands": 3,
+  "gold": [
+   15.0,
+   15.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "19 cm",
+  "forced_pred": [
+   19.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   15.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51URFoZPcHL.jpg",
+  "attribute": "height",
+  "n_cands": 0,
+  "gold": [
+   4.0,
+   4.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "4\"",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51mVL6O9-uL.jpg",
+  "attribute": "depth",
+  "n_cands": 3,
+  "gold": [
+   8.0,
+   8.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "4 cm",
+  "forced_pred": [
+   4.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   7.8,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "516XMIowgML.jpg",
+  "attribute": "width",
+  "n_cands": 4,
+  "gold": [
+   30.0,
+   30.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "17.7 in",
+  "forced_pred": [
+   17.7,
+   "inch"
+  ],
+  "forced_dim": false,
+  "select_raw": "D",
+  "select_pred": [
+   75.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "618JQIKvomL.jpg",
+  "attribute": "depth",
+  "n_cands": 3,
+  "gold": [
+   230.0,
+   230.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "230 mm",
+  "forced_pred": [
+   230.0,
+   "millimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "C",
+  "select_pred": [
+   390.0,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51ZjkcN8RZL.jpg",
+  "attribute": "width",
+  "n_cands": 3,
+  "gold": [
+   5.9,
+   5.9,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "5.9",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   5.5,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51aHA8V7RLL.jpg",
+  "attribute": "height",
+  "n_cands": 2,
+  "gold": [
+   7.8,
+   7.8,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "7.8 cm",
+  "forced_pred": [
+   7.8,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   18.5,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "515VxIv+GmL.jpg",
+  "attribute": "height",
+  "n_cands": 3,
+  "gold": [
+   13.5,
+   13.5,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "5.31in/13.5cm",
+  "forced_pred": [
+   5.31,
+   "inch"
+  ],
+  "forced_dim": true,
+  "select_raw": "C",
+  "select_pred": [
+   15.5,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "611U40EQg8L.jpg",
+  "attribute": "width",
+  "n_cands": 2,
+  "gold": [
+   14.0,
+   14.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "5.5 in",
+  "forced_pred": [
+   5.5,
+   "inch"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   33.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51EB5xzUA3L.jpg",
+  "attribute": "height",
+  "n_cands": 3,
+  "gold": [
+   12.0,
+   12.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "40mm",
+  "forced_pred": [
+   40.0,
+   "millimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   40.0,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "512KEHKlRZL.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   5.5,
+   5.5,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "5.5",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51eFqqhieVL.jpg",
+  "attribute": "width",
+  "n_cands": 4,
+  "gold": [
+   20.0,
+   20.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "20 cm",
+  "forced_pred": [
+   20.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   7.87,
+   "inch"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "61Cr7auVvNL.jpg",
+  "attribute": "height",
+  "n_cands": 2,
+  "gold": [
+   18.8,
+   18.8,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "7.40",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "A",
+  "select_pred": [
+   18.8,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "510WGgm-nrL.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   10.5,
+   10.5,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "5 cm",
+  "forced_pred": [
+   5.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   10.5,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51PlrMQEnWL.jpg",
+  "attribute": "height",
+  "n_cands": 3,
+  "gold": [
+   19.0,
+   19.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "12.5 cm",
+  "forced_pred": [
+   12.5,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   12.5,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51THsREtgaL.jpg",
+  "attribute": "width",
+  "n_cands": 0,
+  "gold": [
+   60.0,
+   60.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "60",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "41lGjqOKYqL.jpg",
+  "attribute": "width",
+  "n_cands": 0,
+  "gold": [
+   24.0,
+   24.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "24\"",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51wSUHFidYL.jpg",
+  "attribute": "height",
+  "n_cands": 3,
+  "gold": [
+   190.0,
+   190.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "190mm",
+  "forced_pred": [
+   190.0,
+   "millimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "C",
+  "select_pred": [
+   90.0,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51Lnz8cxs-L.jpg",
+  "attribute": "width",
+  "n_cands": 3,
+  "gold": [
+   20.0,
+   20.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "15 cm",
+  "forced_pred": [
+   15.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   20.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51WTnail1JL.jpg",
+  "attribute": "height",
+  "n_cands": 3,
+  "gold": [
+   150.0,
+   150.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "59.1\"",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   20.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "611a4njL7-L.jpg",
+  "attribute": "width",
+  "n_cands": 3,
+  "gold": [
+   152.0,
+   152.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "152",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   325.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "616W6mKK7uL.jpg",
+  "attribute": "width",
+  "n_cands": 2,
+  "gold": [
+   30.0,
+   30.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "30 cm",
+  "forced_pred": [
+   30.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   20.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "61Ccd92dfyL.jpg",
+  "attribute": "width",
+  "n_cands": 5,
+  "gold": [
+   80.0,
+   80.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "80mm",
+  "forced_pred": [
+   80.0,
+   "millimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "C",
+  "select_pred": [
+   120.0,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "512db902fCL.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   8.0,
+   8.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "8 cm",
+  "forced_pred": [
+   8.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   8.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "514OuYaLxbL.jpg",
+  "attribute": "depth",
+  "n_cands": 6,
+  "gold": [
+   255.0,
+   255.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "255mm",
+  "forced_pred": [
+   255.0,
+   "millimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "D",
+  "select_pred": [
+   0.64,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "619R1AjqfES.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   7.0,
+   7.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "10 cm",
+  "forced_pred": [
+   10.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51UlBvqrj4L.jpg",
+  "attribute": "depth",
+  "n_cands": 4,
+  "gold": [
+   80.0,
+   80.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "40 cm",
+  "forced_pred": [
+   40.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   80.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51bo+nMPZ6L.jpg",
+  "attribute": "height",
+  "n_cands": 2,
+  "gold": [
+   33.9,
+   33.9,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "9.5 cm",
+  "forced_pred": [
+   9.5,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "b",
+  "select_pred": [
+   9.5,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "610lkLXIgjL.jpg",
+  "attribute": "height",
+  "n_cands": 3,
+  "gold": [
+   57.0,
+   57.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "57 cm",
+  "forced_pred": [
+   57.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "A",
+  "select_pred": [
+   57.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "61C0hvgudDL.jpg",
+  "attribute": "width",
+  "n_cands": 5,
+  "gold": [
+   20.0,
+   20.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "10.63",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   20.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "61EsH6aJI5L.jpg",
+  "attribute": "width",
+  "n_cands": 2,
+  "gold": [
+   43.0,
+   43.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "38-43mm",
+  "forced_pred": [
+   -43.0,
+   "millimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   38.0,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51kzsLboUJL.jpg",
+  "attribute": "width",
+  "n_cands": 0,
+  "gold": [
+   7.48,
+   7.48,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "7.48\"",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "518bqU9qcZL.jpg",
+  "attribute": "depth",
+  "n_cands": 6,
+  "gold": [
+   100.0,
+   100.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "16 cm",
+  "forced_pred": [
+   16.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   4.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "41B24KHo6KL.jpg",
+  "attribute": "height",
+  "n_cands": 2,
+  "gold": [
+   14.7,
+   14.7,
+   "centimeter"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "14.7 cm",
+  "forced_pred": [
+   14.7,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   20.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "61DtRhA+4iL.jpg",
+  "attribute": "height",
+  "n_cands": 3,
+  "gold": [
+   70.0,
+   70.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "520 mm",
+  "forced_pred": [
+   520.0,
+   "millimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "A",
+  "select_pred": [
+   520.0,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51QVaJ01SBL.jpg",
+  "attribute": "width",
+  "n_cands": 3,
+  "gold": [
+   48.0,
+   48.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "48 mm",
+  "forced_pred": [
+   48.0,
+   "millimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   48.0,
+   "millimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51rGakY9pwL.jpg",
+  "attribute": "width",
+  "n_cands": 3,
+  "gold": [
+   5.9,
+   5.9,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "19 cm",
+  "forced_pred": [
+   19.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   15.2,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51PBJ+FWEoL.jpg",
+  "attribute": "height",
+  "n_cands": 0,
+  "gold": [
+   37.0,
+   37.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "37 mm",
+  "forced_pred": [
+   37.0,
+   "millimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51ls5rWQaiL.jpg",
+  "attribute": "height",
+  "n_cands": 5,
+  "gold": [
+   9.0,
+   9.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "9 cm",
+  "forced_pred": [
+   9.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "E",
+  "select_pred": [
+   9.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "514NWDVnW6L.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   32.5,
+   32.5,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "22.5 cm",
+  "forced_pred": [
+   22.5,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "A",
+  "select_pred": [
+   32.5,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51C+cXZSQJL.jpg",
+  "attribute": "height",
+  "n_cands": 4,
+  "gold": [
+   2.7,
+   2.7,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "5 inches",
+  "forced_pred": [
+   5.0,
+   "inch"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   5.0,
+   "inch"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51lL-2XddOL.jpg",
+  "attribute": "depth",
+  "n_cands": 5,
+  "gold": [
+   13.0,
+   13.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "5.1in",
+  "forced_pred": [
+   5.1,
+   "inch"
+  ],
+  "forced_dim": true,
+  "select_raw": "E",
+  "select_pred": [
+   13.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "61-OeY08hkL.jpg",
+  "attribute": "depth",
+  "n_cands": 1,
+  "gold": [
+   9.0,
+   9.0,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "9",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   9.0,
+   "inch"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "619WjHqt5VL.jpg",
+  "attribute": "height",
+  "n_cands": 4,
+  "gold": [
+   46.0,
+   46.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "46 cm",
+  "forced_pred": [
+   46.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   46.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "517mmbCyTaL.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   72.0,
+   72.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "72",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "619P412HiEL.jpg",
+  "attribute": "height",
+  "n_cands": 6,
+  "gold": [
+   22.4,
+   22.4,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "26.1 cm",
+  "forced_pred": [
+   26.1,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   10.27,
+   "inch"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51G8qdW-FhL.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   7.2,
+   7.2,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "2.8",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   10.5,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51pXjy-6TuL.jpg",
+  "attribute": "height",
+  "n_cands": 6,
+  "gold": [
+   8.07,
+   8.07,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "225mm",
+  "forced_pred": [
+   225.0,
+   "millimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "f",
+  "select_pred": [
+   8.07,
+   "inch"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "6166eL71hWL.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   72.0,
+   72.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "36",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51D3ai7ZvtL.jpg",
+  "attribute": "height",
+  "n_cands": 0,
+  "gold": [
+   4.7,
+   4.7,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "23.2 in",
+  "forced_pred": [
+   23.2,
+   "inch"
+  ],
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "513G+0MuSXL.jpg",
+  "attribute": "height",
+  "n_cands": 2,
+  "gold": [
+   4.0,
+   4.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "6.5cm",
+  "forced_pred": [
+   6.5,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   6.5,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "516LcOFY86L.jpg",
+  "attribute": "depth",
+  "n_cands": 3,
+  "gold": [
+   14.0,
+   14.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "14 cm",
+  "forced_pred": [
+   14.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "C",
+  "select_pred": [
+   14.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51IKtchEWNL.jpg",
+  "attribute": "height",
+  "n_cands": 3,
+  "gold": [
+   35.0,
+   35.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "35cm",
+  "forced_pred": [
+   35.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   35.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "61F0snsPnIL.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   5.5,
+   5.5,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "1 1/2\"",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "515V-t3h0QL.jpg",
+  "attribute": "height",
+  "n_cands": 2,
+  "gold": [
+   4.7,
+   4.7,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "4.7 in",
+  "forced_pred": [
+   4.7,
+   "inch"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   20.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51FtWbTaf1S.jpg",
+  "attribute": "width",
+  "n_cands": 3,
+  "gold": [
+   3.93,
+   3.93,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "5.51",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   14.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "61DC7KYz20L.jpg",
+  "attribute": "height",
+  "n_cands": 5,
+  "gold": [
+   5.5,
+   5.5,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "5.5 cm",
+  "forced_pred": [
+   5.5,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "D",
+  "select_pred": [
+   22.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "617Fr2s+l6L.jpg",
+  "attribute": "height",
+  "n_cands": 3,
+  "gold": [
+   2.0,
+   2.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "2.2 in",
+  "forced_pred": [
+   2.2,
+   "inch"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   5.7,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51p0+hpToML.jpg",
+  "attribute": "width",
+  "n_cands": 4,
+  "gold": [
+   5.1,
+   5.1,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "30cm",
+  "forced_pred": [
+   30.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "D",
+  "select_pred": [
+   30.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "5118frbbQXS.jpg",
+  "attribute": "width",
+  "n_cands": 3,
+  "gold": [
+   90.0,
+   90.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "90 cm",
+  "forced_pred": [
+   90.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "C",
+  "select_pred": [
+   75.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51iNd-aKftL.jpg",
+  "attribute": "depth",
+  "n_cands": 5,
+  "gold": [
+   4.0,
+   4.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "40mm",
+  "forced_pred": [
+   40.0,
+   "millimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "C",
+  "select_pred": [
+   17.0,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "61C2tntUzAL.jpg",
+  "attribute": "width",
+  "n_cands": 3,
+  "gold": [
+   10.0,
+   10.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "10 cm",
+  "forced_pred": [
+   10.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "C",
+  "select_pred": [
+   65.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "617nYnTqceL.jpg",
+  "attribute": "width",
+  "n_cands": 3,
+  "gold": [
+   9.0,
+   9.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "9 cm",
+  "forced_pred": [
+   9.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   9.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "61+gNAKe-GL.jpg",
+  "attribute": "width",
+  "n_cands": 4,
+  "gold": [
+   6.5,
+   6.5,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "6.5 cm",
+  "forced_pred": [
+   6.5,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   6.5,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "61EwzF15dCL.jpg",
+  "attribute": "height",
+  "n_cands": 0,
+  "gold": [
+   3.0,
+   3.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "15 cm",
+  "forced_pred": [
+   15.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "41mEPY5eQ4L.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   52.0,
+   52.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "23 cm",
+  "forced_pred": [
+   23.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   52.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51IJpfs2a8L.jpg",
+  "attribute": "height",
+  "n_cands": 8,
+  "gold": [
+   6.5,
+   6.5,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "20.8 cm",
+  "forced_pred": [
+   20.8,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "f",
+  "select_pred": [
+   9.72,
+   "inch"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "517whGbahsL.jpg",
+  "attribute": "width",
+  "n_cands": 0,
+  "gold": [
+   6.89,
+   6.89,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "4.53\"",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "5172SI4OsNL.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   9.0,
+   9.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "3.5in",
+  "forced_pred": [
+   3.5,
+   "inch"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   10.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "41MRyj8fh+L.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   15.0,
+   15.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "15 cm",
+  "forced_pred": [
+   15.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "A",
+  "select_pred": [
+   15.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51USu-4cWZL.jpg",
+  "attribute": "width",
+  "n_cands": 8,
+  "gold": [
+   24.0,
+   24.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "14m",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "g",
+  "select_pred": [
+   27.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "6165s0mIFmL.jpg",
+  "attribute": "depth",
+  "n_cands": 3,
+  "gold": [
+   36.0,
+   36.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "36 cm",
+  "forced_pred": [
+   36.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "C",
+  "select_pred": [
+   59.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51ez-isRtHL.jpg",
+  "attribute": "height",
+  "n_cands": 6,
+  "gold": [
+   1.5,
+   1.5,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "9.5 cm",
+  "forced_pred": [
+   9.5,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   9.5,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "61FUuie57cL.jpg",
+  "attribute": "width",
+  "n_cands": 0,
+  "gold": [
+   8.0,
+   8.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "6.89",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51A2EGH820L.jpg",
+  "attribute": "depth",
+  "n_cands": 5,
+  "gold": [
+   6.0,
+   6.0,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "102mm",
+  "forced_pred": [
+   102.0,
+   "millimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   102.0,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51CHcRbp9iL.jpg",
+  "attribute": "depth",
+  "n_cands": 4,
+  "gold": [
+   140.0,
+   140.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "140 cm",
+  "forced_pred": [
+   140.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   140.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "61Dhaw1TPhL.jpg",
+  "attribute": "width",
+  "n_cands": 3,
+  "gold": [
+   10.0,
+   10.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "10 cm",
+  "forced_pred": [
+   10.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   11.1,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51kAaUzEZPL.jpg",
+  "attribute": "width",
+  "n_cands": 5,
+  "gold": [
+   15.5,
+   15.5,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "15.5 cm",
+  "forced_pred": [
+   15.5,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   15.5,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51LJfv3I5-L.jpg",
+  "attribute": "width",
+  "n_cands": 4,
+  "gold": [
+   16.9,
+   16.9,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "16.9",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "D",
+  "select_pred": [
+   22.4,
+   "inch"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "6134XT0RmdL.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   13.9,
+   13.9,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "11.8in",
+  "forced_pred": [
+   11.8,
+   "inch"
+  ],
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51HNrHuhtjL.jpg",
+  "attribute": "width",
+  "n_cands": 0,
+  "gold": [
+   5.9,
+   5.9,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "5.90in",
+  "forced_pred": [
+   5.9,
+   "inch"
+  ],
+  "forced_dim": true,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51R8e+wcdnL.jpg",
+  "attribute": "width",
+  "n_cands": 3,
+  "gold": [
+   11.6,
+   11.6,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "23.2 cm",
+  "forced_pred": [
+   23.2,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   23.2,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51wCQBmOOmL.jpg",
+  "attribute": "width",
+  "n_cands": 1,
+  "gold": [
+   9.0,
+   9.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "6+9cm",
+  "forced_pred": [
+   9.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   9.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51SpRsWNPqL.jpg",
+  "attribute": "width",
+  "n_cands": 2,
+  "gold": [
+   30.0,
+   30.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "10 cm",
+  "forced_pred": [
+   10.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   30.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51sGrO2dajL.jpg",
+  "attribute": "width",
+  "n_cands": 3,
+  "gold": [
+   17.0,
+   17.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "13 cm",
+  "forced_pred": [
+   13.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   13.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51-S+zvJ9NL.jpg",
+  "attribute": "height",
+  "n_cands": 4,
+  "gold": [
+   150.0,
+   150.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "150mm",
+  "forced_pred": [
+   150.0,
+   "millimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "C",
+  "select_pred": [
+   150.0,
+   "millimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51AAprpZBYL.jpg",
+  "attribute": "height",
+  "n_cands": 7,
+  "gold": [
+   4.0,
+   4.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "12 cm",
+  "forced_pred": [
+   12.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "D",
+  "select_pred": [
+   12.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "618qyWbZQhL.jpg",
+  "attribute": "width",
+  "n_cands": 2,
+  "gold": [
+   90.0,
+   90.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "90",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   90.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51Vru7B7X7L.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   24.0,
+   24.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "10 in",
+  "forced_pred": [
+   10.0,
+   "inch"
+  ],
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51GgJjA0ZuL.jpg",
+  "attribute": "width",
+  "n_cands": 1,
+  "gold": [
+   19.0,
+   19.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "19 cm",
+  "forced_pred": [
+   19.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   919.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "616mfp9E1ZL.jpg",
+  "attribute": "depth",
+  "n_cands": 5,
+  "gold": [
+   18.0,
+   18.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "18 cm",
+  "forced_pred": [
+   18.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "C",
+  "select_pred": [
+   13.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51vAuTeIP1L.jpg",
+  "attribute": "width",
+  "n_cands": 1,
+  "gold": [
+   21.0,
+   21.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "39 cm",
+  "forced_pred": [
+   39.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   21.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51AqNTxaj1L.jpg",
+  "attribute": "height",
+  "n_cands": 5,
+  "gold": [
+   84.0,
+   84.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "96cm",
+  "forced_pred": [
+   96.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   90.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "41QI1EixvOL.jpg",
+  "attribute": "width",
+  "n_cands": 0,
+  "gold": [
+   108.0,
+   108.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "54",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "41V4uAZZSDL.jpg",
+  "attribute": "depth",
+  "n_cands": 4,
+  "gold": [
+   42.0,
+   42.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "20 cm",
+  "forced_pred": [
+   20.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   20.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51ry-ctssSL.jpg",
+  "attribute": "height",
+  "n_cands": 5,
+  "gold": [
+   18.0,
+   18.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "2.5 cm",
+  "forced_pred": [
+   2.5,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   2.5,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51nILfrLrJL.jpg",
+  "attribute": "height",
+  "n_cands": 0,
+  "gold": [
+   8.0,
+   8.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "7",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "41sovNXziXL.jpg",
+  "attribute": "width",
+  "n_cands": 3,
+  "gold": [
+   76.0,
+   76.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "76 cm",
+  "forced_pred": [
+   76.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "C",
+  "select_pred": [
+   76.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51PnS5CEFBS.jpg",
+  "attribute": "depth",
+  "n_cands": 1,
+  "gold": [
+   100.0,
+   100.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "22 cm",
+  "forced_pred": [
+   22.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   22.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51D6Z5dCh5L.jpg",
+  "attribute": "height",
+  "n_cands": 2,
+  "gold": [
+   36.0,
+   36.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "82 cm",
+  "forced_pred": [
+   82.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   82.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "515MEV1uJ5L.jpg",
+  "attribute": "width",
+  "n_cands": 1,
+  "gold": [
+   10.0,
+   10.0,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "16",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   10.0,
+   "inch"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "61DZfnSBWQL.jpg",
+  "attribute": "width",
+  "n_cands": 0,
+  "gold": [
+   9.8,
+   9.8,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "9.8 in",
+  "forced_pred": [
+   9.8,
+   "inch"
+  ],
+  "forced_dim": true,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "61-AcECdhFL.jpg",
+  "attribute": "height",
+  "n_cands": 2,
+  "gold": [
+   30.0,
+   30.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "30cm",
+  "forced_pred": [
+   30.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   45.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "614E7BAHzwL.jpg",
+  "attribute": "height",
+  "n_cands": 3,
+  "gold": [
+   63.0,
+   63.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "24.80\"",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   60.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51nSpbi-YuL.jpg",
+  "attribute": "width",
+  "n_cands": 0,
+  "gold": [
+   15.7,
+   15.7,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "15.7",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51YecqNyKZL.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   3.8,
+   3.8,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "5 mm",
+  "forced_pred": [
+   5.0,
+   "millimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   5.0,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "61BRJ9kaLtL.jpg",
+  "attribute": "width",
+  "n_cands": 5,
+  "gold": [
+   47.0,
+   47.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "34 cm",
+  "forced_pred": [
+   34.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   48.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "61AO8aKk8hL.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   3.5,
+   3.5,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "3.5",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "617zUufeqsL.jpg",
+  "attribute": "width",
+  "n_cands": 8,
+  "gold": [
+   14.5,
+   14.5,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "14.5 cm",
+  "forced_pred": [
+   14.5,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "g",
+  "select_pred": [
+   14.5,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51vhszGx1vL.jpg",
+  "attribute": "width",
+  "n_cands": 0,
+  "gold": [
+   59.0,
+   59.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "59",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51sJjVVEE8L.jpg",
+  "attribute": "height",
+  "n_cands": 2,
+  "gold": [
+   56.0,
+   56.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "9.05",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "A",
+  "select_pred": [
+   23.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "61B3sDVtRFL.jpg",
+  "attribute": "width",
+  "n_cands": 4,
+  "gold": [
+   16.0,
+   16.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "16 cm",
+  "forced_pred": [
+   16.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "C",
+  "select_pred": [
+   17.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51M1JAz8e2L.jpg",
+  "attribute": "width",
+  "n_cands": 2,
+  "gold": [
+   20.0,
+   20.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "10 cm",
+  "forced_pred": [
+   10.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   20.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "61+JEhQI33L.jpg",
+  "attribute": "height",
+  "n_cands": 0,
+  "gold": [
+   6.5,
+   6.5,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "6.5",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51HlrV2BEBL.jpg",
+  "attribute": "height",
+  "n_cands": 0,
+  "gold": [
+   0.8,
+   0.8,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "6.7 in",
+  "forced_pred": [
+   6.7,
+   "inch"
+  ],
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "613-IFsjFLL.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   45.0,
+   45.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "33.5 cm",
+  "forced_pred": [
+   33.5,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   45.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51e0QBxq3XL.jpg",
+  "attribute": "width",
+  "n_cands": 0,
+  "gold": [
+   23.7,
+   23.7,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "11.9\"",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "512TvWbegWL.jpg",
+  "attribute": "height",
+  "n_cands": 0,
+  "gold": [
+   57.9,
+   57.9,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "49 in",
+  "forced_pred": [
+   49.0,
+   "inch"
+  ],
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "61E3ntx24lL.jpg",
+  "attribute": "height",
+  "n_cands": 1,
+  "gold": [
+   7.0,
+   7.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "7 cm",
+  "forced_pred": [
+   7.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   7.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "6193x14Ex7L.jpg",
+  "attribute": "width",
+  "n_cands": 3,
+  "gold": [
+   110.0,
+   110.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "110cm",
+  "forced_pred": [
+   110.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "C",
+  "select_pred": [
+   110.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "611uUY9wZ6L.jpg",
+  "attribute": "width",
+  "n_cands": 8,
+  "gold": [
+   6.0,
+   6.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "12.5 cm",
+  "forced_pred": [
+   12.5,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   12.5,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51Hnr1CRUlL.jpg",
+  "attribute": "height",
+  "n_cands": 1,
+  "gold": [
+   47.0,
+   47.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "47 cm",
+  "forced_pred": [
+   47.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   47.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51RMNDot-qL.jpg",
+  "attribute": "width",
+  "n_cands": 2,
+  "gold": [
+   23.0,
+   23.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "23 cm",
+  "forced_pred": [
+   23.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   23.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "518VbdLpL7L.jpg",
+  "attribute": "width",
+  "n_cands": 4,
+  "gold": [
+   65.0,
+   65.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "65mm",
+  "forced_pred": [
+   65.0,
+   "millimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "D",
+  "select_pred": [
+   65.0,
+   "millimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51PCsyJPstL.jpg",
+  "attribute": "width",
+  "n_cands": 4,
+  "gold": [
+   92.0,
+   92.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "92mm",
+  "forced_pred": [
+   92.0,
+   "millimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "C",
+  "select_pred": [
+   92.0,
+   "millimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "61GAc71cVAL.jpg",
+  "attribute": "width",
+  "n_cands": 0,
+  "gold": [
+   70.0,
+   70.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "140",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51ZTpN059QL.jpg",
+  "attribute": "width",
+  "n_cands": 1,
+  "gold": [
+   110.0,
+   110.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "110 cm",
+  "forced_pred": [
+   110.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   110.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "619QVd8maaL.jpg",
+  "attribute": "height",
+  "n_cands": 3,
+  "gold": [
+   848.0,
+   848.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "848 mm",
+  "forced_pred": [
+   848.0,
+   "millimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   848.0,
+   "millimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51XZ486zFAL.jpg",
+  "attribute": "height",
+  "n_cands": 4,
+  "gold": [
+   18.0,
+   18.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "120 cm",
+  "forced_pred": [
+   120.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   120.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "41-D43Y38JL.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   108.0,
+   108.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "0",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "617vv8nzo3L.jpg",
+  "attribute": "height",
+  "n_cands": 2,
+  "gold": [
+   200.0,
+   200.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "6.6 ft",
+  "forced_pred": [
+   6.6,
+   "foot"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   200.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "61456KscH5L.jpg",
+  "attribute": "width",
+  "n_cands": 6,
+  "gold": [
+   35.0,
+   35.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "40mm",
+  "forced_pred": [
+   40.0,
+   "millimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   50.0,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "610BToRDrGL.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   30.0,
+   30.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "15 in",
+  "forced_pred": [
+   15.0,
+   "inch"
+  ],
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "61CjJVvMAlL.jpg",
+  "attribute": "width",
+  "n_cands": 2,
+  "gold": [
+   20.0,
+   20.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "11.9",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   30.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "617rs7SwpvL.jpg",
+  "attribute": "depth",
+  "n_cands": 5,
+  "gold": [
+   48.0,
+   48.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "25 cm",
+  "forced_pred": [
+   25.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   25.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "61F-BpneMJL.jpg",
+  "attribute": "depth",
+  "n_cands": 5,
+  "gold": [
+   50.0,
+   50.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "6mm",
+  "forced_pred": [
+   6.0,
+   "millimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   6.0,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "61+SRsJvr-L.jpg",
+  "attribute": "depth",
+  "n_cands": 4,
+  "gold": [
+   22.0,
+   22.0,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "22 inch",
+  "forced_pred": [
+   22.0,
+   "inch"
+  ],
+  "forced_dim": true,
+  "select_raw": "C",
+  "select_pred": [
+   22.0,
+   "inch"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "612WsN1OsIL.jpg",
+  "attribute": "depth",
+  "n_cands": 8,
+  "gold": [
+   14.5,
+   14.5,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "4.7 inch",
+  "forced_pred": [
+   4.7,
+   "inch"
+  ],
+  "forced_dim": false,
+  "select_raw": "f",
+  "select_pred": [
+   4.7,
+   "inch"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "413wnhPK9tL.jpg",
+  "attribute": "width",
+  "n_cands": 0,
+  "gold": [
+   7.48,
+   7.48,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "7.48\"",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51w4PI6A1dL.jpg",
+  "attribute": "depth",
+  "n_cands": 3,
+  "gold": [
+   42.0,
+   42.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "5.5cm",
+  "forced_pred": [
+   5.5,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   5.5,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "618edaBoEyL.jpg",
+  "attribute": "height",
+  "n_cands": 0,
+  "gold": [
+   15.74,
+   15.74,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "15.74",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "617Mgi74lBL.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   30.0,
+   30.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "30 cm",
+  "forced_pred": [
+   30.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51xN6WTuaLL.jpg",
+  "attribute": "width",
+  "n_cands": 3,
+  "gold": [
+   20.0,
+   20.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "7.9",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   14.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51n7Tl0u3vL.jpg",
+  "attribute": "depth",
+  "n_cands": 4,
+  "gold": [
+   30.0,
+   30.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "20 cm",
+  "forced_pred": [
+   20.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "D",
+  "select_pred": [
+   20.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51GDhisAfiS.jpg",
+  "attribute": "width",
+  "n_cands": 0,
+  "gold": [
+   24.0,
+   24.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "6\"",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "618+vnAoaoL.jpg",
+  "attribute": "depth",
+  "n_cands": 7,
+  "gold": [
+   118.75,
+   118.75,
+   "centimeter"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "64 cm",
+  "forced_pred": [
+   64.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "D",
+  "select_pred": [
+   64.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51kT0zoTi8L.jpg",
+  "attribute": "height",
+  "n_cands": 2,
+  "gold": [
+   235.0,
+   235.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "475mm",
+  "forced_pred": [
+   475.0,
+   "millimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   235.0,
+   "millimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "41jWfOTG94L.jpg",
+  "attribute": "depth",
+  "n_cands": 4,
+  "gold": [
+   16.0,
+   16.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "8.5 cm",
+  "forced_pred": [
+   8.5,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "D",
+  "select_pred": [
+   8.5,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51WLpDDGiqL.jpg",
+  "attribute": "height",
+  "n_cands": 0,
+  "gold": [
+   56.0,
+   56.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "56",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51Bo4OnjT+L.jpg",
+  "attribute": "depth",
+  "n_cands": 3,
+  "gold": [
+   24.0,
+   24.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "12 mm",
+  "forced_pred": [
+   12.0,
+   "millimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   24.0,
+   "millimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "61BEkZqnADL.jpg",
+  "attribute": "height",
+  "n_cands": 7,
+  "gold": [
+   13.4,
+   13.4,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "18 inch",
+  "forced_pred": [
+   18.0,
+   "inch"
+  ],
+  "forced_dim": false,
+  "select_raw": "f",
+  "select_pred": [
+   13.4,
+   "inch"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51MdvN+LPTL.jpg",
+  "attribute": "depth",
+  "n_cands": 1,
+  "gold": [
+   6.8,
+   6.8,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "2.7in",
+  "forced_pred": [
+   2.7,
+   "inch"
+  ],
+  "forced_dim": true,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   6.8,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51d-K+I2urL.jpg",
+  "attribute": "width",
+  "n_cands": 0,
+  "gold": [
+   72.51,
+   72.51,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "25.7\"",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51hHyJCmxkL.jpg",
+  "attribute": "depth",
+  "n_cands": 3,
+  "gold": [
+   33.0,
+   33.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "12.3 cm",
+  "forced_pred": [
+   12.3,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   12.3,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51NU+3mz0ML.jpg",
+  "attribute": "height",
+  "n_cands": 2,
+  "gold": [
+   24.0,
+   24.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "24 cm",
+  "forced_pred": [
+   24.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "A",
+  "select_pred": [
+   24.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "513tdmpZ1YL.jpg",
+  "attribute": "height",
+  "n_cands": 1,
+  "gold": [
+   3.0,
+   3.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "2.4",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   3.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51KXPa16YsL.jpg",
+  "attribute": "height",
+  "n_cands": 8,
+  "gold": [
+   184.0,
+   184.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "184 mm",
+  "forced_pred": [
+   184.0,
+   "millimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "g",
+  "select_pred": [
+   2.68,
+   "inch"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "611YFxTswUL.jpg",
+  "attribute": "depth",
+  "n_cands": 6,
+  "gold": [
+   15.0,
+   15.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "12 cm",
+  "forced_pred": [
+   12.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   12.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51Hq0WyTl8L.jpg",
+  "attribute": "width",
+  "n_cands": 0,
+  "gold": [
+   4.5,
+   4.5,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "4.5 in",
+  "forced_pred": [
+   4.5,
+   "inch"
+  ],
+  "forced_dim": true,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51OCfEiEAZL.jpg",
+  "attribute": "depth",
+  "n_cands": 7,
+  "gold": [
+   7.0,
+   7.0,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "2.24",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   7.6,
+   "inch"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "6143TddT1bL.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   6.5,
+   6.5,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "6.5",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "61+7Fw5hbCL.jpg",
+  "attribute": "width",
+  "n_cands": 5,
+  "gold": [
+   35.0,
+   35.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "148mm",
+  "forced_pred": [
+   148.0,
+   "millimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   5.82,
+   "inch"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51FYKzmyKlL.jpg",
+  "attribute": "depth",
+  "n_cands": 3,
+  "gold": [
+   22.0,
+   22.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "0.35\"",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   22.0,
+   "millimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "41EAbAz311L.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   11.0,
+   11.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "3.54 in",
+  "forced_pred": [
+   3.54,
+   "inch"
+  ],
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "6183e-etFXL.jpg",
+  "attribute": "height",
+  "n_cands": 1,
+  "gold": [
+   19.0,
+   19.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "19 cm",
+  "forced_pred": [
+   19.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   19.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "518I9MhCChL.jpg",
+  "attribute": "height",
+  "n_cands": 4,
+  "gold": [
+   12.0,
+   12.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "150 cm",
+  "forced_pred": [
+   150.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   150.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51UnrnbMtcL.jpg",
+  "attribute": "width",
+  "n_cands": 3,
+  "gold": [
+   3.25,
+   3.25,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "12mm",
+  "forced_pred": [
+   12.0,
+   "millimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   3.25,
+   "inch"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51V67pG-IhL.jpg",
+  "attribute": "height",
+  "n_cands": 8,
+  "gold": [
+   5.5,
+   5.5,
+   "millimeter"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "10mm",
+  "forced_pred": [
+   10.0,
+   "millimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "h",
+  "select_pred": [
+   0.1,
+   "inch"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "61EEOkZtIiL.jpg",
+  "attribute": "height",
+  "n_cands": 3,
+  "gold": [
+   35.0,
+   35.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "35cm",
+  "forced_pred": [
+   35.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   35.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51UG1nrveWL.jpg",
+  "attribute": "width",
+  "n_cands": 2,
+  "gold": [
+   0.9,
+   0.9,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "11.8",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "b",
+  "select_pred": [
+   0.9,
+   "inch"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "61BE9nPKo7L.jpg",
+  "attribute": "height",
+  "n_cands": 7,
+  "gold": [
+   28.0,
+   28.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "28cm",
+  "forced_pred": [
+   28.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "C",
+  "select_pred": [
+   28.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "519OpCJQAML.jpg",
+  "attribute": "width",
+  "n_cands": 2,
+  "gold": [
+   5.5,
+   5.5,
+   "centimeter"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "3.5 cm",
+  "forced_pred": [
+   3.5,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "A",
+  "select_pred": [
+   71.5,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "618iemdNs8L.jpg",
+  "attribute": "height",
+  "n_cands": 6,
+  "gold": [
+   3.03,
+   3.03,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "15 cm",
+  "forced_pred": [
+   15.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   15.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "514v2boamaL.jpg",
+  "attribute": "width",
+  "n_cands": 4,
+  "gold": [
+   14.0,
+   14.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "16 cm",
+  "forced_pred": [
+   16.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "D",
+  "select_pred": [
+   16.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51Z2YMlmitL.jpg",
+  "attribute": "height",
+  "n_cands": 0,
+  "gold": [
+   4.59,
+   4.59,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "4.59\"",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "41WbnvdcZFL.jpg",
+  "attribute": "height",
+  "n_cands": 2,
+  "gold": [
+   2.0,
+   2.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "2 mm",
+  "forced_pred": [
+   2.0,
+   "millimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   1170.0,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "41JzlscfgrS.jpg",
+  "attribute": "depth",
+  "n_cands": 1,
+  "gold": [
+   40.0,
+   40.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "3 cm",
+  "forced_pred": [
+   3.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   40.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "617JH8SGjTL.jpg",
+  "attribute": "height",
+  "n_cands": 0,
+  "gold": [
+   33.5,
+   33.5,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "33.5",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "41VnEeqwBNL.jpg",
+  "attribute": "height",
+  "n_cands": 2,
+  "gold": [
+   35.37,
+   35.37,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "35.37 in",
+  "forced_pred": [
+   35.37,
+   "inch"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   90.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51eZgndHwJL.jpg",
+  "attribute": "depth",
+  "n_cands": 5,
+  "gold": [
+   40.0,
+   40.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "33mm",
+  "forced_pred": [
+   33.0,
+   "millimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "D",
+  "select_pred": [
+   40.0,
+   "millimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51kTFP46RWL.jpg",
+  "attribute": "width",
+  "n_cands": 2,
+  "gold": [
+   31.0,
+   31.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "21.5cm",
+  "forced_pred": [
+   21.5,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   21.5,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51IE6GT7giL.jpg",
+  "attribute": "width",
+  "n_cands": 3,
+  "gold": [
+   10.0,
+   10.0,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "8 inch",
+  "forced_pred": [
+   8.0,
+   "inch"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   8.0,
+   "inch"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "517QOVZ7zSL.jpg",
+  "attribute": "height",
+  "n_cands": 2,
+  "gold": [
+   24.0,
+   24.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "46 mm",
+  "forced_pred": [
+   46.0,
+   "millimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   46.0,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51M3-7P7YiL.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   7.0,
+   7.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "5 cm",
+  "forced_pred": [
+   5.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   5.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "61FU47yNDrL.jpg",
+  "attribute": "height",
+  "n_cands": 3,
+  "gold": [
+   26.5,
+   26.5,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "26.5mm",
+  "forced_pred": [
+   26.5,
+   "millimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "C",
+  "select_pred": [
+   175.0,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "61-DAEntr3L.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   28.0,
+   28.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "20 cm",
+  "forced_pred": [
+   20.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "A",
+  "select_pred": [
+   28.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "614WURsrliL.jpg",
+  "attribute": "height",
+  "n_cands": 4,
+  "gold": [
+   6.0,
+   6.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "30cm",
+  "forced_pred": [
+   30.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "D",
+  "select_pred": [
+   30.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "617tb8iaJPL.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   3.0,
+   3.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "37 cm",
+  "forced_pred": [
+   37.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51H9aPegekL.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   8.0,
+   8.0,
+   "foot"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "32 cm",
+  "forced_pred": [
+   32.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51ajr0AzjQS.jpg",
+  "attribute": "depth",
+  "n_cands": 3,
+  "gold": [
+   222.0,
+   222.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "240 mm",
+  "forced_pred": [
+   240.0,
+   "millimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   240.0,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "610b9r1FThL.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   8.0,
+   8.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "5.3",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "61E5xQKX9aL.jpg",
+  "attribute": "height",
+  "n_cands": 4,
+  "gold": [
+   120.0,
+   120.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "110cm",
+  "forced_pred": [
+   110.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "D",
+  "select_pred": [
+   110.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51NkmfR3B-L.jpg",
+  "attribute": "width",
+  "n_cands": 4,
+  "gold": [
+   15.0,
+   15.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "15 cm",
+  "forced_pred": [
+   15.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "D",
+  "select_pred": [
+   15.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "41RsDs+ZaJL.jpg",
+  "attribute": "width",
+  "n_cands": 1,
+  "gold": [
+   7.5,
+   7.5,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "7.5 cm",
+  "forced_pred": [
+   7.5,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   7.5,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51qIXpB5SnL.jpg",
+  "attribute": "depth",
+  "n_cands": 6,
+  "gold": [
+   275.0,
+   275.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "275mm",
+  "forced_pred": [
+   275.0,
+   "millimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "E",
+  "select_pred": [
+   275.0,
+   "millimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "31qIZz+BTfL.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   2.0,
+   2.0,
+   "meter"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "10 cm",
+  "forced_pred": [
+   10.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "41ia0XewqhL.jpg",
+  "attribute": "height",
+  "n_cands": 2,
+  "gold": [
+   10.5,
+   10.5,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "4.13 in",
+  "forced_pred": [
+   4.13,
+   "inch"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   10.5,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "5144oWcDkeL.jpg",
+  "attribute": "width",
+  "n_cands": 0,
+  "gold": [
+   70.0,
+   70.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "70\"",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "41T3utcB3FS.jpg",
+  "attribute": "height",
+  "n_cands": 1,
+  "gold": [
+   25.0,
+   25.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "25 cm",
+  "forced_pred": [
+   25.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   25.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "618vodcdwSL.jpg",
+  "attribute": "height",
+  "n_cands": 2,
+  "gold": [
+   11.6,
+   11.6,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "11.6 cm",
+  "forced_pred": [
+   11.6,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "A",
+  "select_pred": [
+   11.6,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "614kSTGO7bL.jpg",
+  "attribute": "height",
+  "n_cands": 0,
+  "gold": [
+   13.4,
+   13.4,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "11.8 in",
+  "forced_pred": [
+   11.8,
+   "inch"
+  ],
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51I3nHJWWsL.jpg",
+  "attribute": "depth",
+  "n_cands": 3,
+  "gold": [
+   1600.0,
+   1600.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "400 mm",
+  "forced_pred": [
+   400.0,
+   "millimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   400.0,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "61FSx1LEaFL.jpg",
+  "attribute": "depth",
+  "n_cands": 3,
+  "gold": [
+   40.0,
+   40.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "15 cm",
+  "forced_pred": [
+   15.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   18.2,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51pVEG4jzTL.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   32.0,
+   32.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "26.5mm",
+  "forced_pred": [
+   26.5,
+   "millimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   32.0,
+   "millimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "61AgzVXJvrL.jpg",
+  "attribute": "width",
+  "n_cands": 0,
+  "gold": [
+   5.3,
+   5.3,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "5.3in",
+  "forced_pred": [
+   5.3,
+   "inch"
+  ],
+  "forced_dim": true,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51tyk9L7BIL.jpg",
+  "attribute": "height",
+  "n_cands": 3,
+  "gold": [
+   10.0,
+   10.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "10 cm",
+  "forced_pred": [
+   10.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "C",
+  "select_pred": [
+   7.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "41A+zUqEC-L.jpg",
+  "attribute": "height",
+  "n_cands": 2,
+  "gold": [
+   17.0,
+   17.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "17 cm",
+  "forced_pred": [
+   17.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   17.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "413hRHI+kfL.jpg",
+  "attribute": "depth",
+  "n_cands": 5,
+  "gold": [
+   7.4,
+   7.4,
+   "inch"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "7.4 inch",
+  "forced_pred": [
+   7.4,
+   "inch"
+  ],
+  "forced_dim": true,
+  "select_raw": "e",
+  "select_pred": [
+   18.8,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51epxivvJkL.jpg",
+  "attribute": "width",
+  "n_cands": 3,
+  "gold": [
+   39.0,
+   39.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "39 cm",
+  "forced_pred": [
+   39.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "C",
+  "select_pred": [
+   91.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51M1Nfu8ynL.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   7.5,
+   7.5,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "7.5",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "61-GghxJIHL.jpg",
+  "attribute": "width",
+  "n_cands": 5,
+  "gold": [
+   2.19,
+   2.19,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "2 3/16 inch",
+  "forced_pred": [
+   16.0,
+   "inch"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   3.0,
+   "inch"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "614o7TEmLLL.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   1.8,
+   1.8,
+   "meter"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "1.8 meters",
+  "forced_pred": [
+   1.8,
+   "meter"
+  ],
+  "forced_dim": true,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51mlo9-uJiL.jpg",
+  "attribute": "height",
+  "n_cands": 1,
+  "gold": [
+   20.0,
+   20.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "20 cm",
+  "forced_pred": [
+   20.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   20.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51yMjMJiNZL.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   3.0,
+   3.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "3 inches",
+  "forced_pred": [
+   3.0,
+   "inch"
+  ],
+  "forced_dim": true,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51KtHACz77L.jpg",
+  "attribute": "width",
+  "n_cands": 0,
+  "gold": [
+   100.0,
+   100.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "100 mm",
+  "forced_pred": [
+   100.0,
+   "millimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51u6UbYjrzL.jpg",
+  "attribute": "depth",
+  "n_cands": 1,
+  "gold": [
+   18.0,
+   18.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "18 cm",
+  "forced_pred": [
+   18.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   18.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "615UdGRVdnS.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   7.75,
+   7.75,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "7.75",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "611prfno2BL.jpg",
+  "attribute": "depth",
+  "n_cands": 4,
+  "gold": [
+   183.0,
+   183.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "123 mm",
+  "forced_pred": [
+   123.0,
+   "millimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "D",
+  "select_pred": [
+   183.0,
+   "millimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "615Pgc9JItL.jpg",
+  "attribute": "width",
+  "n_cands": 0,
+  "gold": [
+   18.11,
+   18.11,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "18.11\"",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51D3ftwqCiL.jpg",
+  "attribute": "height",
+  "n_cands": 3,
+  "gold": [
+   180.0,
+   180.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "7.11 in",
+  "forced_pred": [
+   7.11,
+   "inch"
+  ],
+  "forced_dim": true,
+  "select_raw": "C",
+  "select_pred": [
+   400.0,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51mE6vminAL.jpg",
+  "attribute": "width",
+  "n_cands": 5,
+  "gold": [
+   6.0,
+   6.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "6 cm",
+  "forced_pred": [
+   6.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "C",
+  "select_pred": [
+   8.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "616xiIn0ZDL.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   5.59,
+   5.59,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "1.69",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "610SVeZzHrL.jpg",
+  "attribute": "width",
+  "n_cands": 4,
+  "gold": [
+   17.0,
+   17.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "30 cm",
+  "forced_pred": [
+   30.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   20.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "61G+irAkjML.jpg",
+  "attribute": "height",
+  "n_cands": 1,
+  "gold": [
+   10.5,
+   10.5,
+   "centimeter"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "8.5 cm",
+  "forced_pred": [
+   8.5,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   3.0,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "41etWytX59L.jpg",
+  "attribute": "height",
+  "n_cands": 3,
+  "gold": [
+   95.0,
+   95.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "95 cm",
+  "forced_pred": [
+   95.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   95.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51KFdywpjnL.jpg",
+  "attribute": "height",
+  "n_cands": 4,
+  "gold": [
+   15.0,
+   15.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "30cm",
+  "forced_pred": [
+   30.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   30.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "617c0Pa5hGL.jpg",
+  "attribute": "width",
+  "n_cands": 7,
+  "gold": [
+   88.5,
+   88.5,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "30cm",
+  "forced_pred": [
+   30.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "g",
+  "select_pred": [
+   165.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51-65Xe3smL.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   11.0,
+   11.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "11",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51KSz27wcEL.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   8.0,
+   8.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "8 in",
+  "forced_pred": [
+   8.0,
+   "inch"
+  ],
+  "forced_dim": true,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "412CV02qf4L.jpg",
+  "attribute": "depth",
+  "n_cands": 3,
+  "gold": [
+   43.0,
+   43.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "43 cm",
+  "forced_pred": [
+   43.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   58.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51adVjw3yTL.jpg",
+  "attribute": "width",
+  "n_cands": 2,
+  "gold": [
+   244.0,
+   244.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "2.5 ft",
+  "forced_pred": [
+   2.5,
+   "foot"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   244.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51EnsYmjXpL.jpg",
+  "attribute": "depth",
+  "n_cands": 3,
+  "gold": [
+   7.0,
+   7.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "2 cm",
+  "forced_pred": [
+   2.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   2.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "415F3qSlNqL.jpg",
+  "attribute": "depth",
+  "n_cands": 3,
+  "gold": [
+   21.0,
+   21.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "21 cm",
+  "forced_pred": [
+   21.0,
+   "centimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "B",
+  "select_pred": [
+   80.0,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "6162-84strL.jpg",
+  "attribute": "height",
+  "n_cands": 6,
+  "gold": [
+   7.0,
+   7.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "6.77 cm",
+  "forced_pred": [
+   6.77,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "C",
+  "select_pred": [
+   6.7,
+   "inch"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "611gu6iEFuL.jpg",
+  "attribute": "width",
+  "n_cands": 0,
+  "gold": [
+   2.0,
+   2.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "12 cm",
+  "forced_pred": [
+   12.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "51upmm1C3PL.jpg",
+  "attribute": "width",
+  "n_cands": 2,
+  "gold": [
+   29.7,
+   29.7,
+   "centimeter"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "21 cm",
+  "forced_pred": [
+   21.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   37.3,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51uG2ZWtXkL.jpg",
+  "attribute": "height",
+  "n_cands": 3,
+  "gold": [
+   214.0,
+   214.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "214 mm",
+  "forced_pred": [
+   214.0,
+   "millimeter"
+  ],
+  "forced_dim": true,
+  "select_raw": "A",
+  "select_pred": [
+   214.0,
+   "millimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "51YH6qFRoiS.jpg",
+  "attribute": "depth",
+  "n_cands": 0,
+  "gold": [
+   7.5,
+   7.5,
+   "centimeter"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "0",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ },
+ {
+  "image_file": "619WIGuI1TL.jpg",
+  "attribute": "width",
+  "n_cands": 7,
+  "gold": [
+   100.0,
+   100.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "500mm",
+  "forced_pred": [
+   500.0,
+   "millimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "g",
+  "select_pred": [
+   100.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "61-HyPJHvkL.jpg",
+  "attribute": "width",
+  "n_cands": 2,
+  "gold": [
+   2.0,
+   2.0,
+   "meter"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "4 cm",
+  "forced_pred": [
+   4.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "A",
+  "select_pred": [
+   4.0,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51oydA0q9QL.jpg",
+  "attribute": "depth",
+  "n_cands": 2,
+  "gold": [
+   10.0,
+   10.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "8 cm",
+  "forced_pred": [
+   8.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   10.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "612bFRJY-FL.jpg",
+  "attribute": "depth",
+  "n_cands": 3,
+  "gold": [
+   190.0,
+   190.0,
+   "millimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "229 mm",
+  "forced_pred": [
+   229.0,
+   "millimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "A",
+  "select_pred": [
+   229.0,
+   "millimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51bWdi2mRCL.jpg",
+  "attribute": "depth",
+  "n_cands": 1,
+  "gold": [
+   140.0,
+   140.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "0",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(single candidate)",
+  "select_pred": [
+   140.0,
+   "centimeter"
+  ],
+  "select_dim": true
+ },
+ {
+  "image_file": "416BJKVoR4L.jpg",
+  "attribute": "width",
+  "n_cands": 3,
+  "gold": [
+   8.0,
+   8.0,
+   "centimeter"
+  ],
+  "gold_in_cands": 1,
+  "forced_raw": "21 cm",
+  "forced_pred": [
+   21.0,
+   "centimeter"
+  ],
+  "forced_dim": false,
+  "select_raw": "B",
+  "select_pred": [
+   8.5,
+   "centimeter"
+  ],
+  "select_dim": false
+ },
+ {
+  "image_file": "51QkdrvyhyL.jpg",
+  "attribute": "width",
+  "n_cands": 0,
+  "gold": [
+   7.0,
+   7.0,
+   "inch"
+  ],
+  "gold_in_cands": 0,
+  "forced_raw": "9.8",
+  "forced_pred": null,
+  "forced_dim": false,
+  "select_raw": "(no candidates)",
+  "select_pred": null,
+  "select_dim": false
+ }
+]

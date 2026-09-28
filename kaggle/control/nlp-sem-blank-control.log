@@ -1,0 +1,69 @@
+[{"stream_name":"stderr","time":6.831529572,"data":"/usr/local/lib/python3.12/dist-packages/nbformat/__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":6.832346914,"data":"  validate(nb)\n"}
+,{"stream_name":"stderr","time":7.737691412,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.737718332,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.737723064,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.737726688,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.344533872,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.344576972,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.344582969,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.344586958,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":17.746008408,"data":"data   : /kaggle/input/datasets/naomirory2/fine-tuning-data/vlm_lora\n"}
+,{"stream_name":"stdout","time":17.746086778,"data":"adapter: /kaggle/input/notebooks/naomirory2/nlp-sem-ft/qwen2vl-dim-lora ['README.md', 'adapter_config.json', 'adapter_model.safetensors']\n"}
+,{"stream_name":"stdout","time":17.746093863,"data":"prior  : /kaggle/input/notebooks/naomirory2/nlp-sem-ft/vlm_lora_results.json\n"}
+,{"stream_name":"stdout","time":22.342641601,"data":"cuda True | Tesla T4\n"}
+,{"stream_name":"stdout","time":22.543132848,"data":"before:  transformers 5.0.0 | torchao 0.10.0 | peft 0.19.1\n"}
+,{"stream_name":"stdout","time":24.543582282,"data":"after:   transformers 5.0.0 | torchao None | peft 0.19.1\n"}
+,{"stream_name":"stdout","time":49.433110381,"data":"imports OK\n"}
+,{"stream_name":"stdout","time":49.472645274,"data":"eval rows 406 | re-asked under each condition: 277 (2+ candidates)\n"}
+,{"stream_name":"stderr","time":49.8428715,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":49.842903213,"data":"\n"}
+,{"stream_name":"stderr","time":49.842909804,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":50.730876593,"data":"The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. \n"}
+,{"stream_name":"stderr","time":50.73090919,"data":"\n"}
+,{"stream_name":"stderr","time":50.730912971,"data":"The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. \n"}
+,{"stream_name":"stdout","time":71.924834959,"data":"LoRA parameters loaded: 18,464,768  (training reported 18,464,768)\n"}
+,{"stream_name":"stderr","time":72.082610593,"data":"The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.\n"}
+,{"stream_name":"stderr","time":72.082660959,"data":"\n"}
+,{"stream_name":"stderr","time":72.082666445,"data":"The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.\n"}
+,{"stream_name":"stdout","time":153.167363747,"data":"  real     50/277  2+ gold-present 70.5%  1.4 min\n"}
+,{"stream_name":"stdout","time":236.359306371,"data":"  real     100/277  2+ gold-present 67.4%  2.7 min\n"}
+,{"stream_name":"stdout","time":319.217823013,"data":"  real     150/277  2+ gold-present 70.4%  4.1 min\n"}
+,{"stream_name":"stdout","time":401.909889187,"data":"  real     200/277  2+ gold-present 71.4%  5.5 min\n"}
+,{"stream_name":"stdout","time":484.909249738,"data":"  real     250/277  2+ gold-present 71.9%  6.9 min\n"}
+,{"stream_name":"stdout","time":529.807365999,"data":"real done in 7.6 min - saved\n"}
+,{"stream_name":"stdout","time":609.95106238,"data":"  blank    50/277  2+ gold-present 47.7%  1.3 min\n"}
+,{"stream_name":"stdout","time":690.766349291,"data":"  blank    100/277  2+ gold-present 48.3%  2.7 min\n"}
+,{"stream_name":"stdout","time":771.072317063,"data":"  blank    150/277  2+ gold-present 50.4%  4.0 min\n"}
+,{"stream_name":"stdout","time":851.533641517,"data":"  blank    200/277  2+ gold-present 50.0%  5.4 min\n"}
+,{"stream_name":"stdout","time":932.700524206,"data":"  blank    250/277  2+ gold-present 49.4%  6.7 min\n"}
+,{"stream_name":"stdout","time":976.328150289,"data":"blank done in 7.4 min - saved\n"}
+,{"stream_name":"stdout","time":1059.070355322,"data":"  swapped  50/277  2+ gold-present 47.7%  1.4 min\n"}
+,{"stream_name":"stdout","time":1141.886202128,"data":"  swapped  100/277  2+ gold-present 46.1%  2.8 min\n"}
+,{"stream_name":"stdout","time":1224.734859692,"data":"  swapped  150/277  2+ gold-present 45.9%  4.1 min\n"}
+,{"stream_name":"stdout","time":1307.711442346,"data":"  swapped  200/277  2+ gold-present 44.0%  5.5 min\n"}
+,{"stream_name":"stdout","time":1390.83809707,"data":"  swapped  250/277  2+ gold-present 43.3%  6.9 min\n"}
+,{"stream_name":"stdout","time":1435.370854436,"data":"swapped done in 7.7 min - saved\n"}
+,{"stream_name":"stdout","time":1435.400286082,"data":"condition            all 406             2+ gold-present     letters (a) (b) (c) (d) (e-h)\n"}
+,{"stream_name":"stdout","time":1435.400325778,"data":"------------------------------------------------------------------------------------------\n"}
+,{"stream_name":"stdout","time":1435.400333187,"data":"real        209/406  51.5%    182/257  70.8% [65.0, 76.0]   37.4 30.7 19.8  4.3  7.8\n"}
+,{"stream_name":"stdout","time":1435.400338903,"data":"blank       150/406  36.9%    123/257  47.9% [41.8, 54.0]   28.8 41.2 13.6  7.8  8.6\n"}
+,{"stream_name":"stdout","time":1435.400343741,"data":"swapped     140/406  34.5%    113/257  44.0% [38.0, 50.1]   35.4 37.7 15.2  5.1  6.6\n"}
+,{"stream_name":"stdout","time":1435.400348398,"data":"gold                                                       36.6 33.9 16.0  4.3  9.3\n"}
+,{"stream_name":"stdout","time":1435.400358223,"data":"\n"}
+,{"stream_name":"stdout","time":1435.400362107,"data":"reference on the same 257 rows: best text-only rule 46.3% | uniform random 35.5% | zero-shot 43.3%\n"}
+,{"stream_name":"stdout","time":1435.400365392,"data":"\n"}
+,{"stream_name":"stdout","time":1435.400368523,"data":"real vs training-run answers: 277/277 identical\n"}
+,{"stream_name":"stdout","time":1435.400381787,"data":"blank   : answer changed on 143/277 rows | on gold-present rows lost 79, gained 20\n"}
+,{"stream_name":"stdout","time":1435.400384526,"data":"swapped : answer changed on 150/277 rows | on gold-present rows lost 86, gained 17\n"}
+,{"stream_name":"stdout","time":1435.400386965,"data":"\n"}
+,{"stream_name":"stdout","time":1435.400389314,"data":"Download vlm_control_results.json from Output.\n"}
+,{"stream_name":"stderr","time":1440.548310332,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1440.548359997,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1440.717373073,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1440.717403145,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1441.382145635,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":1441.70308936,"data":"[NbConvertApp] Writing 161327 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":1443.989284792,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1444.831720773,"data":"[NbConvertApp] Writing 458467 bytes to __results__.html\n"}
+]

@@ -1,0 +1,4257 @@
+[
+ {
+  "image_file": "51PbSzivp8L.jpg",
+  "attribute": "width",
+  "gold_lo": "21.0",
+  "gold_hi": "21.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61FLYvO2g1L.jpg",
+  "attribute": "depth",
+  "gold_lo": "17.0",
+  "gold_hi": "17.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "6 cm",
+  "vlm_pred": [
+   6.0,
+   "centimeter"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "611wJwqceAL.jpg",
+  "attribute": "height",
+  "gold_lo": "1.1",
+  "gold_hi": "1.1",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61FwUgDRoAL.jpg",
+  "attribute": "depth",
+  "gold_lo": "14.3",
+  "gold_hi": "14.3",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "615Z67z6FqL.jpg",
+  "attribute": "width",
+  "gold_lo": "12.0",
+  "gold_hi": "12.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "10.0 cm",
+  "vlm_pred": [
+   10.0,
+   "centimeter"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "610DN2C2H6L.jpg",
+  "attribute": "height",
+  "gold_lo": "136.0",
+  "gold_hi": "136.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "515T5Wf1JUL.jpg",
+  "attribute": "width",
+  "gold_lo": "15.5",
+  "gold_hi": "15.5",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51NLJMmyNZL.jpg",
+  "attribute": "width",
+  "gold_lo": "13.5",
+  "gold_hi": "13.5",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61D3Y+P-GJL.jpg",
+  "attribute": "width",
+  "gold_lo": "4.52",
+  "gold_hi": "4.52",
+  "gold_unit": "inch",
+  "vlm_raw": "0.39",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51TeeqoldwL.jpg",
+  "attribute": "width",
+  "gold_lo": "7.08",
+  "gold_hi": "7.08",
+  "gold_unit": "inch",
+  "vlm_raw": "7.08 in",
+  "vlm_pred": [
+   7.08,
+   "inch"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "61F+yU+I6SL.jpg",
+  "attribute": "width",
+  "gold_lo": "10.0",
+  "gold_hi": "10.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51PaPNBQRBL.jpg",
+  "attribute": "height",
+  "gold_lo": "10.0",
+  "gold_hi": "10.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "611LPoUsZBL.jpg",
+  "attribute": "width",
+  "gold_lo": "25.4",
+  "gold_hi": "25.4",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61DgJVtJnML.jpg",
+  "attribute": "depth",
+  "gold_lo": "4.0",
+  "gold_hi": "4.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61CFJhc-C3L.jpg",
+  "attribute": "width",
+  "gold_lo": "31.5",
+  "gold_hi": "31.5",
+  "gold_unit": "inch",
+  "vlm_raw": "31.5",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51RsZRvOhrL.jpg",
+  "attribute": "depth",
+  "gold_lo": "12.0",
+  "gold_hi": "12.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51BdKAF1c9L.jpg",
+  "attribute": "depth",
+  "gold_lo": "32.0",
+  "gold_hi": "32.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "5119fI2JgsL.jpg",
+  "attribute": "depth",
+  "gold_lo": "6.0",
+  "gold_hi": "6.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "418P8GZ1FoL.jpg",
+  "attribute": "width",
+  "gold_lo": "135.0",
+  "gold_hi": "135.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "95 mm",
+  "vlm_pred": [
+   95.0,
+   "millimeter"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "614gLt2w71L.jpg",
+  "attribute": "depth",
+  "gold_lo": "40.0",
+  "gold_hi": "40.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "30 cm",
+  "vlm_pred": [
+   30.0,
+   "centimeter"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "51dhRtbzvEL.jpg",
+  "attribute": "width",
+  "gold_lo": "7.0",
+  "gold_hi": "7.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51--2Jgxq0L.jpg",
+  "attribute": "height",
+  "gold_lo": "5.5",
+  "gold_hi": "5.5",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "615E5r5tWWL.jpg",
+  "attribute": "depth",
+  "gold_lo": "25.0",
+  "gold_hi": "25.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51cS+C4p4RL.jpg",
+  "attribute": "depth",
+  "gold_lo": "89.0",
+  "gold_hi": "89.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51dUkzURWxL.jpg",
+  "attribute": "width",
+  "gold_lo": "28.0",
+  "gold_hi": "28.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51nEYwIA5zL.jpg",
+  "attribute": "depth",
+  "gold_lo": "40.0",
+  "gold_hi": "40.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "612qpdCIEmL.jpg",
+  "attribute": "width",
+  "gold_lo": "10.5",
+  "gold_hi": "10.5",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61D+RCH9dLL.jpg",
+  "attribute": "depth",
+  "gold_lo": "5.5",
+  "gold_hi": "5.5",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "510+fOgk8kL.jpg",
+  "attribute": "width",
+  "gold_lo": "31.5",
+  "gold_hi": "31.5",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51sj4yRLaML.jpg",
+  "attribute": "width",
+  "gold_lo": "8.5",
+  "gold_hi": "8.5",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51Dg4rUBLML.jpg",
+  "attribute": "height",
+  "gold_lo": "6.0",
+  "gold_hi": "6.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51hyJbmiD4L.jpg",
+  "attribute": "width",
+  "gold_lo": "5.4",
+  "gold_hi": "5.4",
+  "gold_unit": "inch",
+  "vlm_raw": "5.4 in",
+  "vlm_pred": [
+   5.4,
+   "inch"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "51JNSYgfczL.jpg",
+  "attribute": "height",
+  "gold_lo": "50.0",
+  "gold_hi": "50.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61F8tpLIOZL.jpg",
+  "attribute": "width",
+  "gold_lo": "19.0",
+  "gold_hi": "19.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "6148zbunGiL.jpg",
+  "attribute": "height",
+  "gold_lo": "20.0",
+  "gold_hi": "20.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51eyNIhe6oL.jpg",
+  "attribute": "depth",
+  "gold_lo": "25.5",
+  "gold_hi": "25.5",
+  "gold_unit": "centimeter",
+  "vlm_raw": "5 cm",
+  "vlm_pred": [
+   5.0,
+   "centimeter"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "611Gt+VyUzL.jpg",
+  "attribute": "depth",
+  "gold_lo": "17.0",
+  "gold_hi": "17.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61+U6CJ1b+L.jpg",
+  "attribute": "width",
+  "gold_lo": "1.2",
+  "gold_hi": "1.2",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51l2tUcaFHL.jpg",
+  "attribute": "depth",
+  "gold_lo": "13.5",
+  "gold_hi": "13.5",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61DnQphX7AL.jpg",
+  "attribute": "depth",
+  "gold_lo": "82.0",
+  "gold_hi": "82.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51OrH8Cx9IL.jpg",
+  "attribute": "width",
+  "gold_lo": "26.0",
+  "gold_hi": "26.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51BOZpU8hBL.jpg",
+  "attribute": "depth",
+  "gold_lo": "21.0",
+  "gold_hi": "21.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61FdE2S6qRL.jpg",
+  "attribute": "height",
+  "gold_lo": "19.75",
+  "gold_hi": "19.75",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51pTPbA8q5L.jpg",
+  "attribute": "depth",
+  "gold_lo": "152.0",
+  "gold_hi": "152.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "20 mm",
+  "vlm_pred": [
+   20.0,
+   "millimeter"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "6153lgsnkQL.jpg",
+  "attribute": "width",
+  "gold_lo": "70.8",
+  "gold_hi": "70.8",
+  "gold_unit": "inch",
+  "vlm_raw": "42.5 in",
+  "vlm_pred": [
+   42.5,
+   "inch"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "51D5kxj5hKS.jpg",
+  "attribute": "width",
+  "gold_lo": "110.0",
+  "gold_hi": "110.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "110 cm",
+  "vlm_pred": [
+   110.0,
+   "centimeter"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "510k3RzE0OL.jpg",
+  "attribute": "width",
+  "gold_lo": "7.0",
+  "gold_hi": "7.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "511Jn1-JM3L.jpg",
+  "attribute": "height",
+  "gold_lo": "12.0",
+  "gold_hi": "12.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51WPMDi6ovL.jpg",
+  "attribute": "depth",
+  "gold_lo": "120.0",
+  "gold_hi": "120.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "614v+LEeLnL.jpg",
+  "attribute": "height",
+  "gold_lo": "8.0",
+  "gold_hi": "8.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "8 cm",
+  "vlm_pred": [
+   8.0,
+   "centimeter"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "51olg5nmCsL.jpg",
+  "attribute": "width",
+  "gold_lo": "72.0",
+  "gold_hi": "72.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "6169ipKtJ2S.jpg",
+  "attribute": "height",
+  "gold_lo": "54.0",
+  "gold_hi": "54.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51MWMaNk-4L.jpg",
+  "attribute": "height",
+  "gold_lo": "9.5",
+  "gold_hi": "9.5",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "41LMElFuiFL.jpg",
+  "attribute": "height",
+  "gold_lo": "2.7",
+  "gold_hi": "2.7",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "41BiainxeFL.jpg",
+  "attribute": "height",
+  "gold_lo": "6.0",
+  "gold_hi": "6.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "41R1ciILFEL.jpg",
+  "attribute": "width",
+  "gold_lo": "3.5",
+  "gold_hi": "3.5",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51sbS7agLqL.jpg",
+  "attribute": "width",
+  "gold_lo": "600.0",
+  "gold_hi": "600.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51WtBRHhxhL.jpg",
+  "attribute": "depth",
+  "gold_lo": "8.0",
+  "gold_hi": "8.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51XKLXvS5lL.jpg",
+  "attribute": "depth",
+  "gold_lo": "230.0",
+  "gold_hi": "230.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "616gPGhl5zL.jpg",
+  "attribute": "width",
+  "gold_lo": "11.0",
+  "gold_hi": "11.0",
+  "gold_unit": "inch",
+  "vlm_raw": "8 1/2 in",
+  "vlm_pred": [
+   2.0,
+   "inch"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "61FPifD929L.jpg",
+  "attribute": "width",
+  "gold_lo": "36.0",
+  "gold_hi": "36.0",
+  "gold_unit": "inch",
+  "vlm_raw": "24",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51B08Tmuz7L.jpg",
+  "attribute": "width",
+  "gold_lo": "21.0",
+  "gold_hi": "21.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51y10l072XL.jpg",
+  "attribute": "height",
+  "gold_lo": "22.5",
+  "gold_hi": "22.5",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51hQJjez8XL.jpg",
+  "attribute": "width",
+  "gold_lo": "17.0",
+  "gold_hi": "17.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51FT153QZoL.jpg",
+  "attribute": "width",
+  "gold_lo": "26.0",
+  "gold_hi": "26.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61CXomNVYxS.jpg",
+  "attribute": "height",
+  "gold_lo": "100.0",
+  "gold_hi": "100.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "100 mm",
+  "vlm_pred": [
+   100.0,
+   "millimeter"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "61D9shU8zSL.jpg",
+  "attribute": "height",
+  "gold_lo": "4.0",
+  "gold_hi": "4.0",
+  "gold_unit": "inch",
+  "vlm_raw": "6 in",
+  "vlm_pred": [
+   6.0,
+   "inch"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "416+34BGHeL.jpg",
+  "attribute": "depth",
+  "gold_lo": "18.0",
+  "gold_hi": "18.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51qov53vRcL.jpg",
+  "attribute": "depth",
+  "gold_lo": "320.0",
+  "gold_hi": "320.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "320 mm",
+  "vlm_pred": [
+   320.0,
+   "millimeter"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "51yqyalSXOS.jpg",
+  "attribute": "height",
+  "gold_lo": "7.87",
+  "gold_hi": "7.87",
+  "gold_unit": "inch",
+  "vlm_raw": "7.87\"",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61AclFg1jBL.jpg",
+  "attribute": "depth",
+  "gold_lo": "16.0",
+  "gold_hi": "16.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "510ZPPE+7LS.jpg",
+  "attribute": "height",
+  "gold_lo": "2.0",
+  "gold_hi": "2.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51if631TRcL.jpg",
+  "attribute": "width",
+  "gold_lo": "88.0",
+  "gold_hi": "88.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "519Ny2UmxCL.jpg",
+  "attribute": "depth",
+  "gold_lo": "62.5",
+  "gold_hi": "62.5",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "6196AZqzZZL.jpg",
+  "attribute": "depth",
+  "gold_lo": "42.0",
+  "gold_hi": "42.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51pTPbA8q5L.jpg",
+  "attribute": "width",
+  "gold_lo": "152.0",
+  "gold_hi": "152.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "152mm",
+  "vlm_pred": [
+   152.0,
+   "millimeter"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "618o0FSP7TS.jpg",
+  "attribute": "width",
+  "gold_lo": "11.5",
+  "gold_hi": "11.5",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "614QWCg7f1L.jpg",
+  "attribute": "height",
+  "gold_lo": "0.63",
+  "gold_hi": "0.63",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "612e72bSUdL.jpg",
+  "attribute": "height",
+  "gold_lo": "8.0",
+  "gold_hi": "8.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51K7-FklOnL.jpg",
+  "attribute": "width",
+  "gold_lo": "30.0",
+  "gold_hi": "30.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61-IijRzjaL.jpg",
+  "attribute": "depth",
+  "gold_lo": "6.0",
+  "gold_hi": "6.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51cjnuAjqnL.jpg",
+  "attribute": "width",
+  "gold_lo": "6.7",
+  "gold_hi": "6.7",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "6185WLsu8TL.jpg",
+  "attribute": "width",
+  "gold_lo": "3.74",
+  "gold_hi": "3.74",
+  "gold_unit": "inch",
+  "vlm_raw": "3.74 in",
+  "vlm_pred": [
+   3.74,
+   "inch"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "51oLV7kKScL.jpg",
+  "attribute": "width",
+  "gold_lo": "137.0",
+  "gold_hi": "137.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51q+L62n11L.jpg",
+  "attribute": "height",
+  "gold_lo": "4.8",
+  "gold_hi": "4.8",
+  "gold_unit": "inch",
+  "vlm_raw": "4.8 in",
+  "vlm_pred": [
+   4.8,
+   "inch"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "51tMcy-n7OL.jpg",
+  "attribute": "height",
+  "gold_lo": "15.0",
+  "gold_hi": "15.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "519gmtmu8dL.jpg",
+  "attribute": "depth",
+  "gold_lo": "26.0",
+  "gold_hi": "26.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "41AX05UVziL.jpg",
+  "attribute": "height",
+  "gold_lo": "60.0",
+  "gold_hi": "60.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "519Bwks5--L.jpg",
+  "attribute": "depth",
+  "gold_lo": "70.0",
+  "gold_hi": "70.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51PvxZP-IoL.jpg",
+  "attribute": "depth",
+  "gold_lo": "7.5",
+  "gold_hi": "7.5",
+  "gold_unit": "inch",
+  "vlm_raw": "3 in",
+  "vlm_pred": [
+   3.0,
+   "inch"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "51EUSUOqZ9L.jpg",
+  "attribute": "depth",
+  "gold_lo": "75.0",
+  "gold_hi": "75.0",
+  "gold_unit": "inch",
+  "vlm_raw": "39 in",
+  "vlm_pred": [
+   39.0,
+   "inch"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "51SNiqIJTmL.jpg",
+  "attribute": "width",
+  "gold_lo": "60.0",
+  "gold_hi": "60.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "60 cm",
+  "vlm_pred": [
+   60.0,
+   "centimeter"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "51hrQhAXlvL.jpg",
+  "attribute": "depth",
+  "gold_lo": "48.0",
+  "gold_hi": "48.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51NlwiCBRxL.jpg",
+  "attribute": "height",
+  "gold_lo": "107.0",
+  "gold_hi": "107.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "6192WYe0dPL.jpg",
+  "attribute": "width",
+  "gold_lo": "6.35",
+  "gold_hi": "6.35",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "511lcJK+EHL.jpg",
+  "attribute": "width",
+  "gold_lo": "8.2",
+  "gold_hi": "8.2",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51yEKCK67QL.jpg",
+  "attribute": "width",
+  "gold_lo": "31.4",
+  "gold_hi": "31.4",
+  "gold_unit": "inch",
+  "vlm_raw": "31.4 in",
+  "vlm_pred": [
+   31.4,
+   "inch"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "415AKH67jiL.jpg",
+  "attribute": "height",
+  "gold_lo": "2.0",
+  "gold_hi": "2.0",
+  "gold_unit": "inch",
+  "vlm_raw": "2 in",
+  "vlm_pred": [
+   2.0,
+   "inch"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "619Lnd0sK0L.jpg",
+  "attribute": "depth",
+  "gold_lo": "90.5",
+  "gold_hi": "90.5",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51ZT5P-Ch8L.jpg",
+  "attribute": "depth",
+  "gold_lo": "55.0",
+  "gold_hi": "55.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51yrlW2OgGL.jpg",
+  "attribute": "depth",
+  "gold_lo": "10.5",
+  "gold_hi": "10.5",
+  "gold_unit": "inch",
+  "vlm_raw": "0.8 inch",
+  "vlm_pred": [
+   0.8,
+   "inch"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "41iL9YV5YLS.jpg",
+  "attribute": "width",
+  "gold_lo": "25.0",
+  "gold_hi": "25.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "25cm",
+  "vlm_pred": [
+   25.0,
+   "centimeter"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "615ymVWUPbL.jpg",
+  "attribute": "width",
+  "gold_lo": "385.0",
+  "gold_hi": "385.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51dj+C2L6nL.jpg",
+  "attribute": "height",
+  "gold_lo": "27.0",
+  "gold_hi": "27.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "612r0dm8ujL.jpg",
+  "attribute": "depth",
+  "gold_lo": "30.0",
+  "gold_hi": "30.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51mkNjsyGwL.jpg",
+  "attribute": "depth",
+  "gold_lo": "23.0",
+  "gold_hi": "23.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51v51NmQxCS.jpg",
+  "attribute": "depth",
+  "gold_lo": "19.0",
+  "gold_hi": "19.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51UTCX-7FxL.jpg",
+  "attribute": "depth",
+  "gold_lo": "349.0",
+  "gold_hi": "349.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "511GlW29gDL.jpg",
+  "attribute": "depth",
+  "gold_lo": "5.3",
+  "gold_hi": "5.3",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51cvqoKkFZL.jpg",
+  "attribute": "height",
+  "gold_lo": "578.0",
+  "gold_hi": "578.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "578 mm",
+  "vlm_pred": [
+   578.0,
+   "millimeter"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "61Bb2gt+9BL.jpg",
+  "attribute": "height",
+  "gold_lo": "4.0",
+  "gold_hi": "4.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51JDYJ90vDL.jpg",
+  "attribute": "width",
+  "gold_lo": "14.0",
+  "gold_hi": "14.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51u6Pml-dkL.jpg",
+  "attribute": "depth",
+  "gold_lo": "6.5",
+  "gold_hi": "6.5",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "511PN1aN7iL.jpg",
+  "attribute": "width",
+  "gold_lo": "2.2",
+  "gold_hi": "2.2",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51ZpyLlcAiL.jpg",
+  "attribute": "height",
+  "gold_lo": "1.2",
+  "gold_hi": "1.2",
+  "gold_unit": "inch",
+  "vlm_raw": "1.8 in",
+  "vlm_pred": [
+   1.8,
+   "inch"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "611MikygpOL.jpg",
+  "attribute": "depth",
+  "gold_lo": "8.0",
+  "gold_hi": "8.0",
+  "gold_unit": "inch",
+  "vlm_raw": "8 in",
+  "vlm_pred": [
+   8.0,
+   "inch"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "51vashTLb7L.jpg",
+  "attribute": "depth",
+  "gold_lo": "37.0",
+  "gold_hi": "37.0",
+  "gold_unit": "inch",
+  "vlm_raw": "30 in",
+  "vlm_pred": [
+   30.0,
+   "inch"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "610BRCy01mL.jpg",
+  "attribute": "depth",
+  "gold_lo": "4.0",
+  "gold_hi": "4.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51jam8K1V4L.jpg",
+  "attribute": "width",
+  "gold_lo": "80.0",
+  "gold_hi": "80.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "6145XN5I4PL.jpg",
+  "attribute": "width",
+  "gold_lo": "4.33",
+  "gold_hi": "4.33",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51OiuaJ0sRL.jpg",
+  "attribute": "depth",
+  "gold_lo": "210.0",
+  "gold_hi": "210.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "210 cm",
+  "vlm_pred": [
+   210.0,
+   "centimeter"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "41Xckw5kWWL.jpg",
+  "attribute": "height",
+  "gold_lo": "33.0",
+  "gold_hi": "33.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "33 cm",
+  "vlm_pred": [
+   33.0,
+   "centimeter"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "51mivFlya2L.jpg",
+  "attribute": "depth",
+  "gold_lo": "58.0",
+  "gold_hi": "58.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61-+agfQTFL.jpg",
+  "attribute": "height",
+  "gold_lo": "15.8",
+  "gold_hi": "15.8",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51bGMuzciIL.jpg",
+  "attribute": "width",
+  "gold_lo": "5.1",
+  "gold_hi": "5.1",
+  "gold_unit": "inch",
+  "vlm_raw": "5.1 in",
+  "vlm_pred": [
+   5.1,
+   "inch"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "51GJkrpiUwL.jpg",
+  "attribute": "height",
+  "gold_lo": "85.0",
+  "gold_hi": "85.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61FzKrxxOeL.jpg",
+  "attribute": "height",
+  "gold_lo": "298.0",
+  "gold_hi": "298.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "614Co8vafVL.jpg",
+  "attribute": "height",
+  "gold_lo": "2.0",
+  "gold_hi": "2.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "514IkOJ1v8L.jpg",
+  "attribute": "width",
+  "gold_lo": "13.0",
+  "gold_hi": "13.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "611QS4LO9FL.jpg",
+  "attribute": "width",
+  "gold_lo": "54.0",
+  "gold_hi": "54.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "86mm",
+  "vlm_pred": [
+   86.0,
+   "millimeter"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "51QkErAurfL.jpg",
+  "attribute": "height",
+  "gold_lo": "9.14",
+  "gold_hi": "9.14",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51ZrSJu0QSL.jpg",
+  "attribute": "height",
+  "gold_lo": "30.0",
+  "gold_hi": "30.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51kVs0jBF+L.jpg",
+  "attribute": "height",
+  "gold_lo": "8.0",
+  "gold_hi": "8.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61FVNTHQRpL.jpg",
+  "attribute": "height",
+  "gold_lo": "1.18",
+  "gold_hi": "1.18",
+  "gold_unit": "inch",
+  "vlm_raw": "524 mm",
+  "vlm_pred": [
+   524.0,
+   "millimeter"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "51p3RYO2ZaL.jpg",
+  "attribute": "depth",
+  "gold_lo": "7.88",
+  "gold_hi": "7.88",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51GsU-aN-9L.jpg",
+  "attribute": "height",
+  "gold_lo": "23.65",
+  "gold_hi": "23.65",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "612J1e0ht8L.jpg",
+  "attribute": "depth",
+  "gold_lo": "5.3",
+  "gold_hi": "5.3",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51c4uX1jueL.jpg",
+  "attribute": "depth",
+  "gold_lo": "6.0",
+  "gold_hi": "6.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51D-felHlyL.jpg",
+  "attribute": "height",
+  "gold_lo": "19.0",
+  "gold_hi": "19.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51r144+Z6AL.jpg",
+  "attribute": "height",
+  "gold_lo": "5.5",
+  "gold_hi": "5.5",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51PCYHpA7qL.jpg",
+  "attribute": "width",
+  "gold_lo": "6.88",
+  "gold_hi": "6.88",
+  "gold_unit": "inch",
+  "vlm_raw": "6.88 in",
+  "vlm_pred": [
+   6.88,
+   "inch"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "615i4yMPLbL.jpg",
+  "attribute": "depth",
+  "gold_lo": "4.01",
+  "gold_hi": "4.01",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "517OAl1aOgL.jpg",
+  "attribute": "depth",
+  "gold_lo": "27.0",
+  "gold_hi": "27.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61EdD-Q3q2S.jpg",
+  "attribute": "height",
+  "gold_lo": "2.0",
+  "gold_hi": "2.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61B2Xb70GUL.jpg",
+  "attribute": "depth",
+  "gold_lo": "7.0",
+  "gold_hi": "7.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51WRzkt1VFL.jpg",
+  "attribute": "depth",
+  "gold_lo": "4.0",
+  "gold_hi": "4.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "517a-X0nkHS.jpg",
+  "attribute": "height",
+  "gold_lo": "54.0",
+  "gold_hi": "54.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51XOAW6O+RL.jpg",
+  "attribute": "width",
+  "gold_lo": "10.5",
+  "gold_hi": "10.5",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "41Wds-g7S9L.jpg",
+  "attribute": "height",
+  "gold_lo": "25.0",
+  "gold_hi": "25.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61Db5qEps3L.jpg",
+  "attribute": "height",
+  "gold_lo": "4.8",
+  "gold_hi": "4.8",
+  "gold_unit": "centimeter",
+  "vlm_raw": "4.8 cm",
+  "vlm_pred": [
+   4.8,
+   "centimeter"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "41xIwEjey1L.jpg",
+  "attribute": "depth",
+  "gold_lo": "22.0",
+  "gold_hi": "22.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "41-sjy+wlOL.jpg",
+  "attribute": "height",
+  "gold_lo": "90.5",
+  "gold_hi": "90.5",
+  "gold_unit": "centimeter",
+  "vlm_raw": "68 cm",
+  "vlm_pred": [
+   68.0,
+   "centimeter"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "61CYzsMJWyL.jpg",
+  "attribute": "depth",
+  "gold_lo": "75.0",
+  "gold_hi": "75.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "511OC2YvIpL.jpg",
+  "attribute": "height",
+  "gold_lo": "3.9",
+  "gold_hi": "3.9",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51bJd+SeOCL.jpg",
+  "attribute": "width",
+  "gold_lo": "15.0",
+  "gold_hi": "15.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51URFoZPcHL.jpg",
+  "attribute": "height",
+  "gold_lo": "4.0",
+  "gold_hi": "4.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51mVL6O9-uL.jpg",
+  "attribute": "depth",
+  "gold_lo": "8.0",
+  "gold_hi": "8.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "516XMIowgML.jpg",
+  "attribute": "width",
+  "gold_lo": "30.0",
+  "gold_hi": "30.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "618JQIKvomL.jpg",
+  "attribute": "depth",
+  "gold_lo": "230.0",
+  "gold_hi": "230.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "230 mm",
+  "vlm_pred": [
+   230.0,
+   "millimeter"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "51ZjkcN8RZL.jpg",
+  "attribute": "width",
+  "gold_lo": "5.9",
+  "gold_hi": "5.9",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51aHA8V7RLL.jpg",
+  "attribute": "height",
+  "gold_lo": "7.8",
+  "gold_hi": "7.8",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "515VxIv+GmL.jpg",
+  "attribute": "height",
+  "gold_lo": "13.5",
+  "gold_hi": "13.5",
+  "gold_unit": "centimeter",
+  "vlm_raw": "5.31 in",
+  "vlm_pred": [
+   5.31,
+   "inch"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "611U40EQg8L.jpg",
+  "attribute": "width",
+  "gold_lo": "14.0",
+  "gold_hi": "14.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51EB5xzUA3L.jpg",
+  "attribute": "height",
+  "gold_lo": "12.0",
+  "gold_hi": "12.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "512KEHKlRZL.jpg",
+  "attribute": "depth",
+  "gold_lo": "5.5",
+  "gold_hi": "5.5",
+  "gold_unit": "inch",
+  "vlm_raw": "5.5 in",
+  "vlm_pred": [
+   5.5,
+   "inch"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "51eFqqhieVL.jpg",
+  "attribute": "width",
+  "gold_lo": "20.0",
+  "gold_hi": "20.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61Cr7auVvNL.jpg",
+  "attribute": "height",
+  "gold_lo": "18.8",
+  "gold_hi": "18.8",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "510WGgm-nrL.jpg",
+  "attribute": "depth",
+  "gold_lo": "10.5",
+  "gold_hi": "10.5",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51PlrMQEnWL.jpg",
+  "attribute": "height",
+  "gold_lo": "19.0",
+  "gold_hi": "19.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51THsREtgaL.jpg",
+  "attribute": "width",
+  "gold_lo": "60.0",
+  "gold_hi": "60.0",
+  "gold_unit": "inch",
+  "vlm_raw": "60",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "41lGjqOKYqL.jpg",
+  "attribute": "width",
+  "gold_lo": "24.0",
+  "gold_hi": "24.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51wSUHFidYL.jpg",
+  "attribute": "height",
+  "gold_lo": "190.0",
+  "gold_hi": "190.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51Lnz8cxs-L.jpg",
+  "attribute": "width",
+  "gold_lo": "20.0",
+  "gold_hi": "20.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51WTnail1JL.jpg",
+  "attribute": "height",
+  "gold_lo": "150.0",
+  "gold_hi": "150.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "611a4njL7-L.jpg",
+  "attribute": "width",
+  "gold_lo": "152.0",
+  "gold_hi": "152.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "152 cm",
+  "vlm_pred": [
+   152.0,
+   "centimeter"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "616W6mKK7uL.jpg",
+  "attribute": "width",
+  "gold_lo": "30.0",
+  "gold_hi": "30.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61Ccd92dfyL.jpg",
+  "attribute": "width",
+  "gold_lo": "80.0",
+  "gold_hi": "80.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "512db902fCL.jpg",
+  "attribute": "depth",
+  "gold_lo": "8.0",
+  "gold_hi": "8.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "8 cm",
+  "vlm_pred": [
+   8.0,
+   "centimeter"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "514OuYaLxbL.jpg",
+  "attribute": "depth",
+  "gold_lo": "255.0",
+  "gold_hi": "255.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "619R1AjqfES.jpg",
+  "attribute": "depth",
+  "gold_lo": "7.0",
+  "gold_hi": "7.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51UlBvqrj4L.jpg",
+  "attribute": "depth",
+  "gold_lo": "80.0",
+  "gold_hi": "80.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51bo+nMPZ6L.jpg",
+  "attribute": "height",
+  "gold_lo": "33.9",
+  "gold_hi": "33.9",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "610lkLXIgjL.jpg",
+  "attribute": "height",
+  "gold_lo": "57.0",
+  "gold_hi": "57.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "57 cm",
+  "vlm_pred": [
+   57.0,
+   "centimeter"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "61C0hvgudDL.jpg",
+  "attribute": "width",
+  "gold_lo": "20.0",
+  "gold_hi": "20.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61EsH6aJI5L.jpg",
+  "attribute": "width",
+  "gold_lo": "43.0",
+  "gold_hi": "43.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51kzsLboUJL.jpg",
+  "attribute": "width",
+  "gold_lo": "7.48",
+  "gold_hi": "7.48",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "518bqU9qcZL.jpg",
+  "attribute": "depth",
+  "gold_lo": "100.0",
+  "gold_hi": "100.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "41B24KHo6KL.jpg",
+  "attribute": "height",
+  "gold_lo": "14.7",
+  "gold_hi": "14.7",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61DtRhA+4iL.jpg",
+  "attribute": "height",
+  "gold_lo": "70.0",
+  "gold_hi": "70.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51QVaJ01SBL.jpg",
+  "attribute": "width",
+  "gold_lo": "48.0",
+  "gold_hi": "48.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51rGakY9pwL.jpg",
+  "attribute": "width",
+  "gold_lo": "5.9",
+  "gold_hi": "5.9",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51PBJ+FWEoL.jpg",
+  "attribute": "height",
+  "gold_lo": "37.0",
+  "gold_hi": "37.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "75 mm",
+  "vlm_pred": [
+   75.0,
+   "millimeter"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "51ls5rWQaiL.jpg",
+  "attribute": "height",
+  "gold_lo": "9.0",
+  "gold_hi": "9.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "514NWDVnW6L.jpg",
+  "attribute": "depth",
+  "gold_lo": "32.5",
+  "gold_hi": "32.5",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51C+cXZSQJL.jpg",
+  "attribute": "height",
+  "gold_lo": "2.7",
+  "gold_hi": "2.7",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51lL-2XddOL.jpg",
+  "attribute": "depth",
+  "gold_lo": "13.0",
+  "gold_hi": "13.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61-OeY08hkL.jpg",
+  "attribute": "depth",
+  "gold_lo": "9.0",
+  "gold_hi": "9.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "619WjHqt5VL.jpg",
+  "attribute": "height",
+  "gold_lo": "46.0",
+  "gold_hi": "46.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "517mmbCyTaL.jpg",
+  "attribute": "depth",
+  "gold_lo": "72.0",
+  "gold_hi": "72.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "619P412HiEL.jpg",
+  "attribute": "height",
+  "gold_lo": "22.4",
+  "gold_hi": "22.4",
+  "gold_unit": "centimeter",
+  "vlm_raw": "26.1 cm",
+  "vlm_pred": [
+   26.1,
+   "centimeter"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "51G8qdW-FhL.jpg",
+  "attribute": "depth",
+  "gold_lo": "7.2",
+  "gold_hi": "7.2",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51pXjy-6TuL.jpg",
+  "attribute": "height",
+  "gold_lo": "8.07",
+  "gold_hi": "8.07",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "6166eL71hWL.jpg",
+  "attribute": "depth",
+  "gold_lo": "72.0",
+  "gold_hi": "72.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51D3ai7ZvtL.jpg",
+  "attribute": "height",
+  "gold_lo": "4.7",
+  "gold_hi": "4.7",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "513G+0MuSXL.jpg",
+  "attribute": "height",
+  "gold_lo": "4.0",
+  "gold_hi": "4.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "516LcOFY86L.jpg",
+  "attribute": "depth",
+  "gold_lo": "14.0",
+  "gold_hi": "14.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51IKtchEWNL.jpg",
+  "attribute": "depth",
+  "gold_lo": "51.0",
+  "gold_hi": "51.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61F0snsPnIL.jpg",
+  "attribute": "depth",
+  "gold_lo": "5.5",
+  "gold_hi": "5.5",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "515V-t3h0QL.jpg",
+  "attribute": "height",
+  "gold_lo": "4.7",
+  "gold_hi": "4.7",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51FtWbTaf1S.jpg",
+  "attribute": "width",
+  "gold_lo": "3.93",
+  "gold_hi": "3.93",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61DC7KYz20L.jpg",
+  "attribute": "height",
+  "gold_lo": "5.5",
+  "gold_hi": "5.5",
+  "gold_unit": "centimeter",
+  "vlm_raw": "5.5 cm",
+  "vlm_pred": [
+   5.5,
+   "centimeter"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "617Fr2s+l6L.jpg",
+  "attribute": "height",
+  "gold_lo": "2.0",
+  "gold_hi": "2.0",
+  "gold_unit": "inch",
+  "vlm_raw": "2.2 in",
+  "vlm_pred": [
+   2.2,
+   "inch"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "51p0+hpToML.jpg",
+  "attribute": "width",
+  "gold_lo": "5.1",
+  "gold_hi": "5.1",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "5118frbbQXS.jpg",
+  "attribute": "width",
+  "gold_lo": "90.0",
+  "gold_hi": "90.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51iNd-aKftL.jpg",
+  "attribute": "depth",
+  "gold_lo": "4.0",
+  "gold_hi": "4.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "40mm",
+  "vlm_pred": [
+   40.0,
+   "millimeter"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "61C2tntUzAL.jpg",
+  "attribute": "width",
+  "gold_lo": "10.0",
+  "gold_hi": "10.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "617nYnTqceL.jpg",
+  "attribute": "width",
+  "gold_lo": "9.0",
+  "gold_hi": "9.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "9 cm",
+  "vlm_pred": [
+   9.0,
+   "centimeter"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "61+gNAKe-GL.jpg",
+  "attribute": "width",
+  "gold_lo": "6.5",
+  "gold_hi": "6.5",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61EwzF15dCL.jpg",
+  "attribute": "height",
+  "gold_lo": "3.0",
+  "gold_hi": "3.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "41mEPY5eQ4L.jpg",
+  "attribute": "depth",
+  "gold_lo": "52.0",
+  "gold_hi": "52.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51IJpfs2a8L.jpg",
+  "attribute": "height",
+  "gold_lo": "6.5",
+  "gold_hi": "6.5",
+  "gold_unit": "centimeter",
+  "vlm_raw": "20.8 cm",
+  "vlm_pred": [
+   20.8,
+   "centimeter"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "517whGbahsL.jpg",
+  "attribute": "width",
+  "gold_lo": "6.89",
+  "gold_hi": "6.89",
+  "gold_unit": "inch",
+  "vlm_raw": "6.89 in",
+  "vlm_pred": [
+   6.89,
+   "inch"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "5172SI4OsNL.jpg",
+  "attribute": "depth",
+  "gold_lo": "9.0",
+  "gold_hi": "9.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "3.9 in",
+  "vlm_pred": [
+   3.9,
+   "inch"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "41MRyj8fh+L.jpg",
+  "attribute": "depth",
+  "gold_lo": "15.0",
+  "gold_hi": "15.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51USu-4cWZL.jpg",
+  "attribute": "width",
+  "gold_lo": "24.0",
+  "gold_hi": "24.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "6165s0mIFmL.jpg",
+  "attribute": "depth",
+  "gold_lo": "36.0",
+  "gold_hi": "36.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "36 cm",
+  "vlm_pred": [
+   36.0,
+   "centimeter"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "51ez-isRtHL.jpg",
+  "attribute": "height",
+  "gold_lo": "1.5",
+  "gold_hi": "1.5",
+  "gold_unit": "centimeter",
+  "vlm_raw": "11 cm",
+  "vlm_pred": [
+   11.0,
+   "centimeter"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "61FUuie57cL.jpg",
+  "attribute": "width",
+  "gold_lo": "8.0",
+  "gold_hi": "8.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51A2EGH820L.jpg",
+  "attribute": "depth",
+  "gold_lo": "6.0",
+  "gold_hi": "6.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51CHcRbp9iL.jpg",
+  "attribute": "depth",
+  "gold_lo": "140.0",
+  "gold_hi": "140.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61Dhaw1TPhL.jpg",
+  "attribute": "width",
+  "gold_lo": "10.0",
+  "gold_hi": "10.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51kAaUzEZPL.jpg",
+  "attribute": "width",
+  "gold_lo": "15.5",
+  "gold_hi": "15.5",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51LJfv3I5-L.jpg",
+  "attribute": "width",
+  "gold_lo": "16.9",
+  "gold_hi": "16.9",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "6134XT0RmdL.jpg",
+  "attribute": "depth",
+  "gold_lo": "13.9",
+  "gold_hi": "13.9",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51HNrHuhtjL.jpg",
+  "attribute": "width",
+  "gold_lo": "5.9",
+  "gold_hi": "5.9",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51R8e+wcdnL.jpg",
+  "attribute": "width",
+  "gold_lo": "11.6",
+  "gold_hi": "11.6",
+  "gold_unit": "centimeter",
+  "vlm_raw": "23.2 cm",
+  "vlm_pred": [
+   23.2,
+   "centimeter"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "51wCQBmOOmL.jpg",
+  "attribute": "width",
+  "gold_lo": "9.0",
+  "gold_hi": "9.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "7 cm",
+  "vlm_pred": [
+   7.0,
+   "centimeter"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "51SpRsWNPqL.jpg",
+  "attribute": "width",
+  "gold_lo": "30.0",
+  "gold_hi": "30.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51sGrO2dajL.jpg",
+  "attribute": "width",
+  "gold_lo": "17.0",
+  "gold_hi": "17.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51-S+zvJ9NL.jpg",
+  "attribute": "height",
+  "gold_lo": "150.0",
+  "gold_hi": "150.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51AAprpZBYL.jpg",
+  "attribute": "height",
+  "gold_lo": "4.0",
+  "gold_hi": "4.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "618qyWbZQhL.jpg",
+  "attribute": "width",
+  "gold_lo": "90.0",
+  "gold_hi": "90.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "90-110 cm",
+  "vlm_pred": [
+   -110.0,
+   "centimeter"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "51Vru7B7X7L.jpg",
+  "attribute": "depth",
+  "gold_lo": "24.0",
+  "gold_hi": "24.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51GgJjA0ZuL.jpg",
+  "attribute": "width",
+  "gold_lo": "19.0",
+  "gold_hi": "19.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "616mfp9E1ZL.jpg",
+  "attribute": "depth",
+  "gold_lo": "18.0",
+  "gold_hi": "18.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51vAuTeIP1L.jpg",
+  "attribute": "width",
+  "gold_lo": "21.0",
+  "gold_hi": "21.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51AqNTxaj1L.jpg",
+  "attribute": "height",
+  "gold_lo": "84.0",
+  "gold_hi": "84.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "41QI1EixvOL.jpg",
+  "attribute": "width",
+  "gold_lo": "108.0",
+  "gold_hi": "108.0",
+  "gold_unit": "inch",
+  "vlm_raw": "54 in",
+  "vlm_pred": [
+   54.0,
+   "inch"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "41V4uAZZSDL.jpg",
+  "attribute": "depth",
+  "gold_lo": "42.0",
+  "gold_hi": "42.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51ry-ctssSL.jpg",
+  "attribute": "height",
+  "gold_lo": "18.0",
+  "gold_hi": "18.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "2.5 cm",
+  "vlm_pred": [
+   2.5,
+   "centimeter"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "51nILfrLrJL.jpg",
+  "attribute": "height",
+  "gold_lo": "8.0",
+  "gold_hi": "8.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "41sovNXziXL.jpg",
+  "attribute": "width",
+  "gold_lo": "76.0",
+  "gold_hi": "76.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51PnS5CEFBS.jpg",
+  "attribute": "depth",
+  "gold_lo": "100.0",
+  "gold_hi": "100.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51D6Z5dCh5L.jpg",
+  "attribute": "height",
+  "gold_lo": "36.0",
+  "gold_hi": "36.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "82 cm",
+  "vlm_pred": [
+   82.0,
+   "centimeter"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "515MEV1uJ5L.jpg",
+  "attribute": "width",
+  "gold_lo": "10.0",
+  "gold_hi": "10.0",
+  "gold_unit": "inch",
+  "vlm_raw": "16",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61DZfnSBWQL.jpg",
+  "attribute": "width",
+  "gold_lo": "9.8",
+  "gold_hi": "9.8",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61-AcECdhFL.jpg",
+  "attribute": "height",
+  "gold_lo": "30.0",
+  "gold_hi": "30.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "614E7BAHzwL.jpg",
+  "attribute": "height",
+  "gold_lo": "63.0",
+  "gold_hi": "63.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51nSpbi-YuL.jpg",
+  "attribute": "width",
+  "gold_lo": "15.7",
+  "gold_hi": "15.7",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51YecqNyKZL.jpg",
+  "attribute": "depth",
+  "gold_lo": "3.8",
+  "gold_hi": "3.8",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61BRJ9kaLtL.jpg",
+  "attribute": "width",
+  "gold_lo": "47.0",
+  "gold_hi": "47.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61AO8aKk8hL.jpg",
+  "attribute": "depth",
+  "gold_lo": "3.5",
+  "gold_hi": "3.5",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "617zUufeqsL.jpg",
+  "attribute": "width",
+  "gold_lo": "14.5",
+  "gold_hi": "14.5",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51vhszGx1vL.jpg",
+  "attribute": "width",
+  "gold_lo": "59.0",
+  "gold_hi": "59.0",
+  "gold_unit": "inch",
+  "vlm_raw": "59",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51sJjVVEE8L.jpg",
+  "attribute": "height",
+  "gold_lo": "56.0",
+  "gold_hi": "56.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61B3sDVtRFL.jpg",
+  "attribute": "width",
+  "gold_lo": "16.0",
+  "gold_hi": "16.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51M1JAz8e2L.jpg",
+  "attribute": "width",
+  "gold_lo": "20.0",
+  "gold_hi": "20.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61+JEhQI33L.jpg",
+  "attribute": "height",
+  "gold_lo": "6.5",
+  "gold_hi": "6.5",
+  "gold_unit": "inch",
+  "vlm_raw": "6.5 in",
+  "vlm_pred": [
+   6.5,
+   "inch"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "51HlrV2BEBL.jpg",
+  "attribute": "height",
+  "gold_lo": "0.8",
+  "gold_hi": "0.8",
+  "gold_unit": "inch",
+  "vlm_raw": "6.7 in",
+  "vlm_pred": [
+   6.7,
+   "inch"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "613-IFsjFLL.jpg",
+  "attribute": "depth",
+  "gold_lo": "45.0",
+  "gold_hi": "45.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51e0QBxq3XL.jpg",
+  "attribute": "width",
+  "gold_lo": "23.7",
+  "gold_hi": "23.7",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "512TvWbegWL.jpg",
+  "attribute": "height",
+  "gold_lo": "57.9",
+  "gold_hi": "57.9",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61E3ntx24lL.jpg",
+  "attribute": "height",
+  "gold_lo": "7.0",
+  "gold_hi": "7.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "6193x14Ex7L.jpg",
+  "attribute": "height",
+  "gold_lo": "23.0",
+  "gold_hi": "23.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "611uUY9wZ6L.jpg",
+  "attribute": "width",
+  "gold_lo": "6.0",
+  "gold_hi": "6.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51Hnr1CRUlL.jpg",
+  "attribute": "height",
+  "gold_lo": "47.0",
+  "gold_hi": "47.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51RMNDot-qL.jpg",
+  "attribute": "width",
+  "gold_lo": "23.0",
+  "gold_hi": "23.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "518VbdLpL7L.jpg",
+  "attribute": "width",
+  "gold_lo": "65.0",
+  "gold_hi": "65.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51PCsyJPstL.jpg",
+  "attribute": "width",
+  "gold_lo": "92.0",
+  "gold_hi": "92.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61GAc71cVAL.jpg",
+  "attribute": "width",
+  "gold_lo": "70.0",
+  "gold_hi": "70.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51ZTpN059QL.jpg",
+  "attribute": "width",
+  "gold_lo": "110.0",
+  "gold_hi": "110.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "110 cm",
+  "vlm_pred": [
+   110.0,
+   "centimeter"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "619QVd8maaL.jpg",
+  "attribute": "height",
+  "gold_lo": "848.0",
+  "gold_hi": "848.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51XZ486zFAL.jpg",
+  "attribute": "height",
+  "gold_lo": "18.0",
+  "gold_hi": "18.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "41-D43Y38JL.jpg",
+  "attribute": "depth",
+  "gold_lo": "108.0",
+  "gold_hi": "108.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "617vv8nzo3L.jpg",
+  "attribute": "height",
+  "gold_lo": "200.0",
+  "gold_hi": "200.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "6.6 ft",
+  "vlm_pred": [
+   6.6,
+   "foot"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "61456KscH5L.jpg",
+  "attribute": "width",
+  "gold_lo": "35.0",
+  "gold_hi": "35.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "610BToRDrGL.jpg",
+  "attribute": "depth",
+  "gold_lo": "30.0",
+  "gold_hi": "30.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61CjJVvMAlL.jpg",
+  "attribute": "width",
+  "gold_lo": "20.0",
+  "gold_hi": "20.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "617rs7SwpvL.jpg",
+  "attribute": "depth",
+  "gold_lo": "48.0",
+  "gold_hi": "48.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61F-BpneMJL.jpg",
+  "attribute": "depth",
+  "gold_lo": "50.0",
+  "gold_hi": "50.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61+SRsJvr-L.jpg",
+  "attribute": "depth",
+  "gold_lo": "22.0",
+  "gold_hi": "22.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "612WsN1OsIL.jpg",
+  "attribute": "depth",
+  "gold_lo": "14.5",
+  "gold_hi": "14.5",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "413wnhPK9tL.jpg",
+  "attribute": "width",
+  "gold_lo": "7.48",
+  "gold_hi": "7.48",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51w4PI6A1dL.jpg",
+  "attribute": "depth",
+  "gold_lo": "42.0",
+  "gold_hi": "42.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "618edaBoEyL.jpg",
+  "attribute": "height",
+  "gold_lo": "15.74",
+  "gold_hi": "15.74",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "617Mgi74lBL.jpg",
+  "attribute": "depth",
+  "gold_lo": "30.0",
+  "gold_hi": "30.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51xN6WTuaLL.jpg",
+  "attribute": "width",
+  "gold_lo": "20.0",
+  "gold_hi": "20.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51n7Tl0u3vL.jpg",
+  "attribute": "depth",
+  "gold_lo": "30.0",
+  "gold_hi": "30.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51GDhisAfiS.jpg",
+  "attribute": "width",
+  "gold_lo": "24.0",
+  "gold_hi": "24.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "618+vnAoaoL.jpg",
+  "attribute": "depth",
+  "gold_lo": "118.75",
+  "gold_hi": "118.75",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51kT0zoTi8L.jpg",
+  "attribute": "height",
+  "gold_lo": "235.0",
+  "gold_hi": "235.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "41jWfOTG94L.jpg",
+  "attribute": "depth",
+  "gold_lo": "16.0",
+  "gold_hi": "16.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51WLpDDGiqL.jpg",
+  "attribute": "height",
+  "gold_lo": "56.0",
+  "gold_hi": "56.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51Bo4OnjT+L.jpg",
+  "attribute": "depth",
+  "gold_lo": "24.0",
+  "gold_hi": "24.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61BEkZqnADL.jpg",
+  "attribute": "height",
+  "gold_lo": "13.4",
+  "gold_hi": "13.4",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51MdvN+LPTL.jpg",
+  "attribute": "depth",
+  "gold_lo": "6.8",
+  "gold_hi": "6.8",
+  "gold_unit": "centimeter",
+  "vlm_raw": "2.7 in",
+  "vlm_pred": [
+   2.7,
+   "inch"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "51d-K+I2urL.jpg",
+  "attribute": "width",
+  "gold_lo": "72.51",
+  "gold_hi": "72.51",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51hHyJCmxkL.jpg",
+  "attribute": "depth",
+  "gold_lo": "33.0",
+  "gold_hi": "33.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "33 cm",
+  "vlm_pred": [
+   33.0,
+   "centimeter"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "51NU+3mz0ML.jpg",
+  "attribute": "height",
+  "gold_lo": "24.0",
+  "gold_hi": "24.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "513tdmpZ1YL.jpg",
+  "attribute": "height",
+  "gold_lo": "3.0",
+  "gold_hi": "3.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51KXPa16YsL.jpg",
+  "attribute": "height",
+  "gold_lo": "184.0",
+  "gold_hi": "184.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "184 mm",
+  "vlm_pred": [
+   184.0,
+   "millimeter"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "611YFxTswUL.jpg",
+  "attribute": "depth",
+  "gold_lo": "15.0",
+  "gold_hi": "15.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51Hq0WyTl8L.jpg",
+  "attribute": "width",
+  "gold_lo": "4.5",
+  "gold_hi": "4.5",
+  "gold_unit": "inch",
+  "vlm_raw": "4.5 in",
+  "vlm_pred": [
+   4.5,
+   "inch"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "51OCfEiEAZL.jpg",
+  "attribute": "depth",
+  "gold_lo": "7.0",
+  "gold_hi": "7.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "6143TddT1bL.jpg",
+  "attribute": "depth",
+  "gold_lo": "6.5",
+  "gold_hi": "6.5",
+  "gold_unit": "inch",
+  "vlm_raw": "6.5 in",
+  "vlm_pred": [
+   6.5,
+   "inch"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "61+7Fw5hbCL.jpg",
+  "attribute": "width",
+  "gold_lo": "35.0",
+  "gold_hi": "35.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51FYKzmyKlL.jpg",
+  "attribute": "depth",
+  "gold_lo": "22.0",
+  "gold_hi": "22.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "0.35 in",
+  "vlm_pred": [
+   0.35,
+   "inch"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "41EAbAz311L.jpg",
+  "attribute": "depth",
+  "gold_lo": "11.0",
+  "gold_hi": "11.0",
+  "gold_unit": "inch",
+  "vlm_raw": "3.54 in",
+  "vlm_pred": [
+   3.54,
+   "inch"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "6183e-etFXL.jpg",
+  "attribute": "height",
+  "gold_lo": "19.0",
+  "gold_hi": "19.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "518I9MhCChL.jpg",
+  "attribute": "height",
+  "gold_lo": "12.0",
+  "gold_hi": "12.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51UnrnbMtcL.jpg",
+  "attribute": "width",
+  "gold_lo": "3.25",
+  "gold_hi": "3.25",
+  "gold_unit": "inch",
+  "vlm_raw": "12mm",
+  "vlm_pred": [
+   12.0,
+   "millimeter"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "51V67pG-IhL.jpg",
+  "attribute": "height",
+  "gold_lo": "5.5",
+  "gold_hi": "5.5",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61EEOkZtIiL.jpg",
+  "attribute": "height",
+  "gold_lo": "35.0",
+  "gold_hi": "35.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51UG1nrveWL.jpg",
+  "attribute": "width",
+  "gold_lo": "0.9",
+  "gold_hi": "0.9",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61BE9nPKo7L.jpg",
+  "attribute": "height",
+  "gold_lo": "28.0",
+  "gold_hi": "28.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "28 cm",
+  "vlm_pred": [
+   28.0,
+   "centimeter"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "519OpCJQAML.jpg",
+  "attribute": "width",
+  "gold_lo": "5.5",
+  "gold_hi": "5.5",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "618iemdNs8L.jpg",
+  "attribute": "height",
+  "gold_lo": "3.03",
+  "gold_hi": "3.03",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "514v2boamaL.jpg",
+  "attribute": "width",
+  "gold_lo": "14.0",
+  "gold_hi": "14.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51Z2YMlmitL.jpg",
+  "attribute": "height",
+  "gold_lo": "4.59",
+  "gold_hi": "4.59",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "41WbnvdcZFL.jpg",
+  "attribute": "height",
+  "gold_lo": "2.0",
+  "gold_hi": "2.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "41JzlscfgrS.jpg",
+  "attribute": "depth",
+  "gold_lo": "40.0",
+  "gold_hi": "40.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "617JH8SGjTL.jpg",
+  "attribute": "height",
+  "gold_lo": "33.5",
+  "gold_hi": "33.5",
+  "gold_unit": "inch",
+  "vlm_raw": "33.5 in",
+  "vlm_pred": [
+   33.5,
+   "inch"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "41VnEeqwBNL.jpg",
+  "attribute": "height",
+  "gold_lo": "35.37",
+  "gold_hi": "35.37",
+  "gold_unit": "inch",
+  "vlm_raw": "35.37 in",
+  "vlm_pred": [
+   35.37,
+   "inch"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "51eZgndHwJL.jpg",
+  "attribute": "depth",
+  "gold_lo": "40.0",
+  "gold_hi": "40.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51kTFP46RWL.jpg",
+  "attribute": "width",
+  "gold_lo": "31.0",
+  "gold_hi": "31.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51IE6GT7giL.jpg",
+  "attribute": "width",
+  "gold_lo": "10.0",
+  "gold_hi": "10.0",
+  "gold_unit": "inch",
+  "vlm_raw": "8 INCH",
+  "vlm_pred": [
+   8.0,
+   "inch"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "517QOVZ7zSL.jpg",
+  "attribute": "height",
+  "gold_lo": "24.0",
+  "gold_hi": "24.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51M3-7P7YiL.jpg",
+  "attribute": "depth",
+  "gold_lo": "7.0",
+  "gold_hi": "7.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61FU47yNDrL.jpg",
+  "attribute": "height",
+  "gold_lo": "26.5",
+  "gold_hi": "26.5",
+  "gold_unit": "millimeter",
+  "vlm_raw": "26.5 mm",
+  "vlm_pred": [
+   26.5,
+   "millimeter"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "61-DAEntr3L.jpg",
+  "attribute": "depth",
+  "gold_lo": "28.0",
+  "gold_hi": "28.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "614WURsrliL.jpg",
+  "attribute": "height",
+  "gold_lo": "6.0",
+  "gold_hi": "6.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "39 cm",
+  "vlm_pred": [
+   39.0,
+   "centimeter"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "617tb8iaJPL.jpg",
+  "attribute": "depth",
+  "gold_lo": "3.0",
+  "gold_hi": "3.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51H9aPegekL.jpg",
+  "attribute": "depth",
+  "gold_lo": "8.0",
+  "gold_hi": "8.0",
+  "gold_unit": "foot",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51ajr0AzjQS.jpg",
+  "attribute": "depth",
+  "gold_lo": "222.0",
+  "gold_hi": "222.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "610b9r1FThL.jpg",
+  "attribute": "depth",
+  "gold_lo": "8.0",
+  "gold_hi": "8.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61E5xQKX9aL.jpg",
+  "attribute": "height",
+  "gold_lo": "120.0",
+  "gold_hi": "120.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "110 cm",
+  "vlm_pred": [
+   110.0,
+   "centimeter"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "51NkmfR3B-L.jpg",
+  "attribute": "width",
+  "gold_lo": "15.0",
+  "gold_hi": "15.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "41RsDs+ZaJL.jpg",
+  "attribute": "width",
+  "gold_lo": "7.5",
+  "gold_hi": "7.5",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51qIXpB5SnL.jpg",
+  "attribute": "depth",
+  "gold_lo": "275.0",
+  "gold_hi": "275.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "230 mm",
+  "vlm_pred": [
+   230.0,
+   "millimeter"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "31qIZz+BTfL.jpg",
+  "attribute": "depth",
+  "gold_lo": "2.0",
+  "gold_hi": "2.0",
+  "gold_unit": "meter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "41ia0XewqhL.jpg",
+  "attribute": "height",
+  "gold_lo": "10.5",
+  "gold_hi": "10.5",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "5144oWcDkeL.jpg",
+  "attribute": "width",
+  "gold_lo": "70.0",
+  "gold_hi": "70.0",
+  "gold_unit": "inch",
+  "vlm_raw": "70\"",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "41T3utcB3FS.jpg",
+  "attribute": "height",
+  "gold_lo": "25.0",
+  "gold_hi": "25.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "618vodcdwSL.jpg",
+  "attribute": "height",
+  "gold_lo": "11.6",
+  "gold_hi": "11.6",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "614kSTGO7bL.jpg",
+  "attribute": "height",
+  "gold_lo": "13.4",
+  "gold_hi": "13.4",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51I3nHJWWsL.jpg",
+  "attribute": "depth",
+  "gold_lo": "1600.0",
+  "gold_hi": "1600.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "400 mm",
+  "vlm_pred": [
+   400.0,
+   "millimeter"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "61FSx1LEaFL.jpg",
+  "attribute": "depth",
+  "gold_lo": "40.0",
+  "gold_hi": "40.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51pVEG4jzTL.jpg",
+  "attribute": "depth",
+  "gold_lo": "32.0",
+  "gold_hi": "32.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61AgzVXJvrL.jpg",
+  "attribute": "width",
+  "gold_lo": "5.3",
+  "gold_hi": "5.3",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51tyk9L7BIL.jpg",
+  "attribute": "height",
+  "gold_lo": "10.0",
+  "gold_hi": "10.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "41A+zUqEC-L.jpg",
+  "attribute": "height",
+  "gold_lo": "17.0",
+  "gold_hi": "17.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "413hRHI+kfL.jpg",
+  "attribute": "depth",
+  "gold_lo": "7.4",
+  "gold_hi": "7.4",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51epxivvJkL.jpg",
+  "attribute": "width",
+  "gold_lo": "39.0",
+  "gold_hi": "39.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51M1Nfu8ynL.jpg",
+  "attribute": "depth",
+  "gold_lo": "7.5",
+  "gold_hi": "7.5",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61-GghxJIHL.jpg",
+  "attribute": "width",
+  "gold_lo": "2.19",
+  "gold_hi": "2.19",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "614o7TEmLLL.jpg",
+  "attribute": "depth",
+  "gold_lo": "1.8",
+  "gold_hi": "1.8",
+  "gold_unit": "meter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51mlo9-uJiL.jpg",
+  "attribute": "height",
+  "gold_lo": "20.0",
+  "gold_hi": "20.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51yMjMJiNZL.jpg",
+  "attribute": "depth",
+  "gold_lo": "3.0",
+  "gold_hi": "3.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51KtHACz77L.jpg",
+  "attribute": "depth",
+  "gold_lo": "100.0",
+  "gold_hi": "100.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51u6UbYjrzL.jpg",
+  "attribute": "depth",
+  "gold_lo": "18.0",
+  "gold_hi": "18.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51qov53vRcL.jpg",
+  "attribute": "height",
+  "gold_lo": "120.0",
+  "gold_hi": "120.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "320 mm",
+  "vlm_pred": [
+   320.0,
+   "millimeter"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "615UdGRVdnS.jpg",
+  "attribute": "depth",
+  "gold_lo": "7.75",
+  "gold_hi": "7.75",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "611prfno2BL.jpg",
+  "attribute": "depth",
+  "gold_lo": "183.0",
+  "gold_hi": "183.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "615Pgc9JItL.jpg",
+  "attribute": "width",
+  "gold_lo": "18.11",
+  "gold_hi": "18.11",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51D3ftwqCiL.jpg",
+  "attribute": "height",
+  "gold_lo": "180.0",
+  "gold_hi": "180.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51mE6vminAL.jpg",
+  "attribute": "width",
+  "gold_lo": "6.0",
+  "gold_hi": "6.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "616xiIn0ZDL.jpg",
+  "attribute": "depth",
+  "gold_lo": "5.59",
+  "gold_hi": "5.59",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "610SVeZzHrL.jpg",
+  "attribute": "width",
+  "gold_lo": "17.0",
+  "gold_hi": "17.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "61G+irAkjML.jpg",
+  "attribute": "height",
+  "gold_lo": "10.5",
+  "gold_hi": "10.5",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "41etWytX59L.jpg",
+  "attribute": "height",
+  "gold_lo": "95.0",
+  "gold_hi": "95.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "95 cm",
+  "vlm_pred": [
+   95.0,
+   "centimeter"
+  ],
+  "dim": true
+ },
+ {
+  "image_file": "51KFdywpjnL.jpg",
+  "attribute": "height",
+  "gold_lo": "15.0",
+  "gold_hi": "15.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "617c0Pa5hGL.jpg",
+  "attribute": "width",
+  "gold_lo": "88.5",
+  "gold_hi": "88.5",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51-65Xe3smL.jpg",
+  "attribute": "depth",
+  "gold_lo": "11.0",
+  "gold_hi": "11.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51KSz27wcEL.jpg",
+  "attribute": "depth",
+  "gold_lo": "8.0",
+  "gold_hi": "8.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "412CV02qf4L.jpg",
+  "attribute": "depth",
+  "gold_lo": "43.0",
+  "gold_hi": "43.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51adVjw3yTL.jpg",
+  "attribute": "width",
+  "gold_lo": "244.0",
+  "gold_hi": "244.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51EnsYmjXpL.jpg",
+  "attribute": "depth",
+  "gold_lo": "7.0",
+  "gold_hi": "7.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "415F3qSlNqL.jpg",
+  "attribute": "depth",
+  "gold_lo": "21.0",
+  "gold_hi": "21.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "6162-84strL.jpg",
+  "attribute": "height",
+  "gold_lo": "7.0",
+  "gold_hi": "7.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "611gu6iEFuL.jpg",
+  "attribute": "width",
+  "gold_lo": "2.0",
+  "gold_hi": "2.0",
+  "gold_unit": "inch",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51upmm1C3PL.jpg",
+  "attribute": "width",
+  "gold_lo": "29.7",
+  "gold_hi": "29.7",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51uG2ZWtXkL.jpg",
+  "attribute": "height",
+  "gold_lo": "214.0",
+  "gold_hi": "214.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51YH6qFRoiS.jpg",
+  "attribute": "depth",
+  "gold_lo": "7.5",
+  "gold_hi": "7.5",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "619WIGuI1TL.jpg",
+  "attribute": "width",
+  "gold_lo": "100.0",
+  "gold_hi": "100.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "500mm",
+  "vlm_pred": [
+   500.0,
+   "millimeter"
+  ],
+  "dim": false
+ },
+ {
+  "image_file": "61-HyPJHvkL.jpg",
+  "attribute": "width",
+  "gold_lo": "2.0",
+  "gold_hi": "2.0",
+  "gold_unit": "meter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51oydA0q9QL.jpg",
+  "attribute": "depth",
+  "gold_lo": "10.0",
+  "gold_hi": "10.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "612bFRJY-FL.jpg",
+  "attribute": "depth",
+  "gold_lo": "190.0",
+  "gold_hi": "190.0",
+  "gold_unit": "millimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51bWdi2mRCL.jpg",
+  "attribute": "depth",
+  "gold_lo": "140.0",
+  "gold_hi": "140.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "416BJKVoR4L.jpg",
+  "attribute": "width",
+  "gold_lo": "8.0",
+  "gold_hi": "8.0",
+  "gold_unit": "centimeter",
+  "vlm_raw": "unknown",
+  "vlm_pred": null,
+  "dim": false
+ },
+ {
+  "image_file": "51QkdrvyhyL.jpg",
+  "attribute": "width",
+  "gold_lo": "7.0",
+  "gold_hi": "7.0",
+  "gold_unit": "inch",
+  "vlm_raw": "9.8 in",
+  "vlm_pred": [
+   9.8,
+   "inch"
+  ],
+  "dim": false
+ }
+]

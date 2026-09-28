@@ -1,0 +1,106 @@
+[{"stream_name":"stderr","time":7.305096969,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.305189326,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.305195517,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.305199699,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":7.906794956,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.906845695,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.906850508,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.906853306,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":13.47654594,"data":"data: /kaggle/input/datasets/naomirory2/fine-tuning-data/vlm_lora | 6405 images\n"}
+,{"stream_name":"stdout","time":13.47661196,"data":"HF_TOKEN loaded from Kaggle Secrets\n"}
+,{"stream_name":"stdout","time":17.732331517,"data":"cuda True | Tesla T4\n"}
+,{"stream_name":"stdout","time":17.93217898,"data":"before:  transformers 5.0.0 | torchao 0.10.0 | peft 0.19.1\n"}
+,{"stream_name":"stdout","time":17.932247144,"data":"torchao 0.10.0 is too old for transformers 5.0.0 -\u003e uninstalling (unused)\n"}
+,{"stream_name":"stdout","time":19.740185322,"data":"after:   transformers 5.0.0 | torchao None | peft 0.19.1\n"}
+,{"stream_name":"stdout","time":42.552700493,"data":"imports OK - transformers 5.0.0 | peft 0.19.1\n"}
+,{"stream_name":"stdout","time":42.710702687,"data":"train 6,036 | eval 406\n"}
+,{"stream_name":"stdout","time":42.710744478,"data":"train attribute mix: {'width': 1978, 'depth': 2019, 'height': 2039}\n"}
+,{"stream_name":"stdout","time":42.710750128,"data":"\n"}
+,{"stream_name":"stdout","time":42.71075438,"data":"example:\n"}
+,{"stream_name":"stdout","time":42.710758842,"data":"This product photograph shows measurements. Text recognition read these values from the image:\n"}
+,{"stream_name":"stdout","time":42.710762267,"data":"  (a) 13.5 centimeter\n"}
+,{"stream_name":"stdout","time":42.710765315,"data":"  (b) 37 centimeter\n"}
+,{"stream_name":"stdout","time":42.710782912,"data":"  (c) 69.5 centimeter\n"}
+,{"stream_name":"stdout","time":42.710787736,"data":"  (d) 70 centimeter\n"}
+,{"stream_name":"stdout","time":42.710792502,"data":"Which one is the product's width (left to right)?\n"}
+,{"stream_name":"stdout","time":42.710797389,"data":"Answer with only the letter.\n"}
+,{"stream_name":"stderr","time":43.185097518,"data":"The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. \n"}
+,{"stream_name":"stderr","time":43.185123405,"data":"\n"}
+,{"stream_name":"stderr","time":43.185127408,"data":"The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. \n"}
+,{"stream_name":"stdout","time":73.110614304,"data":"trainable params: 18,464,768 || all params: 2,227,450,368 || trainable%: 0.8290\n"}
+,{"stream_name":"stdout","time":73.110702951,"data":"gradient checkpointing: off\n"}
+,{"stream_name":"stdout","time":73.110709422,"data":"weights on GPU: 4.18 GiB of 14.56 GiB\n"}
+,{"stream_name":"stdout","time":73.304110514,"data":"trainable examples: 6,036  -\u003e  754 optimiser steps\n"}
+,{"stream_name":"stdout","time":78.674217377,"data":"probe without checkpointing: peak 12.19 GiB of 14.56 GiB (464 tokens)\n"}
+,{"stream_name":"stdout","time":79.331229726,"data":"gradient checkpointing: off\n"}
+,{"stream_name":"stdout","time":699.606788785,"data":"  epoch 1 step 20/754  loss 18.4541  10.3 min elapsed  eta 379 min  peak 12.4 GiB\n"}
+,{"stream_name":"stdout","time":1327.557262697,"data":"  epoch 1 step 40/754  loss 8.2260  20.8 min elapsed  eta 371 min  peak 12.4 GiB\n"}
+,{"stream_name":"stdout","time":1954.878590742,"data":"  epoch 1 step 60/754  loss 7.6489  31.3 min elapsed  eta 362 min  peak 12.4 GiB\n"}
+,{"stream_name":"stdout","time":2582.040112154,"data":"  epoch 1 step 80/754  loss 7.1097  41.7 min elapsed  eta 351 min  peak 12.4 GiB\n"}
+,{"stream_name":"stdout","time":3209.55141518,"data":"  epoch 1 step 100/754  loss 7.2472  52.2 min elapsed  eta 341 min  peak 12.5 GiB\n"}
+,{"stream_name":"stdout","time":3839.588814368,"data":"  epoch 1 step 120/754  loss 6.6362  62.7 min elapsed  eta 331 min  peak 12.5 GiB\n"}
+,{"stream_name":"stdout","time":4469.204792082,"data":"  epoch 1 step 140/754  loss 7.4031  73.2 min elapsed  eta 321 min  peak 12.5 GiB\n"}
+,{"stream_name":"stdout","time":5096.885480074,"data":"  epoch 1 step 160/754  loss 6.7536  83.6 min elapsed  eta 310 min  peak 12.5 GiB\n"}
+,{"stream_name":"stdout","time":5724.1946405,"data":"  epoch 1 step 180/754  loss 6.2509  94.1 min elapsed  eta 300 min  peak 12.5 GiB\n"}
+,{"stream_name":"stdout","time":6351.648094813,"data":"  epoch 1 step 200/754  loss 6.0375  104.5 min elapsed  eta 290 min  peak 12.5 GiB\n"}
+,{"stream_name":"stdout","time":6980.977139407,"data":"  epoch 1 step 220/754  loss 7.1529  115.0 min elapsed  eta 279 min  peak 12.5 GiB\n"}
+,{"stream_name":"stdout","time":7608.413366599,"data":"  epoch 1 step 240/754  loss 5.9472  125.5 min elapsed  eta 269 min  peak 12.5 GiB\n"}
+,{"stream_name":"stdout","time":8237.139510909,"data":"  epoch 1 step 260/754  loss 6.6942  136.0 min elapsed  eta 258 min  peak 12.5 GiB\n"}
+,{"stream_name":"stdout","time":8865.019248501,"data":"  epoch 1 step 280/754  loss 6.5702  146.4 min elapsed  eta 248 min  peak 12.5 GiB\n"}
+,{"stream_name":"stdout","time":9495.208696285,"data":"  epoch 1 step 300/754  loss 6.4715  156.9 min elapsed  eta 237 min  peak 12.5 GiB\n"}
+,{"stream_name":"stdout","time":10122.491223635,"data":"  epoch 1 step 320/754  loss 5.2777  167.4 min elapsed  eta 227 min  peak 12.5 GiB\n"}
+,{"stream_name":"stdout","time":10749.084527812,"data":"  epoch 1 step 340/754  loss 6.0805  177.8 min elapsed  eta 217 min  peak 12.5 GiB\n"}
+,{"stream_name":"stdout","time":11376.1036215,"data":"  epoch 1 step 360/754  loss 6.2776  188.3 min elapsed  eta 206 min  peak 12.5 GiB\n"}
+,{"stream_name":"stdout","time":12005.420656934,"data":"  epoch 1 step 380/754  loss 5.6828  198.8 min elapsed  eta 196 min  peak 12.5 GiB\n"}
+,{"stream_name":"stdout","time":12630.700333426,"data":"  epoch 1 step 400/754  loss 5.1358  209.2 min elapsed  eta 185 min  peak 12.5 GiB\n"}
+,{"stream_name":"stdout","time":13257.091653272,"data":"  epoch 1 step 420/754  loss 5.8024  219.6 min elapsed  eta 175 min  peak 12.5 GiB\n"}
+,{"stream_name":"stdout","time":13882.349771669,"data":"  epoch 1 step 440/754  loss 5.4077  230.0 min elapsed  eta 164 min  peak 12.5 GiB\n"}
+,{"stream_name":"stdout","time":14508.612792254,"data":"  epoch 1 step 460/754  loss 6.3292  240.5 min elapsed  eta 154 min  peak 12.5 GiB\n"}
+,{"stream_name":"stdout","time":15135.47201281,"data":"  epoch 1 step 480/754  loss 4.7664  250.9 min elapsed  eta 143 min  peak 12.5 GiB\n"}
+,{"stream_name":"stdout","time":15763.838251136,"data":"  epoch 1 step 500/754  loss 6.3136  261.4 min elapsed  eta 133 min  peak 12.5 GiB\n"}
+,{"stream_name":"stdout","time":16389.395596062,"data":"  epoch 1 step 520/754  loss 5.3540  271.8 min elapsed  eta 122 min  peak 12.5 GiB\n"}
+,{"stream_name":"stdout","time":17014.31845095,"data":"  epoch 1 step 540/754  loss 5.6612  282.2 min elapsed  eta 112 min  peak 12.5 GiB\n"}
+,{"stream_name":"stdout","time":17639.491811205,"data":"  epoch 1 step 560/754  loss 5.3182  292.7 min elapsed  eta 101 min  peak 12.5 GiB\n"}
+,{"stream_name":"stdout","time":18265.565846561,"data":"  epoch 1 step 580/754  loss 5.3711  303.1 min elapsed  eta 91 min  peak 12.5 GiB\n"}
+,{"stream_name":"stdout","time":18894.12560794,"data":"  epoch 1 step 600/754  loss 5.8976  313.6 min elapsed  eta 80 min  peak 12.6 GiB\n"}
+,{"stream_name":"stdout","time":19522.259897782,"data":"  epoch 1 step 620/754  loss 5.6868  324.0 min elapsed  eta 70 min  peak 12.6 GiB\n"}
+,{"stream_name":"stdout","time":20149.660969927,"data":"  epoch 1 step 640/754  loss 4.5331  334.5 min elapsed  eta 60 min  peak 12.6 GiB\n"}
+,{"stream_name":"stdout","time":20775.836771031,"data":"  epoch 1 step 660/754  loss 4.9521  344.9 min elapsed  eta 49 min  peak 12.6 GiB\n"}
+,{"stream_name":"stdout","time":21402.455795802,"data":"  epoch 1 step 680/754  loss 4.9269  355.4 min elapsed  eta 39 min  peak 12.6 GiB\n"}
+,{"stream_name":"stdout","time":22029.773122218,"data":"  epoch 1 step 700/754  loss 4.8159  365.8 min elapsed  eta 28 min  peak 12.6 GiB\n"}
+,{"stream_name":"stdout","time":22656.745969945,"data":"  epoch 1 step 720/754  loss 5.9997  376.3 min elapsed  eta 18 min  peak 12.6 GiB\n"}
+,{"stream_name":"stdout","time":23282.151581821,"data":"  epoch 1 step 740/754  loss 5.2529  386.7 min elapsed  eta 7 min  peak 12.6 GiB\n"}
+,{"stream_name":"stdout","time":23737.367244895,"data":"\n"}
+,{"stream_name":"stdout","time":23737.367279712,"data":"saved adapter -\u003e /kaggle/working/qwen2vl-dim-lora (394.3 min)\n"}
+,{"stream_name":"stdout","time":23737.367286101,"data":"peak GPU 12.57 GiB | rows skipped on OOM: 0\n"}
+,{"stream_name":"stderr","time":23737.503113074,"data":"The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.\n"}
+,{"stream_name":"stderr","time":23737.503144805,"data":"\n"}
+,{"stream_name":"stderr","time":23737.503149269,"data":"The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.\n"}
+,{"stream_name":"stdout","time":23856.825489533,"data":"  100/406  dim 52.0%\n"}
+,{"stream_name":"stdout","time":23960.013605339,"data":"  200/406  dim 49.0%\n"}
+,{"stream_name":"stdout","time":24097.151230653,"data":"  300/406  dim 50.7%\n"}
+,{"stream_name":"stdout","time":24220.754100184,"data":"  400/406  dim 51.8%\n"}
+,{"stream_name":"stdout","time":24231.50025776,"data":"\n"}
+,{"stream_name":"stdout","time":24231.500286519,"data":"system                                n     dim          95% CI\n"}
+,{"stream_name":"stdout","time":24231.500292389,"data":"---------------------------------------------------------------\n"}
+,{"stream_name":"stdout","time":24231.500296808,"data":"LoRA fine-tuned (selection)         406   51.5%    [46.6, 56.3]\n"}
+,{"stream_name":"stdout","time":24231.500301334,"data":"zero-shot select                    398   34.2%\n"}
+,{"stream_name":"stdout","time":24231.50030996,"data":"zero-shot forced                    398   35.4%\n"}
+,{"stream_name":"stdout","time":24231.500313788,"data":"tagger + rules cascade                    36.2%\n"}
+,{"stream_name":"stdout","time":24231.500324262,"data":"gold among candidates (ceiling)           70.1%\n"}
+,{"stream_name":"stdout","time":24231.500326724,"data":"\n"}
+,{"stream_name":"stdout","time":24231.500329026,"data":"gold-present, 2+ candidates: 70.8% [65.0, 76.0]  (zero-shot 43.3%, random 33.7%)\n"}
+,{"stream_name":"stdout","time":24231.500331391,"data":"\n"}
+,{"stream_name":"stdout","time":24231.500333599,"data":"letter distribution (was b 36.9% / c 35.4% / a 11.1% zero-shot):\n"}
+,{"stream_name":"stdout","time":24231.500335962,"data":"  (a) 37.5%   (b) 30.7%   (c) 19.5%   (d) 4.0%   (e) 4.7%   (f) 1.8%   (g) 1.4%   (h) 0.4%\n"}
+,{"stream_name":"stdout","time":24231.500338414,"data":"\n"}
+,{"stream_name":"stdout","time":24231.500340536,"data":"Download vlm_lora_results.json and the adapter folder from Output.\n"}
+,{"stream_name":"stderr","time":24237.24082237,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":24237.240853981,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":24237.399723599,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":24237.399749469,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":24238.023438686,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":24238.346063663,"data":"[NbConvertApp] Writing 175973 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":24240.614100145,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":24241.520167674,"data":"[NbConvertApp] Writing 493805 bytes to __results__.html\n"}
+]
